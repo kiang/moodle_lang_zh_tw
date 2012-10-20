@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>深藍UTF-8正體簡體轉換函數 1.0</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+.font9 {
+	font-size: 10pt;
+	line-height: 15pt;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+.style1 {color: #990000}
+-->
+</style>
+</head>
+
+<body>
+<p align="center"><strong><font color="#000099" size="5">深藍UTF-8正體簡體轉換函數 1.0</font></strong></p>
+<ol>
+  <li>引用方法 <span class="font9"><br />
+    <br />
+    </span>
+    <ul>
+      <li class="font9"><span class="font9"> 將壓縮檔解壓縮到您喜歡的位置 </span></li>
+      <li class="font9"><span class="font9"> 在在欲使用的程式中，require , require_once, include , include_once 將 dbcconv.php 引入，例如 include("dbcconv/dbcconv.php"); </span></li>
+    </ul>
+  </li>
+  <br /><br />
+  
+  <li>使用方式 <br />
+    <br />
+    <ul>
+      <li><font color="#009900"><strong><font color="#000099">string</font> dbcconv</strong></font>( 
+        <font color="#993300">string text [, int encode]</font>) : <span class="font9">提供 UTF8 編碼之中文正體與簡體互轉 (第一參數為欲轉換之文字；第二參數為輸出之字體，0 表正體、1 表簡體，預設為 1 )</span><br />
+        <span class="font9">範例 : echo dbcconv("深藍UTF-8正體簡體轉換函數", 1);</span><br />
+        <span class="font9">輸出 : 深蓝UTF-8正体简体转换函数</span><br />
+      </li>
+      
+    </ul>
+  </li>
+  <br /><br />
+  
+  <li>版本異動 <br />
+  	<br />
+    <ul>
+      <li>0.1 版 (2006/3/13) <br />
+      <span class="font9">在多次改良演算法後，正式釋出此函數<br />
+      PentiumD 平台測試，每秒約可轉換 65000 字<br />
+    	轉換 <a href="http://www.twftp.org">台灣FTP聯盟</a> 首頁: 約 0.56 秒 <br />
+    	轉換 <a href="http://www.domainclub.com">台灣網名俱樂部</a> 首頁: 約 0.71 秒 <br />
+    	<span>
+      </li>
+    </ul>
+  </li>
+  <br /><br />
+  
+	<li>版權宣告 <br />
+		<br />
+    <ul>
+    <span class="font9">
+    	本函數作者為 <a href="http://www.twvbb.com">台灣深藍vBulletin技術論壇</a> 站長 ckmarkhsu <br />
+    	歡迎轉載，唯轉載請保留版權宣告，並請勿自行修改發布
+    <span>
+    </ul>
+   </li>
+    </ul>
+  </li>
+</ol>
+</body>
+</html>
