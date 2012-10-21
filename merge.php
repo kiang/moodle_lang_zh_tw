@@ -55,6 +55,5 @@ foreach(glob("{$sourceLang}/*.php") AS $file) {
 		}
 		$fileContent .= '\';' . "\n";
 	}
-	echo $fileContent;
-	exit();
+	file_put_contents($targetFile, $fileContent);
 }
