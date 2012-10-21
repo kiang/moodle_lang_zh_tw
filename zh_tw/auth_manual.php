@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_manualdescription'] = '該方法不允許使用者以任何方式創建帳號。所有帳號只能由管理員手工創建。';
+$string['pluginname'] = '人工帳號';

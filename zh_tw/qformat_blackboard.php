@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname_help'] = 'Blackboard格式能讓試題以Blackboard第五版的"POOL" 類型的匯出格式儲存，然後用來匯入Blackboard系統。';
+$string['blackboard'] = 'Blackboa一';
+$string['blackboard_help'] = 'Blackboard 格式支持導入用 Blackboard 版本 5 “POOL”類型導出的題目�一';

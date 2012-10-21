@@ -25,11 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['currentsection'] = '本週';
-$string['hidefromothers'] = '隱藏週次';
 $string['page-course-view-weeks'] = '任何使用週次格式的課程主頁面';
 $string['page-course-view-weeks-x'] = '任何使用週次格式的課程頁面';
 $string['pluginname'] = '週曆格式';
 $string['section0name'] = '一般';
 $string['sectionname'] = '週次';
-$string['showfromothers'] = '顯示週次';

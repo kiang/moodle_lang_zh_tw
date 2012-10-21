@@ -25,17 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addingtruefalse'] = '添加判斷題';
 $string['correctanswer'] = '正確答案';
 $string['correctanswerfalse'] = '正確答案為"否"';
 $string['correctanswertrue'] = '正確答案為"是"';
+$string['editingtruefalse'] = '編輯判斷題';
 $string['false'] = '非';
 $string['feedbackfalse'] = '選擇「非」時的回饋';
 $string['feedbacktrue'] = '選擇「是」時的回饋';
 $string['pleaseselectananswer'] = '請選擇一個答案';
-$string['pluginname'] = '是非題';
-$string['pluginnameadding'] = '新增一是非題';
-$string['pluginnameediting'] = '編輯一是非題';
-$string['pluginname_help'] = '要回答這種試題(可能包含圖片)時，學生只能從"是"或"否"中做選擇。';
-$string['pluginnamesummary'] = '最簡單形式的選擇題，只有"是"與"否"兩個選項';
 $string['selectone'] = '選擇一個：';
 $string['true'] = '是';
+$string['truefalse'] = '判斷題';
+$string['truefalse_help'] = '解答題目（可以包含圖片）時，答題者要選擇對或是錯�一';
+$string['truefalsesummary'] = '選擇題的一種簡單形式，只有“對”和“錯”兩個選項�一';

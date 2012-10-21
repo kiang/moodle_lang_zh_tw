@@ -41,7 +41,9 @@ $string['auth_fieldlock_expl'] = '<p><b>鎖定值：</b> 如果啟動，Moodle�
 $string['auth_fieldlocks'] = '鎖定使用者欄位';
 $string['auth_fieldlocks_help'] = '您可以鎖定用戶資料欄位。當管理者在編輯用戶紀錄或使用"上傳用戶"的功能時，這對網站很有幫助。</p> 若您是藉由Moodle來要求鎖住欄位，請確定您在建立用戶帳號時，有提供必要的資料，否則該帳號將無法使用。 </p><p>考慮設定封鎖模式為\'若空白則解除封鎖\'以避免這個問題。</p>';
 $string['authinstructions'] = '您在這裏可以給您的用戶提供使用說明，讓他們知道該用哪個用戶名和密碼。您在這裏輸入的文本將出現在登錄頁面。如果留空不填，登錄頁面將不會出現使用說明。';
+$string['auth_invalidnewemailkey'] = '錯誤：URL 不正確，請完整拷貝後重試�一';
 $string['auth_multiplehosts'] = '多個不同的主機可以被指定(例如host1.com;host2.com;host3.com)';
+$string['auth_outofnewemailupdateattempts'] = '更改Email地址的許可次數已到，您的請求被取消�一';
 $string['auth_passwordisexpired'] = '您的密碼已過期,要現在變更密碼嗎?';
 $string['auth_passwordwillexpire'] = '您的密碼將在{$a} 天內過期,您要現在變更密碼嗎?';
 $string['auth_remove_delete'] = '內部完全刪除';
@@ -71,10 +73,19 @@ $string['chooseauthmethod_help'] = '<p align="center"><b>改變認證方法</b><
 <p>此處的錯誤設定，可能會導致用戶無法登入，甚至刪除其帳號，所以使用時請小心。</p>';
 $string['createpasswordifneeded'] = '如果需要則建立密碼';
 $string['emailchangecancel'] = '取消變更郵件信箱';
+$string['emailchangepending'] = '變更進行中。訪問向 {$a->preference_newemail} 發送的鏈接�一';
+$string['emailnowexists'] = '你嘗試輸入到個人資料裡的email地址已經被分配給別人了。所以您的email地址變更請求現予取消，但您可以再次嘗試使用不同的地址�一';
 $string['emailupdate'] = '電子郵件信箱資料更新';
+$string['emailupdatemessage'] = '{$a->fullname}，您好
+
+您請求更改在{$a->site}上注冊的email地址。請在瀏覽器中訪問下面的鏈接來確認。
+
+{$a->ur一';
+$string['emailupdatesuccess'] = '用戶 <em>{$a->fullname}</em> 的email地址已成功更新為 <em>{$a->email}</em>�一';
 $string['emailupdatetitle'] = '確認變更{$a->site}網站的電子郵件信箱';
 $string['enterthenumbersyouhear'] = '輸入您聽到的數字';
 $string['enterthewordsabove'] = '輸入您在上圖中看到的字元';
+$string['errormaxconsecutiveidentchars'] = '密碼必須包含最多{$a}個連續的相同字符�一';
 $string['errorminpassworddigits'] = '密碼至少需要有{$a}位數字。';
 $string['errorminpasswordlength'] = '密碼至少需要有{$a}個字元。';
 $string['errorminpasswordlower'] = '密碼至少需要有{$a}位小寫字元。';
@@ -92,12 +103,19 @@ $string['getanothercaptcha'] = '換一個字詞';
 $string['guestloginbutton'] = '訪客登入按鈕';
 $string['incorrectpleasetryagain'] = '不正確。請重試。';
 $string['infilefield'] = '在檔案中需要的欄位';
+$string['informminpassworddigits'] = '至少{$a}個數字';
+$string['informminpasswordlength'] = '至少{$a}個字符';
+$string['informminpasswordlower'] = '至少{$a}個小寫字母';
+$string['informminpasswordnonalphanum'] = '至少{$a}個特殊字符';
+$string['informminpasswordupper'] = '至少{$a}個大寫字母';
+$string['informpasswordpolicy'] = '密碼必須包含{$一';
 $string['instructions'] = '使用說明';
 $string['internal'] = '內部的';
 $string['locked'] = '已鎖定';
 $string['md5'] = 'MD5加密';
 $string['nopasswordchange'] = '密碼不能夠修改';
 $string['nopasswordchangeforced'] = '沒有修改密碼前您無法處理，這裡沒有提供可以變更的頁面，請聯絡您的Moodle管理員。';
+$string['noprofileedit'] = '不能編輯個人資料';
 $string['ntlmsso_attempting'] = '透過NTLM進行Single Sign On';
 $string['ntlmsso_failed'] = '自動登入失敗，請使用一般登入頁面。';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO無效。';
@@ -105,7 +123,11 @@ $string['passwordhandling'] = '密碼欄位處裡中';
 $string['plaintext'] = '純文字';
 $string['pluginnotenabled'] = '認證外掛 \'{$a}\' 未啟用。';
 $string['pluginnotinstalled'] = '認證外掛 \'{$a}\' 未安裝。';
+$string['potentialidps'] = '使用您在別處的賬號登錄�一';
 $string['recaptcha'] = '字詞驗證';
+$string['recaptcha_help'] = '圖片驗證碼用來防止網站被自動程序濫用。只需在輸入框中按順序輸入這些詞，用一個空格分隔。
+
+如果您不確定這些詞是什麼，可以嘗試再獲得一個圖片驗證碼或播放聲音驗證碼�一';
 $string['selfregistration'] = '自行註冊';
 $string['selfregistration_help'] = '選擇用戶自行註冊時，所使用的認證外掛。';
 $string['sha1'] = 'SHA-1 hash';
@@ -119,3 +141,5 @@ $string['update_never'] = '從不';
 $string['update_oncreate'] = '建立時';
 $string['update_onlogin'] = '每次登入時';
 $string['update_onupdate'] = '更新時';
+$string['user_activatenotsupportusertype'] = '認證：ldap的user_activate()不支持所選的用戶類型：{$一';
+$string['user_disablenotsupportusertype'] = '認證：ldap的user_disable()不支持所選的用戶類型（至少現在還不支持�一';

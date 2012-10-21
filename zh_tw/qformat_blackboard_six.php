@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname_help'] = 'Blackboard V6+格式能讓Moodle將試題儲存成所有的 Blackboard匯出格式，日後經由 .dat 或 .zip檔匯入。就 .zip檔而言，是支持圖像匯入的。';
+$string['blackboard_six'] = 'Blackboard V一';
+$string['blackboard_six_help'] = 'Blackboard V6+ 格式支持導入Blackboard 導出的 zip 文件。它對Blackboard 版本 6 和 7 只提供有限的支持�一';

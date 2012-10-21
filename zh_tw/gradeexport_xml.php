@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'XML 檔案';
+$string['useridnumberwarning'] = '沒有學號的用戶不會被包含在XML導出中，因為他們不可能被導入';
 $string['xml:publish'] = '以XML 格式成績匯出公佈';
 $string['xml:view'] = '以XML 格式成績匯出來使用';

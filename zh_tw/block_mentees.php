@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configtitle'] = '區塊標題';
+$string['configtitleblankhides'] = '版塊標題（留空表示無標題�一';
 $string['leaveblanktohide'] = '留空白就會隱藏標題';
 $string['newmenteesblock'] = '(新的Mentees 區塊)';
 $string['pluginname'] = 'Mentees';

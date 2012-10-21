@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['courseoverview:view'] = '檢視課程概況報表';
+$string['pluginname'] = '課程概覽';

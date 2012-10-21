@@ -53,7 +53,6 @@ $string['displayselect_help'] = '這一設定，加上檔案類型和瀏覽器�
 * 用彈出式視窗開啟 - 檔案被顯示在一彈出的小的新視窗中(可用滑鼠調整大小)，而沒有工具列和位址列<br />
 * 用框架開啟 - 檔案被顯示在一框架上端有導覽列和檔案說明<br />
 * 以新視窗開啟 - 檔案被顯示在另一新瀏覽器視窗，有工具列和位址列。';
-$string['dnduploadresource'] = '建立檔案資源';
 $string['encryptedcode'] = '已加密的程式碼';
 $string['filenotfound'] = '找不到檔案，抱歉。';
 $string['filterfiles'] = '對檔案內容使用過濾器';
@@ -84,23 +83,7 @@ $string['printheading'] = '顯示資源名稱';
 $string['printheadingexplain'] = '在內容的上方顯示資源名稱？某些顯示類型可能無法顯示名稱，即使它已被啟用。';
 $string['printintro'] = '顯示資源描述';
 $string['printintroexplain'] = '在內容的下方顯示資源說明？某些顯示類型可能無法顯示說明，即使它已被啟用。';
-$string['resource:addinstance'] = '新增一資源';
 $string['resourcecontent'] = '檔案和下層資料夾';
-$string['resourcedetails_sizetype'] = '{$a->size} {$a->type}';
 $string['resource:exportresource'] = '匯出資源';
 $string['resource:view'] = '查看資源';
 $string['selectmainfile'] = '請點選檔案旁邊的圖示，以便選出主要檔案。';
-$string['showsize'] = '顯示檔案大小';
-$string['showsize_desc'] = '在課程頁中顯示檔案大小';
-$string['showsize_help'] = '顯示檔案大小，如，"3.1MB"，於檔案鏈結的旁邊。
-
-若有多個檔案在資源，所有檔案的總共大會顯示出來。';
-$string['showtype'] = '顯示檔案類型';
-$string['showtype_desc'] = '在課程頁中顯示檔案類型(如，
-WORD文件)';
-$string['showtype_help'] = '在鏈結旁邊，顯示檔案的類型，比如"WORD文件"
-
-
-若有多個檔案在資源，所有檔案的總共大會顯示出來。
-
-若系統認不出類型，哪將不會顯示。';
