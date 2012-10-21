@@ -39,7 +39,10 @@ function dbcconv($text , $encode=1){
 
 function dbcconv_id($str)
 {
-    $tmp = ((ord($str[0]) - 228) * 4096) + ((ord($str[1]) - 184) * 64) + (ord($str[2]) - 128);
+	$tmp = 0;
+	if(strlen($str) === 3) {
+		$tmp = ((ord($str[0]) - 228) * 4096) + ((ord($str[1]) - 184) * 64) + (ord($str[2]) - 128);
+	}
     return $tmp;
 }
 

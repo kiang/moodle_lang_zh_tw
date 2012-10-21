@@ -35,6 +35,8 @@ defined(\'MOODLE_INTERNAL\') || die();
 
 
 foreach(glob("{$sourceLang}/*.php") AS $file) {
+	$finfo = pathinfo($file);
+	$targetContent = str_replace('access', $finfo['filename'], $fileContent);
 	$string = array();
 	$targetFile = str_replace($sourceLang, $targetLang, $file);
 	include $file;
@@ -47,13 +49,13 @@ foreach(glob("{$sourceLang}/*.php") AS $file) {
 		$targetStrings = array();
 	}
 	foreach($sourceStrings AS $key => $val) {
-		$fileContent .= '$string[\'' . $key . '\'] = \'';
+		$targetContent .= '$string[\'' . $key . '\'] = \'';
 		if(isset($targetStrings[$key])) {
-			$fileContent .= str_replace('\'', '\\\'', $targetStrings[$key]);
+			$targetContent .= str_replace('\'', '\\\'', $targetStrings[$key]);
 		} else {
-			$fileContent .= str_replace('\'', '\\\'', dbcconv($val, 0));
+			$targetContent .= str_replace('\'', '\\\'', dbcconv($val, 0));
 		}
-		$fileContent .= '\';' . "\n";
+		$targetContent .= '\';' . "\n";
 	}
-	file_put_contents($targetFile, $fileContent);
+	file_put_contents($targetFile, $targetContent);
 }
