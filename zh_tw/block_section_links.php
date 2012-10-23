@@ -25,16 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['incby1'] = '遞增步長';
-$string['incby2'] = '可選遞增步長';
-$string['incbydesc1'] = '小節鏈接從1開始，每個鏈接增加的步長。';
-$string['incbydesc2'] = '小節鏈接從1開始，每個鏈接增加的步長。';
 $string['jumptocurrenttopic'] = '跳到目前主題';
 $string['jumptocurrentweek'] = '跳到本週主題';
-$string['numsections1'] = '小節數量';
-$string['numsections2'] = '可選小節數量';
-$string['numsectionsdesc1'] = '當課程中的小節數量達到此值時，“遞增步長”就生效了。';
-$string['numsectionsdesc2'] = '當課程中的小節數量達到此值時，“可選遞增步長”就生效了。';
 $string['pluginname'] = '文章連結';
 $string['topics'] = '主題';
 $string['weeks'] = '週';

@@ -25,19 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingmatch'] = '添加一道匹配題';
 $string['addmoreqblanks'] = '增加 {no} 個空白配合項目';
+$string['answer'] = '答案{$a}';
 $string['availablechoices'] = '可用的選項';
 $string['correctansweris'] = '正確答案是：{$a}';
-$string['editingmatch'] = '編輯匹配題';
 $string['filloutthreeqsandtwoas'] = '您必須至少提供兩個問題和三個答案。你可以藉由增加空白問題來提供額外的錯誤答案。若問題與對應的答案都空白石，該題會被忽略。';
-$string['match'] = '匹配題';
-$string['match_help'] = '匹配題也叫連線題，要求答題人將兩個名詞或短句的列表（問題列表和答案列表）正確匹配。';
-$string['matchsummary'] = '必須在提供的列表中選擇每個子問題的答案';
 $string['nomatchinganswer'] = '您必須指定一個答案來配對這一問題"{$a}"';
 $string['nomatchinganswerforq'] = '您必須為這個題目指定一個答案。';
 $string['notenoughqsandas'] = '你必須只少提供{$a->q} 個問題和 {$a->a} 個答案';
 $string['notenoughquestions'] = '您必須提供至少{$a}個配對的題目與答案。';
 $string['pleaseananswerallparts'] = '請回答這一試題的所有小題';
+$string['pluginname'] = '配合題';
+$string['pluginnameadding'] = '新增一配合題';
+$string['pluginnameediting'] = '編輯一配合題';
+$string['pluginname_help'] = '配合題要求作答者將一清單上的名字或敘述(問題)和另外一清單上的名字或敘述(答案)依照某種規則正確地配對起來。';
+$string['pluginnamesummary'] = '一小題的答案都需要從可能答案的清單中選出來。';
 $string['shuffle'] = '隨機排列';
 $string['shuffle_help'] = '若啟用，每次作答時，答案項的順序都會重新隨機排列。它需要在測驗活動設定時啟用"在試題內隨機排列"。';

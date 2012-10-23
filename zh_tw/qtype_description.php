@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingdescription'] = '添加一段描述';
-$string['description'] = '描述';
-$string['description_help'] = '描述不是一種真的題目類型。它只是簡單地顯示文字，並不要求做任何回答，與課程頁面中的標簽類似。
-
-在答題和回顧頁面都會顯示題干。而通用反饋只會在回顧頁面顯示。';
-$string['descriptionsummary'] = '這不是一種真的題目。它只是一種向活動添加指示、說明或其它內容的方法。與課程頁面中的標簽類似。';
-$string['editingdescription'] = '編輯描述';
 $string['informationtext'] = '訊息文字';
+$string['pluginname'] = '文字說明';
+$string['pluginnameadding'] = '新增一文字說明';
+$string['pluginnameediting'] = '編輯一文字說明';
+$string['pluginname_help'] = '文字說明不是一種真的題型。它只是用來呈現文字而不需要任何真正答案，就好像課程頁上的標籤。
+<br/>
+試題上的文字會在作答和回顧頁面上顯示出來，而任何回饋只顯示在回顧頁上。';
+$string['pluginnamesummary'] = '這不是一個真正的試題。它是用來在測驗卷上加上作答說明、評分規程、或這活動的其他內容。';

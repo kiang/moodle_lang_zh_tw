@@ -25,18 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingcalculatedsimple'] = '添加一道簡化版計算題';
 $string['atleastonewildcard'] = '至少要有一變數<strong>{x..}</strong>出現在正確答案的計算公式中。';
-$string['calculatedsimple'] = '計算題簡化版';
-$string['calculatedsimple_help'] = '在計算題簡化版中，每道題都可以使用通配符（放在大括號中），而在答題時通配符會被替換。簡化的計算題提供了計算題中最常用的功能，界面更簡單。';
-$string['calculatedsimplesummary'] = '更簡單的計算題，和數字題類似，但在答題時，題目中的數可以從一個集合中隨機選擇。';
 $string['converttocalculated'] = '儲存成一新的常見計算題';
-$string['editingcalculatedsimple'] = '編輯簡化版計算題';
 $string['findwildcards'] = '現<strong>{x..}</strong>出現在正確答案的計算公式中。';
 $string['generatenewitemsset'] = '產生';
 $string['mustbenumeric'] = '你必須在此輸入一數目';
 $string['mustnotbenumeric'] = '這不是一個數目';
 $string['newsetwildcardvalues'] = '變數值的新集合';
+$string['pluginname'] = '簡單計算題';
+$string['pluginnameadding'] = '新增一簡單計算題';
+$string['pluginnameediting'] = '編輯一簡單計算題';
+$string['pluginname_help'] = '簡單計算題能使用變數值來建立試題。這個變數值在測驗作答時，會被個別的數值所取代。
+
+簡單計算題的建題介面比較容易理解和操作，且能提供計算題最常用的功能。';
+$string['pluginnamesummary'] = '一種比較簡單的計算題，它像數字題，但是用來選擇的數字是隨機來自一組變數值。';
 $string['setno'] = '集合 {$a}';
 $string['setwildcardvalues'] = '數值的集合';
 $string['showitems'] = '顯示';

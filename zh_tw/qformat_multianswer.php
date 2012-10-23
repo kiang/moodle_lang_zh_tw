@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['multianswer'] = '嵌入答案（完形填空）';
-$string['multianswer_help'] = '使用嵌入答案（完形填空）格式可以導入一段嵌有問題的文本，問題包括多項選擇和簡答。';
+$string['pluginname'] = '鑲嵌答案(克漏字)';
+$string['pluginname_help'] = '鑲嵌答案(克漏字)格式可以匯入一篇純文字的文章，文章中可以鑲入選擇題、和簡答題等。';

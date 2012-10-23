@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingcalculated'] = '增加一道計算題';
 $string['additem'] = '添加題目';
 $string['addmoreanswerblanks'] = '增加另一個答案空格';
 $string['addmoreunitblanks'] = '再增加 {$a} 個單位空格';
@@ -41,9 +40,6 @@ $string['calcdistribution'] = '分佈';
 $string['calclength'] = '小數點';
 $string['calcmax'] = '最大';
 $string['calcmin'] = '最小';
-$string['calculated'] = '計算題';
-$string['calculated_help'] = '在計算題中，每道題都可以使用通配符（放在大括號中），而在答題時通配符會被替換。例如，題目是“長為{l}寬為{w}的長方形面積是多少？”的正確答案計算公式是“{l}*{w}”（ * 表示乘法）。';
-$string['calculatedsummary'] = '計算題和數字題類似，但在答題時，題目中的數可以從一個集合中隨機選擇。';
 $string['choosedatasetproperties'] = '選擇變數資料集的性能';
 $string['choosedatasetproperties_help'] = '資料集是一個數值的集合，這數值是用來插入變數符號的地方。<br/>
 你可以為一個特定的試題建立一私人資料集，或建立一共用的資料集，讓它可用於這一類別中的其他計算題。';
@@ -56,13 +52,13 @@ $string['datasetrole'] = '這變數 <strong>{x..}</strong>將會被一數值所�
 $string['decimals'] = '{$a}位小數';
 $string['deleteitem'] = '刪除題目';
 $string['deletelastitem'] = '刪除最後題目';
+$string['distributionoption'] = '選擇數值分佈選項';
 $string['editdatasets'] = '編輯變數用的資料集';
 $string['editdatasets_help'] = '你可以藉由在每一變數欄位上輸入一數字，然後點選"新增"按鈕來產生變數值。
 
 要自動產生10個或更多個數值，選擇所需要的數值的數目，然後點擊“新增”按鈕。
 
 一個均勻(uniform)分佈是指在兩界線之間的任何數值，都有相同的出現機率；而對數均勻(loguniform)分佈意味著愈靠近下限的數值會有更高的出現機率。';
-$string['editingcalculated'] = '編輯計算題';
 $string['existingcategory1'] = '會將使用一個已經存在的共用資料集';
 $string['existingcategory2'] = '來自現有檔案集的一個檔案，它也被這一類目的其他試題所使用。';
 $string['existingcategory3'] = '來自現有鏈結集的一個鏈結，它也被這一類目的其他試題所使用。';
@@ -88,6 +84,7 @@ $string['keptcategory3'] = '同以前，將使用取自同一分類可重複使�
 $string['keptlocal1'] = '同以前，將使用同一個現有私人資料集';
 $string['keptlocal2'] = '同以前，將使用取自同一私人檔案集合的檔案';
 $string['keptlocal3'] = '同以前，將使用取自同一私人鏈結集合的鏈結';
+$string['lengthoption'] = '選擇長度選項';
 $string['loguniform'] = 'Loguniform對數均勻分佈';
 $string['loguniformbit'] = '數字，來自loguniform 分佈';
 $string['makecopynextpage'] = '下一頁 (新試題)';
@@ -119,6 +116,11 @@ $string['oneanswertrueansweroutsidelimits'] = '至少有一個正確答案超出
 請在進階參數中修改答案的容許誤差';
 $string['param'] = '參數 {<strong>{$a}</strong>}';
 $string['partiallycorrectfeedback'] = '給任何只有部分正確的回答';
+$string['pluginname'] = '計算題';
+$string['pluginnameadding'] = '新增一計算題';
+$string['pluginnameediting'] = '編輯一計算題';
+$string['pluginname_help'] = '計算問題，使個別數值的問題，要取代時，採取筆試與個人價值的大括號中使用通配符。例如，這個問題“什麼是一個{L}的長度和寬度{W}矩形的面積嗎？” 將有正確的答案公式“{L} {W}”（其中*表示乘法）。';
+$string['pluginnamesummary'] = '計算題就像是數值題一樣，不同的是，在做測驗時，它所使用的數字是從一集合中隨機選出來的。';
 $string['possiblehdr'] = '可能只在此試題文字中出現的萬用字元';
 $string['questiondatasets'] = '試題資料集';
 $string['questiondatasets_help'] = '變數符號的資料集，它將被使用在每一個別的試題';

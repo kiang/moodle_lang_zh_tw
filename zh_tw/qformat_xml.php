@@ -27,12 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['invalidxml'] = '無效的XML檔案---應該有字串(使用CDATA?)';
 $string['pluginname'] = 'Moodle XML 格式';
+$string['pluginname_help'] = '這是一個Moodle指定的格式，用來匯入和匯出試題。';
 $string['truefalseimporterror'] = '<b>警告</b>：這是非題"{$a->questiontext}"無法正常地匯入，它無法查明正確答案為"是"或"否"。
 
 此試題暫時以答案為"{$a->answer}"匯入，如果不正確，你需要事後再編輯這試題。';
 $string['unsupportedexport'] = '在XML匯出時，不支援題型 {$a}';
-$string['xml'] = 'Moodle XML 格式';
-$string['xml_help'] = '這是一個 Moodle 專用格式，用來導入和導出題目。';
 $string['xmlimportnoname'] = '在XML檔裡，少了試題概念名稱';
 $string['xmlimportnoquestion'] = '在XML檔裡，少了試題文字';
 $string['xmltypeunsupported'] = '在XML匯入時，不支援題型 {$a}';

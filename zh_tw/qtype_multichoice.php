@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingmultichoice'] = '添加一道選擇題';
 $string['addmorechoiceblanks'] = '增加 {no} 個選項';
 $string['answerhowmany'] = '單選還是多選？';
 $string['answernumbering'] = '選項編數目';
@@ -42,7 +41,6 @@ $string['choices'] = '可用的選項';
 $string['clozeaid'] = '輸入缺少的文字';
 $string['correctansweris'] = '正確答案是：{$a}';
 $string['correctfeedback'] = '給完全答對時';
-$string['editingmultichoice'] = '編輯選擇題';
 $string['errfractionsaddwrong'] = '本題各選項的正向得分比例加起來並非 100%<br />相反的，它們
 加起來已達到 {$a}%';
 $string['errfractionsnomax'] = '選項之一必須是100%，<br />這樣才能從此題目得到滿分。';
@@ -52,9 +50,6 @@ $string['fillouttwochoices'] = '您必須至少填寫兩個選項。留空白的
 $string['fractionsaddwrong'] = '您已選擇的正向分數合計未達100%<br />而是{$a}%<br />您希望返回並且修正這個試題嗎？';
 $string['fractionsnomax'] = '答案之一必須是100%，<br />這樣才能從此題目得到滿分。<br />您希望返回並且修正這個試題嗎？';
 $string['incorrectfeedback'] = '給答錯時';
-$string['multichoice'] = '選擇題';
-$string['multichoice_help'] = '從多個選項中做選擇來回答問題，題目中可以包含圖片。有兩種選擇題——單項選擇和多項選擇。';
-$string['multichoicesummary'] = '從預先定義的選項中選擇一個或多個做為答案。';
 $string['notenoughanswers'] = '此類型題目至少要有{$a}個答案';
 $string['overallcorrectfeedback'] = '完全答對時的回饋';
 $string['overallfeedback'] = '整體回饋';
@@ -63,6 +58,11 @@ $string['overallpartiallycorrectfeedback'] = '部分答對時的回饋';
 $string['partiallycorrectfeedback'] = '給部分答對時';
 $string['pleaseselectananswer'] = '請選擇一個答案';
 $string['pleaseselectatleastoneanswer'] = '請選擇至少一個答案';
+$string['pluginname'] = '選擇題';
+$string['pluginnameadding'] = '增加一個選擇題';
+$string['pluginnameediting'] = '編輯一個選擇題';
+$string['pluginname_help'] = '在回答此類試題時，學生需要從多個選項之中選擇正確會最佳答案。選擇題又分兩種類型---單選題和複選題。';
+$string['pluginnamesummary'] = '允許從一個事先定義的清單上選擇一個或多個反應';
 $string['selectmulti'] = '選擇一或多個：';
 $string['selectone'] = '選擇一個：';
 $string['shuffleanswers'] = '是否隨機排列選項？';

@@ -25,8 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['currentsection'] = '本主題';
+$string['hidefromothers'] = '隱藏主題';
 $string['page-course-view-topics'] = '任何使用主題格式的課程主頁面';
 $string['page-course-view-topics-x'] = '任何使用主題格式的課程頁';
 $string['pluginname'] = '主題格式';
 $string['section0name'] = '一般';
 $string['sectionname'] = '主題';
+$string['showfromothers'] = '顯示主題';

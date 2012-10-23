@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configselectmanualquestions'] = '在選擇隨機試題時，是否可以從一類別中選出需要人工計分的題目？';
-$string['editingrandom'] = '編輯隨機題';
 $string['includingsubcategories'] = '包含下層類別';
-$string['random'] = '隨機題';
-$string['random_help'] = '隨機題並不是一種題目類型，而是從指定類別隨機選出題目插入到活動中的一種方法。';
+$string['pluginname'] = '隨機抽選';
+$string['pluginnameediting'] = '編輯一隨機試題';
+$string['pluginname_help'] = '隨機試題不是一種題型，而是從一指定的類別下隨機抽選多個題目放入測驗卷的方式。';
 $string['randomqname'] = '隨機({$a})';
 $string['randomqplusname'] = '隨機 ({$a} 和下層類別)';
 $string['selectedby'] = '由{$a->randomname}選出{$a->questionname}';

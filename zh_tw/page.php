@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configdisplayoptions'] = '選擇應該可用的所有選項，現有的設定不會被修改。按住CTRL鍵可以選擇多個欄位。';
 $string['content'] = '頁面內容';
 $string['contentheader'] = '內容';
+$string['createpage'] = '建立一新頁面';
 $string['displayoptions'] = '可用的顯示選項';
 $string['displayselect'] = '顯示';
 $string['displayselectexplain'] = '選擇顯示類型';
@@ -51,6 +52,7 @@ $string['modulename_help'] = '這一"頁面模組"可以讓教師以文字編輯
 $string['modulenameplural'] = '頁面';
 $string['neverseen'] = '從未被看過';
 $string['optionsheader'] = '選項';
+$string['page:addinstance'] = '新增一頁面資源';
 $string['page-mod-page-x'] = '任何頁面模組頁';
 $string['page:view'] = '檢視頁面內容';
 $string['pluginadministration'] = '頁面模組管理';

@@ -27,7 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['labeltext'] = '標籤文字';
 $string['modulename'] = '標籤';
-$string['modulename_help'] = '使用標簽可以在課程頁面裡的活動鏈接之間插入文字和圖片。';
 $string['modulenameplural'] = '標籤';
-$string['pluginadministration'] = '標簽管理';
 $string['pluginname'] = '標籤';

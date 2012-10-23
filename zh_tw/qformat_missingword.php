@@ -25,5 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['missingword'] = '漏字格式';
-$string['missingword_help'] = '漏字格式可以通過文本文件導入題目。';
+$string['pluginname_help'] = 'Missing word格式能讓Moodle將試題經由文字檔匯入。';

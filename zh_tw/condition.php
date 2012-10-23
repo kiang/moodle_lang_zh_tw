@@ -40,6 +40,7 @@ $string['completioncondition'] = '活動完成條件';
 $string['completioncondition_help'] = '此設定決定在參加本活動之前，必須先達到那些活動的完成條件。注意，在設定完成條件之前，必須先設定好進度追蹤。
 
 如果需要，也可以設定多條活動完成條件。那麼必須先滿足所有的活動條件，才能參加本活動。';
+$string['completionconditionsection'] = '活動完成條件';
 $string['completion_fail'] = '完成時必須是"不及格"';
 $string['completion_incomplete'] = '必須未標記為"完成"';
 $string['completion_pass'] = '完成時必須是"及格"';
@@ -48,28 +49,3 @@ $string['configenableavailability'] = '啟用後，可以基於條件(日期、�
 $string['enableavailability'] = '啟用條件可用性';
 $string['grade_atleast'] = '至少要';
 $string['gradecondition'] = '成績條件';
-$string['gradecondition_help'] = '此設置決定在參加此活動之前，必須先滿足哪些成績條件。
-
-根據需要，可以設置多個成績條件。所有條件都滿足後才能參加此活動。';
-$string['gradeitembutnolimits'] = '您至少要輸入上限和下限中的一個。';
-$string['gradelimitsbutnoitem'] = '您必須選擇一個成績項。';
-$string['gradesmustbenumeric'] = '最高和最低分必須是數值（或留空）。';
-$string['grade_upto'] = '且少於';
-$string['none'] = '（無）';
-$string['notavailableyet'] = '還不可用';
-$string['requires_completion_0'] = '不可用，除非活動<strong>{$a}</strong>未完成。';
-$string['requires_completion_1'] = '不可用，直到標記活動<strong>{$a}</strong>為完成。';
-$string['requires_completion_2'] = '不可用，直到標記活動<strong>{$a}</strong>為完成且及格。';
-$string['requires_completion_3'] = '不可用，除非活動<strong>{$a}</strong>已完成且不及格。';
-$string['requires_date'] = '自 {$a} 起可用。';
-$string['requires_date_before'] = '直到 {$a} 才可用。';
-$string['requires_date_both'] = '從{$a->from}到{$a->until}之間可用。';
-$string['requires_grade_any'] = '不可用，直到您在<strong>{$a}</strong>獲得成績。';
-$string['requires_grade_max'] = '不可用，除非您在<strong>{$a}</strong>中獲得了適當的分數。';
-$string['requires_grade_min'] = '不可用，直到您在<strong>{$a}</strong>中獲得了要求的分數。';
-$string['requires_grade_range'] = '不可用，除非您在 <strong>{$a}</strong>中獲得了指定的分數。';
-$string['showavailability'] = '活動可用之前';
-$string['showavailability_hide'] = '完全隱藏活動';
-$string['showavailability_show'] = '活動以暗色顯示，並顯示受限信息';
-$string['userrestriction_hidden'] = '限制（完全隱藏，無消息）：“{$a}”';
-$string['userrestriction_visible'] = '限制：“{$a}”';

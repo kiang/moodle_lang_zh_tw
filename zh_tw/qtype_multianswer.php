@@ -25,23 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingmultianswer'] = '添加內嵌答案(完形填空)題';
 $string['confirmquestionsaveasedited'] = '我確認我要把這試題儲存為已經編輯過';
 $string['confirmsave'] = '確認然後儲存{$a}';
 $string['correctanswer'] = '正確答案';
 $string['correctanswerandfeedback'] = '正確答案和回饋';
 $string['decodeverifyquestiontext'] = '解碼並驗證這題目文字';
-$string['editingmultianswer'] = '修改內嵌答案(完形填空)';
 $string['layout'] = '版面配置';
 $string['layouthorizontal'] = '以單選按鈕排成橫列';
 $string['layoutselectinline'] = '在文字行裡的下拉選單';
 $string['layoutundefined'] = '未定義的版面配置';
 $string['layoutvertical'] = '直式單選按鈕';
-$string['multianswer'] = '內嵌答案(完形填空)';
-$string['multianswer_help'] = '內嵌答案(完形填空)題是一段文字，中間可以夾雜多道題目，例如選擇題、填空題。';
-$string['multianswersummary'] = '這種類型的題目非常靈活，但創建題目時必須輸入特殊代碼。可以內嵌的題目包括選擇題、填空題和數字題。';
 $string['nooptionsforsubquestion'] = '無法取得用於試題部件# {$a->sub} (question->id={$a->id})的選項';
 $string['noquestions'] = '這一克漏字試題"<strong>{$a}</strong>"沒有包含任何題目';
+$string['pluginname'] = '填空題(克漏字)';
+$string['pluginnameadding'] = '新增一填空題(克漏字)';
+$string['pluginnameediting'] = '編輯填空題(克漏字)';
+$string['pluginname_help'] = '克漏字題型包含一篇文章，文章內鑲有多個試題，如選擇題和簡答題。<br/>
+它適合用來測量需要以上下文進行推理的語文理解能力。';
+$string['pluginnamesummary'] = '這種題型非常有變通性，但是只能以輸入文字的方式建立題目，文字中以特殊代碼來建立選擇題、簡答題、和數值題。';
 $string['qtypenotrecognized'] = '試題型態 {$a} 無法識別';
 $string['questiondefinition'] = '題目定義';
 $string['questiondeleted'] = '試題已被刪除';
@@ -49,8 +50,8 @@ $string['questioninquiz'] = '<ul>
   <li>新增或刪除試題， </li>
   <li>在文章中更改試題順序，</li>
   <li>更改它們的題型 (數值題、簡答題、選擇題)。 </li></ul>';
-$string['questionnadded'] = '題目已添加';
 $string['questionnotfound'] = '無法找到的試題部件 #{$a}的試題';
+$string['questionsadded'] = '試體已經添加';
 $string['questionsaveasedited'] = '這試題會儲存成編輯過形式';
 $string['questionsless'] = '在這克漏字題中，少於{$a} 個試題儲存在資料庫中';
 $string['questionsmissing'] = '這試題的文字必須至少包含一個空白';

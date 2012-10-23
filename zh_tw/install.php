@@ -37,6 +37,7 @@ $string['chooselanguagehead'] = '選擇一種語言';
 $string['chooselanguagesub'] = '請選擇在安裝過程中使用的語言。稍後您可以根據需要重新選擇用於網站和使用者的語言。';
 $string['cliadminpassword'] = '新管理員密碼';
 $string['cliadminusername'] = '管理員帳號用戶名稱';
+$string['clialreadyconfigured'] = '檔案 config.php  已經存在，若你要安裝這一網站，請使用dmin/cli/install_database.php';
 $string['clialreadyinstalled'] = '檔案 config.php  已經存在，若你要升級這一網站，請使用admin/cli/upgrade.php';
 $string['cliinstallfinished'] = '安裝已經成功地完成';
 $string['cliinstallheader'] = 'Moodle {$a} 指令行安裝程式';
@@ -109,6 +110,7 @@ $string['dbconnectionerror'] = '無法連到您指定的資料庫,請查檢您�
 $string['dbcreationerror'] = '建立資料庫錯誤,無法以您給的資料庫名稱建立資料表';
 $string['dbhost'] = '主機位址';
 $string['dbpass'] = '密碼';
+$string['dbport'] = '埠';
 $string['dbprefix'] = '資料表名稱的前置字元';
 $string['dbtype'] = '類型';
 $string['dbwrongencoding'] = '您選擇的資料庫使用了字元集{$a}，我們推薦您使用一個Unicode (UTF-8)字元集的資料庫。當然，您可以選擇“跳過資料庫字元集檢查”來跳過這個環節，但您將來可能會遇到問題。';
@@ -139,7 +141,6 @@ $string['downloadlanguagesub'] = '您現在可以選擇下載一個語言包然�
 $string['doyouagree'] = '你是否同意？(yes?no)';
 $string['environmenthead'] = '檢查您的環境中...';
 $string['environmentsub'] = '正在檢查系統的相關元件來確認是否符合安裝需求';
-$string['environmentsub2'] = '每個Moodle的發行版都有一些對PHP版本的最低要求和幾個必須安裝的PHP擴展。在每次安裝和升級前會做完整的環境檢查。如果您不知道如何安裝新版或啟用PHP擴展，請與服務器管理員聯系。';
 $string['errorsinenvironment'] = '環境檢查失敗';
 $string['fail'] = '失敗';
 $string['fileuploads'] = '檔案上傳';
@@ -203,23 +204,6 @@ $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP用MySQL延伸指令作無法正常架設，此延伸指令讓PHP可以跟MySQL做溝通。請檢查php.ini檔或者重新編譯PHP。';
 $string['mysqli'] = '改良的MySQL(mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP的MySQLi延伸套件沒有適當設置。為了可以和MySQL連線，請檢查您的php.ini檔案或重新編譯PHP。針對PHP4，MySQLi延伸套件不能使用。';
-$string['nativemssql'] = 'SQL*服務器 FreeTDS (native/mssql)';
-$string['nativemssqlhelp'] = '現在，您需要配置數據庫，Moodle的大部分數據都將保存於此。
-這個數據庫必須已經創建，並且有用戶名和密碼可以訪問它。必須設置表前綴。';
-$string['nativemysqli'] = '改進的MySQL (native/mysqli)';
-$string['nativemysqlihelp'] = '現在，您需要配置數據庫，Moodle的大部分數據都將保存於此。
-用戶名和密碼必須已經存在。如果該用戶有相應權限，數據庫會被自動創建。表前綴可選。';
-$string['nativeoci'] = 'Oracle (native/oci)';
-$string['nativeocihelp'] = '現在，您需要配置數據庫，Moodle的大部分數據都將保存於此。
-這個數據庫必須已經創建，並且有用戶名和密碼可以訪問它。必須設置表前綴。';
-$string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
-$string['nativepgsqlhelp'] = '現在，您需要配置數據庫，Moodle的大部分數據都將保存於此。
-這個數據庫必須已經創建，並且有用戶名和密碼可以訪問它。必須設置表前綴。';
-$string['nativesqlsrv'] = 'SQL*服務器Microsoft (native/sqlsrv)';
-$string['nativesqlsrvhelp'] = '現在，您需要配置數據庫，Moodle的大部分數據都將保存於此。
-這個數據庫必須已經創建，並且有用戶名和密碼可以訪問它。必須設置表前綴。';
-$string['nativesqlsrvnodriver'] = 'Microsoft 為 PHP 提供的 SQL Server 驅動程序未安裝或者未正確配置。';
-$string['nativesqlsrvnonwindows'] = 'Microsoft 為 PHP 提供的 SQL Server 驅動程序只能在Windows 系統上使用。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP的OCI8擴充套件並未適當安裝，因此無法與Oracle連通。請檢查您的php.ini檔案或重新編譯PHP。';
 $string['odbcextensionisnotpresentinphp'] = 'PHP的ODBC擴充套件並未適當安裝，因此無法與SQL*Server連通。請檢查您的php.ini檔案或重新編譯PHP。';
@@ -229,12 +213,7 @@ $string['paths'] = '路徑';
 $string['pathserrcreatedataroot'] = '資料目錄 ({$a->dataroot})無法由這安裝程式建立';
 $string['pathshead'] = '確認路徑';
 $string['pathsrodataroot'] = '資料根目錄是無法寫入的';
-$string['pathsroparentdataroot'] = '父目錄({$a->parent})不可寫。安裝程序無法建立數據目錄({$a->dataroot})。';
-$string['pathssubadmindir'] = '有些網絡主機使用/admin這個URL來訪問控制面板或其它功能。很不幸，這個設置和Moodle管理頁面的標准路徑沖突。這個問題可以解決，只需在您的安裝目錄中把admin目錄換名，然後把新名字輸入到這裡。例如<em>moodleadmin</em>。這麼做會改變Moodle中的管理鏈接。';
-$string['pathssubdataroot'] = 'Moodle需要一個位置存放上傳的文件。這個目錄對於Web服務器用戶(通常是“nobody”或“apache”)應當是可讀可寫的，但應當不能直接通過Web訪問它。如果它不存在，安裝程序會嘗試建立。';
 $string['pathssubdirroot'] = 'Moodle安裝的完整目錄徑路';
-$string['pathssubwwwroot'] = '可以訪問到Moodle的完整網址。
-Moodle不支持通過多個地址訪問。如果您的網站有多個公開地址，您必須把這個地址以外的所有地址都設為永久重定向。如果您的網站既可以通過內部地址訪問，也可以通過這個公開地址訪問，那麼請配置DNS使內部網用戶也能使用公開地址。如果此地址不正確，請在瀏覽器中修改URL來重新安裝，並設定另一個地址。';
 $string['pathsunsecuredataroot'] = '資料根(Dataroot)目錄的位置不安全';
 $string['pathswrongadmindir'] = '管理目錄不存在';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP的PGSQL擴充套件並未適當安裝，因此無法與PostgreSQL連通。請檢查您的php.ini檔案或重新編譯PHP。';

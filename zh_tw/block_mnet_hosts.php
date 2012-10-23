@@ -25,8 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['error_authmnetneeded'] = '啟用MNet驗證插件才能看到MNet服務器列表';
-$string['error_localusersonly'] = '遠程用戶無法從這台主機跳轉到其它MNet網絡服務器';
-$string['error_roamcapabilityneeded'] = '用戶需要‘通過MNet漫游到遠程應用程序’的能力來查看MNet網絡服務器列表';
 $string['pluginname'] = '網路伺服主機';
 $string['server'] = '伺服主機';

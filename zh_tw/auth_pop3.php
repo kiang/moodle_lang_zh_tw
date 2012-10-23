@@ -36,4 +36,3 @@ $string['auth_pop3port'] = '伺服器埠（通常是110）';
 $string['auth_pop3port_key'] = '連接埠';
 $string['auth_pop3type'] = '伺服器類型。如果您的POP3伺服器使用安全驗證，請選擇pop3cert。';
 $string['auth_pop3type_key'] = '類型';
-$string['pluginname'] = 'POP3服務器';

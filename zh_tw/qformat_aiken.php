@@ -25,5 +25,34 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['aiken'] = 'Aiken 格式';
-$string['aiken_help'] = '這是一個支持從文本文件導入多項選擇題的簡單格式。';
+$string['pluginname'] = 'Aiken 格式';
+$string['pluginname_help'] = 'Aiken格式是把選擇題匯入 Moodle 的測驗模組時，最簡便的方法，它與我們平常所見的選擇題形式最類似。<br>
+----
+<h2>編輯原則</h2>
+1. 請使用純文字編輯器編寫，編碼使用UTF-8碼(檔首無BOM)。<br/>
+
+2. 每一試題，題幹之前"不加題號"(匯入Moodle後會自動加上題號)。在各試題之間"插入一空行"，使形成段落，將試題隔開。<br/>
+3. 題幹內容不管有多長，都必須放在同一行上，中間不可使用換行標籤(在匯入Moodle後會依螢幕大小自動換行)。<br/>
+4. 每一選項都以大寫英文字母A,B,C,D當做選項的標號，緊接一個英文句點"." 或一個右括號 ")" 然後再"空一格"，最後面才是選項內容<br/>
+5. 正確答案必須緊接放在最後一個選項之下，並以大寫 "ANSWER:" 開頭( : 用英文字型)，"空一格"，然後加上代表正確答案的大寫英文字母。<br/>
+
+
+<h2>範例</h2>
+<pre>
+
+What is the correct answer to this question？
+A. Is it this one？
+B. Maybe this answer？
+C. Possibly this one？
+D. Must be this one！
+ANSWER: D
+
+Which LMS has the most quiz import formats？
+A) Moodle
+B) ATutor
+C) Claroline
+D) Blackboard
+E) WebCT
+F) Ilias
+ANSWER: A
+</pre>';
