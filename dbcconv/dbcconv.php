@@ -18,13 +18,18 @@ function dbcconv($text, $encode = 1) {
 		require ("{$path}/dbcconv_chs.php");
 	}
 	$tmp = '';
-	for ($i = 0; $i < strlen($text); $i++) {
-		$str = substr($text, $i, 3);
-		if (dbcconv_isChinese($str)) {
-			$tmp .= $data[dbcconv_id($str)];
-			$i = $i + 2;
-		} else {
+	$textLength = strlen($text);
+	for ($i = 0; $i < $textLength; $i++) {
+		if ($i + 3 > $textLength) {
 			$tmp .= substr($text, $i, 1);
+		} else {
+			$str = substr($text, $i, 3);
+			if (dbcconv_isChinese($str)) {
+				$tmp .= $data[dbcconv_id($str)];
+				$i = $i + 2;
+			} else {
+				$tmp .= substr($text, $i, 1);
+			}
 		}
 	}
 	return $tmp;
