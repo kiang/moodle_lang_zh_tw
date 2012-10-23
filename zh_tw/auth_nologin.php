@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_nologindescription'] = '避免用戶登入系統的輔助外掛也會阻止所有發送給用戶的信件，可以用來<em>停用</em>用戶帳號。';
+$string['auth_nologindescription'] = '避免使用者登入系統的輔助外掛也會阻止所有發送給使用者的信件，可以用來<em>停用</em>使用者帳號。';
 $string['pluginname'] = '拒絕登入';

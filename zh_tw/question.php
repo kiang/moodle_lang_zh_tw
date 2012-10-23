@@ -77,7 +77,7 @@ $string['categorymove'] = '類別\'{$a->name}\'中有{$a->count}個題目(有些
 $string['categorymoveto'] = '儲存在類別中';
 $string['categorynamecantbeblank'] = '類別名不能為空。';
 $string['changeoptions'] = '修改選項';
-$string['changepublishstatuscat'] = '{$a->coursename}課程}中<a href="{$a->caturl}">類別“{$a->name}”</a>可以將共享狀態從<strong>{$a->changefrom}</strong>改變為<strong>{$a->changeto}</strong>。';
+$string['changepublishstatuscat'] = '{$a->coursename}課程}中<a href="{$a->caturl}">類別「{$a->name}」</a>可以將共享狀態從<strong>{$a->changefrom}</strong>改變為<strong>{$a->changeto}</strong>。';
 $string['check'] = '檢查';
 $string['chooseqtypetoadd'] = '選擇要新增哪種類型的題目';
 $string['clearwrongparts'] = '清空不正確的答案';
@@ -164,11 +164,11 @@ $string['exporterror'] = '匯出過程發生錯誤！';
 $string['exportfilename'] = 'quiz';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
 $string['exportquestions'] = '匯出題目到文件';
-$string['exportquestions_help'] = '　　<p align="center"><b>從類別中導出試題</b></p>
+$string['exportquestions_help'] = '　　<p align="center"><b>從類別中匯出試題</b></p>
 　　
-　　<p>這個選項允許您從一個類別中將試題全部導出到一個文字檔案中。</p>
+　　<p>這個選項允許您從一個類別中將試題全部匯出到一個文字檔案中。</p>
 　　
-　　<p>注意，很多檔格式都會導致試題的某些資訊丟失，這是因為大多數格式都無法支援Moodle中試題的全部功能。因此當匯出並重新導入試題後，可能它們並不會完全相同。而且有些檔格式是不支持匯出的。</p>
+　　<p>注意，很多檔格式都會導致試題的某些資訊遺失，這是因為大多數格式都無法支援Moodle中試題的全部功能。因此當匯出並重新匯入試題後，可能它們並不會完全相同。而且有些檔格式是不支持匯出的。</p>
 
 <p>我們建議您在一個實際的環境中使用匯出的資料時要對其進行檢查。</p>';
 $string['feedback'] = '反饋';

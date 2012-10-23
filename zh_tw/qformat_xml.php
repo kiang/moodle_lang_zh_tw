@@ -29,7 +29,7 @@ $string['invalidxml'] = '無效的XML檔案---應該有字串(使用CDATA?)';
 $string['pluginname'] = 'Moodle XML 格式';
 $string['truefalseimporterror'] = '<b>警告</b>：這是非題"{$a->questiontext}"無法正常地匯入，它無法查明正確答案為"是"或"否"。
 
-此試題暫時以答案為"{$a->answer}"匯入，如果不正確，你需要事後再編輯這試題。';
+此試題暫時以答案為"{$a->answer}"匯入，如果不正確，您需要事後再編輯這試題。';
 $string['unsupportedexport'] = '在XML匯出時，不支援題型 {$a}';
 $string['xml'] = 'Moodle XML 格式';
 $string['xml_help'] = '這是一個 Moodle 專用格式，用來匯入和匯出題目。';

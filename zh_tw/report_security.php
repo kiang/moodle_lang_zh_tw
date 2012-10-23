@@ -29,17 +29,17 @@ $string['check_configrw_details'] = '<p>建議在安裝完成後將config.php文
 請注意，此度量不會顯著提高伺服器的安全性，不過它可能減慢或限制一般的攻擊。</p>';
 $string['check_configrw_name'] = '可寫入的config.php';
 $string['check_configrw_ok'] = 'config.php不能被PHP修改';
-$string['check_configrw_warning'] = 'PHP腳本可以修改config.php';
+$string['check_configrw_warning'] = 'PHP指令可以修改config.php';
 $string['check_cookiesecure_details'] = '<p>如果您啟用了https通信，那麼建議您也啟用安全cookie。您還應該將 http 永久重定向到https。</p>';
 $string['check_cookiesecure_error'] = '請啟用安全 cookies';
 $string['check_cookiesecure_name'] = '安全 cookies';
 $string['check_cookiesecure_ok'] = '安全 cookies已經啟用';
 $string['check_defaultuserrole_details'] = '<p>所有已登錄的使用者都會擁有預設角色的權限。請確信此角色沒有危險的權限。</p>
 <p>預設使用者對應的舊角色只能是<em>已認證使用者</em>。一定不能有查看課程權限。</p>';
-$string['check_defaultuserrole_error'] = '預設用戶角色"{$a}"定義不正確';
-$string['check_defaultuserrole_name'] = '所有用戶的預設角色';
+$string['check_defaultuserrole_error'] = '預設使用者角色"{$a}"定義不正確';
+$string['check_defaultuserrole_name'] = '所有使用者的預設角色';
 $string['check_defaultuserrole_notset'] = '預設角色沒有設定';
-$string['check_defaultuserrole_ok'] = '所有用戶的預設角色的定義OK';
+$string['check_defaultuserrole_ok'] = '所有使用者的預設角色的定義OK';
 $string['check_displayerrors_details'] = '<p>不建議在正式網站打開PHP設置<code>display_errors</code>，因為錯誤資訊可能會暴露伺服器上的一些敏感資訊。</p>';
 $string['check_displayerrors_error'] = '顯示錯誤資訊的PHP設置被打開。建議關閉它。';
 $string['check_displayerrors_name'] = '顯示PHP錯誤';
@@ -81,9 +81,9 @@ $string['check_mediafilterswf_error'] = 'Flash 媒體過濾器已經啟用——
 $string['check_mediafilterswf_name'] = '啟用的 .swf 媒體過濾器';
 $string['check_mediafilterswf_ok'] = 'Flash 媒體過濾器未啟用。';
 $string['check_noauth_details'] = '<p><em>不認證身份</em>外掛不是給正式網站設計的。除非這是一個開發測試網站，否則請停用它。</p>';
-$string['check_noauth_error'] = '不需認證插件不可以用在正式網站';
+$string['check_noauth_error'] = '不需認證外掛不可以用在正式網站';
 $string['check_noauth_name'] = '不需認證';
-$string['check_noauth_ok'] = '不需認證插件是被關閉的';
+$string['check_noauth_ok'] = '不需認證外掛是被關閉的';
 $string['check_openprofiles_details'] = '<p>開放使用者個人資訊可能會被不良使用者濫用。建議啟用<code>強制使用者登錄後才能訪問個人資料</code>或者<code>強制使用者登錄</code>。</p>';
 $string['check_openprofiles_error'] = '任何人無須登錄就可以查看使用者的個人資訊。';
 $string['check_openprofiles_name'] = '開放使用者個人資訊';
@@ -114,7 +114,7 @@ $string['check_riskbackup_details_systemroles'] = '<p>下列系統角色有在�
 $string['check_riskbackup_details_users'] = '<p>因為上面的角色或局部覆蓋，下列使用者現在可以在備份中包含選修他們課程的所有使用者的隱私數據。請確認他們是可信任的，且他們的密碼足夠強壯：</p> {$a}';
 $string['check_riskbackup_editoverride'] = '<a href="{$a->url}">{$a->name}在 {$a->contextname}</a>';
 $string['check_riskbackup_editrole'] = '<a href="{$a->url}">{$a->name}</a>';
-$string['check_riskbackup_name'] = '用戶資料的備份';
+$string['check_riskbackup_name'] = '使用者資料的備份';
 $string['check_riskbackup_ok'] = '沒有被明確允許備份使用者數據的角色';
 $string['check_riskbackup_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email})在{$a->contextname}</a>';
 $string['check_riskbackup_warning'] = '找到 {$a->rolecount} 個角色、{$a->overridecount}個覆蓋和 {$a->usercount} 個使用者有備份使用者數據的權限。';

@@ -27,9 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcompletions'] = '向表單加入 {no} 個活動條件';
 $string['addgrades'] = '向表單加入 {no} 個成績條件';
-$string['availabilityconditions'] = '縣市連接';
+$string['availabilityconditions'] = '縣市連結';
 $string['availablefrom'] = '可以瀏覽時間';
-$string['availablefrom_help'] = '可以瀏覽的開始結束時間決定了在什麼時間學生可以通過課程頁面的連接瀏覽此活動。
+$string['availablefrom_help'] = '可以瀏覽的開始結束時間決定了在什麼時間學生可以通過課程頁面的連結瀏覽此活動。
 
 活動的瀏覽時間和開放時間是不同的。在開放時間之外，學生仍然可以查看活動描述。而在可瀏覽時間之外，對活動的瀏覽完全禁止。';
 $string['availableuntil'] = '可瀏覽直到';

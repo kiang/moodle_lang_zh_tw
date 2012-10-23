@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['errorsdetected'] = '已經偵測到{$a}個錯誤';
-$string['missinganswer'] = '在試題{$a}行中，太少 :ANSWER, :Lx, :Rx 敘述。你必須至少定義兩個可能的答案。';
+$string['missinganswer'] = '在試題{$a}行中，太少 :ANSWER, :Lx, :Rx 敘述。您必須至少定義兩個可能的答案。';
 $string['missingquestion'] = '在第{$a}行少了試題標籤';
 $string['paragraphquestion'] = '為試題寫短評';
 $string['pluginname'] = 'WebCT格式';

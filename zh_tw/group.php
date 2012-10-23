@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addgroup'] = '添加用戶進入群組';
-$string['addgroupstogrouping'] = '添加群組進入分類';
+$string['addgroup'] = '新增使用者進入群組';
+$string['addgroupstogrouping'] = '新增群組進入分類';
 $string['addgroupstogroupings'] = '新增/移除 群組';
-$string['adduserstogroup'] = '新增/移除 用戶';
+$string['adduserstogroup'] = '新增/移除 使用者';
 $string['allocateby'] = '分配組員';
 $string['anygrouping'] = '﹝任何分類﹞';
 $string['autocreategroups'] = '自動建立群組';
@@ -53,15 +53,15 @@ $string['deleteallgroups'] = '刪除所有群組';
 $string['deletegroupconfirm'] = '您確定要刪除這個"{$a}"群組嗎？';
 $string['deletegrouping'] = '刪除分類';
 $string['deletegroupingconfirm'] = '您確定要刪除"{$a}"分類?(分類中的群組不會被刪除)';
-$string['deletegroupsconfirm'] = '你確定你要刪除下列的群組？';
+$string['deletegroupsconfirm'] = '您確定您要刪除下列的群組？';
 $string['deleteselectedgroup'] = '刪除選出的群組';
 $string['editgroupingsettings'] = '修改分類設定';
 $string['editgroupsettings'] = '修改群組設定';
 $string['enrolmentkey'] = '課程註冊密碼';
 $string['enrolmentkey_help'] = '選課密鑰使得只有知道密鑰的人才能存取這課程。
 
-若指定一個"群組選課密鑰"，那輸入密鑰時，用戶不只會進入這個課程，也會被自動指派為該組成員。';
-$string['erroraddremoveuser'] = '新增/移除用戶 {$a} 到群組時發生錯誤';
+若指定一個"群組選課密鑰"，那輸入密鑰時，使用者不只會進入這個課程，也會被自動指派為該組成員。';
+$string['erroraddremoveuser'] = '新增/移除使用者 {$a} 到群組時發生錯誤';
 $string['erroreditgroup'] = '新增/更新 {$a} 群組時發生錯誤';
 $string['erroreditgrouping'] = '新增/更新 {$a} 分類時發生錯誤';
 $string['errorinvalidgroup'] = '錯誤，無效的群組 {$a}';
@@ -145,7 +145,7 @@ $string['namingscheme'] = '命名規則';
 $string['namingscheme_help'] = '這小老鼠符號(@)可以用來建立其名稱後面有字母的群組，例如，group@ 將會建立幾個團體，名稱分別為：groupA、groupB、groupC、....
 
 
-這井字符號(#)可以用來建立其名稱後面有數字的群組，例如，group# 將會建立幾個團體，名稱分別為：group1、group2、group3、....';
+這井字元號(#)可以用來建立其名稱後面有數字的群組，例如，group# 將會建立幾個團體，名稱分別為：group1、group2、group3、....';
 $string['newgrouping'] = '新的分類';
 $string['newpicture'] = '新圖片';
 $string['newpicture_help'] = '<p align="center"><b>上傳圖片</b></p>
@@ -172,7 +172,7 @@ $string['nogroupsassigned'] = '沒有指定群組';
 $string['nopermissionforcreation'] = '沒有足夠的權限以至於無法建立"{$a}"群組';
 $string['nosmallgroups'] = '防止最後的小群組';
 $string['notingrouping'] = '[不是在分類之中]';
-$string['nousersinrole'] = '在選取中的角色找不到適合的用戶';
+$string['nousersinrole'] = '在選取中的角色找不到適合的使用者';
 $string['number'] = '群組/成員 數';
 $string['numgroups'] = '群組數';
 $string['nummembers'] = '每一個群組的成員';
@@ -181,16 +181,16 @@ $string['potentialmembers'] = '潛在的成員：{$a}';
 $string['potentialmembs'] = '潛在成員';
 $string['printerfriendly'] = '以友善列印方式顯示';
 $string['random'] = '隨機地';
-$string['removefromgroup'] = '從群組{$a}移除用戶';
-$string['removefromgroupconfirm'] = '你真的要從群組"{$a->group}"移除用戶{$a->user}"？';
+$string['removefromgroup'] = '從群組{$a}移除使用者';
+$string['removefromgroupconfirm'] = '您真的要從群組"{$a->group}"移除使用者{$a->user}"？';
 $string['removegroupfromselectedgrouping'] = '從分類中移除群組';
 $string['removegroupingsmembers'] = '從分類中移除所有群組';
 $string['removegroupsmembers'] = '移除所有群組的成員';
-$string['removeselectedusers'] = '移除選出的用戶';
+$string['removeselectedusers'] = '移除選出的使用者';
 $string['selectfromrole'] = '從角色中選擇成員';
 $string['showgroupsingrouping'] = '顯示分類中的各群組';
 $string['showmembersforgroup'] = '顯示群組中的各成員';
-$string['toomanygroups'] = '群組裡頭的成員數不足 -- 這兒只有{$a}位用戶在被選出的角色';
-$string['usercount'] = '用戶數';
-$string['usercounttotal'] = '用戶總數({$a})';
-$string['usergroupmembership'] = '選出的用戶的組別：';
+$string['toomanygroups'] = '群組裡頭的成員數不足 -- 這兒只有{$a}位使用者在被選出的角色';
+$string['usercount'] = '使用者數';
+$string['usercounttotal'] = '使用者總數({$a})';
+$string['usergroupmembership'] = '選出的使用者的組別：';

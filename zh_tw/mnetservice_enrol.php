@@ -26,19 +26,19 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['availablecourseson'] = '在{$a}的可用課程';
-$string['availablecoursesonnone'] = '遠端主機 <a href="{$a->hosturl}">{$a->hostname}</a> 沒有提供任何課程給我們的用戶';
+$string['availablecoursesonnone'] = '遠端主機 <a href="{$a->hosturl}">{$a->hostname}</a> 沒有提供任何課程給我們的使用者';
 $string['clientname'] = '遠端選課客戶';
-$string['clientname_help'] = '這一工具允許你在遠端主機上，將你的本地用戶選課和退課。
+$string['clientname_help'] = '這一工具允許您在遠端主機上，將您的本地使用者選課和退課。
 
-你可以用"MNet遠端選課"插件來這樣做。';
+您可以用"MNet遠端選課"外掛來這樣做。';
 $string['editenrolments'] = '編輯選課';
 $string['hostappname'] = '主機應用程式名稱';
 $string['hostname'] = '主機名稱';
 $string['hosturl'] = '遠端主機網址';
 $string['nopublishers'] = '無可用的遠端同儕';
-$string['noroamingusers'] = '用戶需要在系統脈絡上有權限"{$a}"，才能夠選修遠端課程，然而，現在這兒沒有用戶有這個權限。
+$string['noroamingusers'] = '使用者需要在系統脈絡上有權限"{$a}"，才能夠選修遠端課程，然而，現在這兒沒有使用者有這個權限。
 
-點選繼續按鈕，來指派需要的權限給你的網站上的一或多個角色。';
+點選繼續按鈕，來指派需要的權限給您的網站上的一或多個角色。';
 $string['otherenrolledusers'] = '其他選課的使用者';
 $string['pluginname'] = '遠端選課服務';
 $string['refetch'] = '從遠端主機重新接收資料，使成最新狀態。';

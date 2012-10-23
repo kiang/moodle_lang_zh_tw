@@ -242,7 +242,7 @@ $string['maxattachments_help'] = '此項設置決定了一個帖子可以擁有�
 $string['maxattachmentsize'] = '最大附件大小';
 $string['maxattachmentsize_help'] = '　　<p align="center"><b>最大附件尺寸</b></p>
 　　
-　　<p>附件的檔尺寸是可以限制的，創建討論區的人可以設置它。</p>
+　　<p>附件的檔尺寸是可以限制的，建立討論區的人可以設置它。</p>
 　　
 　　<p>有時，您可以提交一個比這個尺寸大的檔，但這個檔不會被保存下來，且您會看到一個錯誤資訊。</p>
 　　';
@@ -258,7 +258,7 @@ $string['modethreaded'] = '回應訊息以樹狀結構呈現';
 $string['modulename'] = '討論區';
 $string['modulename_help'] = '<p><img alt="" src="<?php echo $CFG->wwwroot?>/mod/forum/icon.gif" />&nbsp;<b>討論區</b></p>
 <div class="indent">
-<p>這個活動非常重要——在這裏進行著大多數的討論活動。討論區可以按照多種不同的方式加以組織，
+<p>這個活動非常重要——在這裡進行著大多數的討論活動。討論區可以按照多種不同的方式加以組織，
 還可以對每個貼文進行相互評等。貼文可以用多種不同的格式瀏覽，也可以包含附件。</p>
 <p>訂閱一個討論區後，訂閱者可以透過電子郵件接受到每一個新的貼文。教師也可以為某課程的所有學生訂閱討論區。</p>
 </div>
@@ -335,7 +335,7 @@ $string['postsmadebyuserincourse'] = '{$a->fullname}在{$a->coursename}中的帖
 $string['posttoforum'] = '張貼到論壇中';
 $string['postupdated'] = '已經更新您的留言';
 $string['potentialsubscribers'] = '潛在的訂閱者';
-$string['processingdigest'] = '正在為用戶{$a}處理郵件摘要';
+$string['processingdigest'] = '正在為使用者{$a}處理郵件摘要';
 $string['processingpost'] = '正在處理張貼{$a}';
 $string['prune'] = '分割';
 $string['prunedpost'] = '新討論已經建立';
@@ -357,23 +357,23 @@ $string['resettrackprefs'] = '刪除討論區中的所追蹤閱讀參數';
 $string['rssarticles'] = 'RSS最近文章數';
 $string['rssarticles_help'] = '　　<p align="center"><b>在RSS中包含的文章數目</b></p>
 　　
-　　<p>這個選項允許您設置在RSS種子中包含的文章數目。</p>
+　　<p>這個選項允許您設置在RSS來源中包含的文章數目。</p>
 　　
-　　<p>對於大多數討論區來說，5至20之間就可以了，如果您的討論區用戶真的很多，可以設大一些。</p>
+　　<p>對於大多數討論區來說，5至20之間就可以了，如果您的討論區使用者真的很多，可以設大一些。</p>
 　　';
 $string['rsssubscriberssdiscussions'] = '顯示"{$a}"討論區中的RSS連結';
 $string['rsssubscriberssposts'] = '顯示"{$a}"張貼的RSS連結';
 $string['rsstype'] = '本活動的RSS來源';
-$string['rsstype_help'] = '　　<p align="center"><b>討論區的RSS種子</b></p>
+$string['rsstype_help'] = '　　<p align="center"><b>討論區的RSS來源</b></p>
 　　
-　　<p>這個選項允許您開啟這個討論區的RSS種子。</p>
+　　<p>這個選項允許您開啟這個討論區的RSS來源。</p>
 　　
 　　<p>您可以選擇兩種類型：</p>
 　　
 　　<ul>
-　　<li><b>話題：</b>在這種情況下，RSS種子中會包括新的話題。</li>
+　　<li><b>話題：</b>在這種情況下，RSS來源中會包括新的話題。</li>
 　　
-　　<li><b>帖子：</b>在這種情況下，RSS種子中會包含每一篇新的帖子。</li>
+　　<li><b>帖子：</b>在這種情況下，RSS來源中會包含每一篇新的帖子。</li>
 　　</ul>
 　　
 　　';
@@ -432,17 +432,17 @@ worked out that they can subscribe to these emails themselves).';
 $string['subscriptionmode'] = '訂閱模式';
 $string['subscriptionmode_help'] = '　　<p align="center"><b>訂閱討論區</b></p>
 　　
-　　<p>當用戶訂閱了討論區時，他們會在電子郵箱中收到討論區中每一個新的帖子(帖子會在它第一次被發表之後的<?php echo $CFG->maxeditingtime/60 ?>分之後被發出。</p>
+　　<p>當使用者訂閱了討論區時，他們會在電子郵箱中收到討論區中每一個新的帖子(帖子會在它第一次被發表之後的<?php echo $CFG->maxeditingtime/60 ?>分之後被發出。</p>
 　　
 　　<p>人們通常可以單獨選擇他們是否想要訂閱某一個論壇。</p>
 　　
-　　<p>當然，如果您設定了強制每一個用戶訂閱某討論區，則課程的所有用戶都會自動訂閱該l討論區，包括在您設定之後選課的那些人。</p>
+　　<p>當然，如果您設定了強制每一個使用者訂閱某討論區，則課程的所有使用者都會自動訂閱該l討論區，包括在您設定之後選課的那些人。</p>
 　　
 　　<p>這對於新聞討論區和課程剛剛開始的時候還是非常有效的(在所有人學會自己訂閱討論區之前。</p>
 　　
-　　<p>如果您選擇了“是的，開始”，則所有現在的和將來的課程用戶都會直接訂閱這個討論區，但他們可以隨時取消對討論區的訂閱。如果您選擇了“是的，永遠”，則他們不能取消對討論區的訂閱。</p>
+　　<p>如果您選擇了「是的，開始」，則所有現在的和將來的課程使用者都會直接訂閱這個討論區，但他們可以隨時取消對討論區的訂閱。如果您選擇了「是的，永遠」，則他們不能取消對討論區的訂閱。</p>
 　　
-　　<p>需要注意“是的，開始”在您更新已有的討論區時會有什麼樣的效果：將“是的，開始”改為“否”，並不會讓已有用戶取消對討論區的訂閱，他只會影響後來參與課程的用戶。同樣，將其他設置改為“是的，開始”，也不會讓已經存在的課程用戶訂閱討論區，只有之後才參與的用戶才會訂閱。</p>
+　　<p>需要注意「是的，開始」在您更新已有的討論區時會有什麼樣的效果：將「是的，開始」改為「否」，並不會讓已有使用者取消對討論區的訂閱，他只會影響後來參與課程的使用者。同樣，將其他設置改為「是的，開始」，也不會讓已經存在的課程使用者訂閱討論區，只有之後才參與的使用者才會訂閱。</p>
 　　';
 $string['subscriptionoptional'] = '可選訂閱';
 $string['subscriptions'] = '訂閱';

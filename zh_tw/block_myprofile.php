@@ -44,5 +44,5 @@ $string['display_picture'] = '顯示照片';
 $string['display_skype'] = '顯示Skype';
 $string['display_un'] = '顯示姓名';
 $string['display_yahoo'] = '顯示Yahoo';
-$string['myprofile_settings'] = '看得見的用戶資訊';
-$string['pluginname'] = '已登入用戶';
+$string['myprofile_settings'] = '看得見的使用者資訊';
+$string['pluginname'] = '已登入使用者';

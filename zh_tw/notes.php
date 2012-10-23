@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addnewnote'] = '加入新筆記';
-$string['addnewnoteselect'] = '選擇用戶撰寫筆記';
+$string['addnewnoteselect'] = '選擇使用者撰寫筆記';
 $string['bynameondate'] = '由 {$a->name} - {$a->date}';
 $string['cannotdeletepost'] = '刪除備註時發生錯誤';
 $string['configenablenotes'] = '允許單獨為每個使用者記備註。';
@@ -49,7 +49,7 @@ $string['note'] = '筆記';
 $string['notes'] = '筆記';
 $string['notesdisabled'] = '對不起，備註功能已停用';
 $string['notesnotvisible'] = '您不可以看這筆記！';
-$string['nouser'] = '您必須選擇一位用戶';
+$string['nouser'] = '您必須選擇一位使用者';
 $string['page-notes-index'] = '備註主頁';
 $string['page-notes-x'] = '任意備註頁面';
 $string['personal'] = '個人的';
@@ -57,7 +57,7 @@ $string['personalnotes'] = '個人的筆記';
 $string['publishstate'] = '狀態';
 $string['publishstate_help'] = '一個通知的脈絡決定了誰可以看到這通知。
 
-*個人--只有你可以看見。
+*個人--只有您可以看見。
 *課程--在這課程的教師們。
 *網站--所有課程的教師們。';
 $string['site'] = '網站的';

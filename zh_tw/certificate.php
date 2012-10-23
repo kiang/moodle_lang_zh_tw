@@ -88,17 +88,17 @@ $string['emailstudenttext'] = '附件是您在{$a->course}課程獲得的證書�
 $string['emailteachermail'] = '{$a->student} 已收到他們的證書:  {$a->course}的"<i>{$a->certificate}</i>"。
 
 
-你可以在此檢視它:
+您可以在此檢視它:
 {$a->url}。';
 $string['emailteachermailhtml'] = '{$a->student} 已收到他們的證書:  {$a->course}的"<i>{$a->certificate}</i>"。
 
 
-你可以在此檢視它:
+您可以在此檢視它:
  <a href="{$a->url}">證書報告</a>。';
 $string['emailteachers'] = '用Email通知教師';
 $string['emailteachers_help'] = '如果啟用，那麼當學生獲得證書時，老師會收到一封電子郵件提醒。';
 $string['entercode'] = '輸入證書字號進行驗證：';
-$string['getcertificate'] = '取得你的證書';
+$string['getcertificate'] = '取得您的證書';
 $string['grade'] = '成績';
 $string['gradedate'] = '評分日期';
 $string['gradefmt'] = '成績格式';
@@ -137,7 +137,7 @@ $string['openemail'] = '點擊下面的按鈕，您的證書會通過電子郵�
 $string['openwindow'] = '點擊下面的按鈕在一個新的瀏覽器視窗中打開您的證書。';
 $string['or'] = '或';
 $string['orientation'] = '列印定向';
-$string['orientation_help'] = '選擇你的證書是要以肖像畫或風景畫方式列印？';
+$string['orientation_help'] = '選擇您的證書是要以肖像畫或風景畫方式列印？';
 $string['pluginadministration'] = '證書管理';
 $string['pluginname'] = '證書';
 $string['portrait'] = '肖像畫';
@@ -166,7 +166,7 @@ $string['removecert'] = '頒發的證書已刪除';
 $string['report'] = '報告';
 $string['reportcert'] = '報告證書';
 $string['reportcert_help'] = '如果您這裡選擇了是，那麼證書的接收日期、號碼和課程名稱將會顯示在使用者的證書報告上。如果您選擇了在證書上列印成績，那麼成績也將會顯示在證書報告上。';
-$string['reviewcertificate'] = '檢查你的證書';
+$string['reviewcertificate'] = '檢查您的證書';
 $string['savecert'] = '儲存證書';
 $string['savecert_help'] = '如果您選擇此項，有此證書的每個使用者的證書 pdf 文件的副本將會保存在課程的 moddata 文件夾里。每個使用者保存的證書的連結將會顯示在證書報告里。';
 $string['sigline'] = '線';
@@ -179,9 +179,9 @@ $string['typeA4_embedded'] = 'A4 嵌入式';
 $string['typeA4_non_embedded'] = 'A4 非嵌入式';
 $string['typeletter_embedded'] = '信件嵌入式';
 $string['typeletter_non_embedded'] = '信件非嵌入式';
-$string['userdateformat'] = '用戶語言的日期格式';
+$string['userdateformat'] = '使用者語言的日期格式';
 $string['validate'] = '驗證';
 $string['verifycertificate'] = '驗證證書';
 $string['viewcertificateviews'] = '查看{$a}張頒發的證書';
-$string['viewed'] = '你收到這一證書是在：';
+$string['viewed'] = '您收到這一證書是在：';
 $string['viewtranscript'] = '查看證書';

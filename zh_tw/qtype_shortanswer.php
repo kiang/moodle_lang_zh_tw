@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addingshortanswer'] = '新增一道填空題';
 $string['addmoreanswerblanks'] = '增加 {no} 個空白答案';
 $string['answer'] = '答案：{$a}';
-$string['answermustbegiven'] = '若這裡有分數或回饋，你就必須輸入一答案';
+$string['answermustbegiven'] = '若這裡有分數或回饋，您就必須輸入一答案';
 $string['answerno'] = '答案 {$a}';
 $string['caseno'] = '不，大小寫不重要';
 $string['casesensitive'] = '大小寫有區分';

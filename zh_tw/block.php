@@ -36,7 +36,7 @@ $string['contexts_help'] = '脈絡是頁面的更具體的類型，在此這區�
 
 因為原始區塊位置和您當前位置的不同，您會有不同的選項。
 
-舉例來說，您可以限制一個區塊只能在一個課程的討論區頁面上出現，你只需增加這個區塊到課程頁面（讓它在所有子頁面可見），然後進入一個討論區並再次編輯區塊設定，以限制它只在討論區頁面顯示。';
+舉例來說，您可以限制一個區塊只能在一個課程的討論區頁面上出現，您只需增加這個區塊到課程頁面（讓它在所有子頁面可見），然後進入一個討論區並再次編輯區塊設定，以限制它只在討論區頁面顯示。';
 $string['createdat'] = '原初區塊的位置';
 $string['createdat_help'] = '最初建立區塊時的位置。區塊設定可以使它出現在原始位置之下的其它位置（場景）。例如，在課程頁面建立的區塊可以顯示在課程的活動中。建立在首頁的區塊可以在整個網站都顯示。';
 $string['defaultregion'] = '預設的區域';
@@ -50,8 +50,8 @@ $string['pagetypes'] = '頁面類型';
 $string['pagetypewarning'] = '之前指定的頁面類型不可以再選擇。請在下面選擇最恰當的頁面類型。';
 $string['region'] = '區域';
 $string['restrictpagetypes'] = '要顯示在那一類型的頁面';
-$string['showoncontextandsubs'] = '顯示在“{$a}”及其裡面的任何頁面';
-$string['showoncontextonly'] = '只顯示在“{$a}”裡';
+$string['showoncontextandsubs'] = '顯示在「{$a}」及其裡面的任何頁面';
+$string['showoncontextonly'] = '只顯示在「{$a}」裡';
 $string['showonentiresite'] = '顯示到整個網站';
 $string['showonfrontpageandsubs'] = '顯示在首頁和任何增加到首頁的頁面中';
 $string['showonfrontpageonly'] = '只顯示在首頁上';

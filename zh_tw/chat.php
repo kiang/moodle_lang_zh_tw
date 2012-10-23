@@ -47,7 +47,7 @@ $string['configrefreshuserlist'] = '使用者列表自動更新時間(秒)';
 $string['configserverhost'] = '聊天伺服器daemon 的電腦名稱';
 $string['configserverip'] = '與上面伺服器名稱相符的ip位址';
 $string['configservermax'] = '最大允許人數';
-$string['configserverport'] = '伺服器daemon 的連接埠';
+$string['configserverport'] = '伺服器daemon 的連結埠';
 $string['currentchats'] = '使用者列表自動更新時間(秒)';
 $string['currentusers'] = '當前使用者';
 $string['deletesession'] = '刪除該會談';
@@ -96,7 +96,7 @@ $string['pastchats'] = '過去的聊天內容';
 $string['pluginadministration'] = '聊天室管理員';
 $string['pluginname'] = '聊天室';
 $string['refreshroom'] = '更新聊天室';
-$string['refreshuserlist'] = '更新用戶列表';
+$string['refreshuserlist'] = '更新使用者列表';
 $string['removemessages'] = '刪除所有訊息';
 $string['repeatdaily'] = '每天的此刻';
 $string['repeatnone'] = '無回覆';
@@ -109,8 +109,8 @@ $string['send'] = '發送';
 $string['sending'] = '正在發送';
 $string['serverhost'] = '伺服器名稱';
 $string['serverip'] = '伺服器IP';
-$string['servermax'] = '最大用戶數';
-$string['serverport'] = '伺服器連接埠';
+$string['servermax'] = '最大使用者數';
+$string['serverport'] = '伺服器連結埠';
 $string['sessions'] = '聊天內容';
 $string['sessionstart'] = '聊天會話開始時間：{$a}';
 $string['strftimemessage'] = '%H:%M';
@@ -131,13 +131,13 @@ $string['usingchat_help'] = '<p align="center"><b>聊天</b></p>
 <dd>輸入的Internet位址會自動被轉換為鏈結。</dd>
 　　
 <dt><b>誇張表情</b></dt>
-<dd>在行首添加“/me”或者“:”可以將這行變成誇張表情描述。例如，如果假設您叫Kim，並且您輸入了“:laughs!”或者“/me laughs!”，則所有人都會看到“Kim laughs!”</dd>
+<dd>在行首新增「/me」或者「:」可以將這行變成誇張表情描述。例如，如果假設您叫Kim，並且您輸入了「:laughs!」或者「/me laughs!」，則所有人都會看到「Kim laughs!」</dd>
 　　
 <dt><b>喚醒</b></dt>
-<dd>您可以通過點擊別人姓名旁的“beep”鏈結來喚醒他。要想一下子喚醒所有的人，可以輸入“beep all”。</dd>
+<dd>您可以通過點擊別人姓名旁的「beep」鏈結來喚醒他。要想一下子喚醒所有的人，可以輸入「beep all」。</dd>
 　　
 <dt><b>HTML</b></dt>
-<dd>如果您知道如何是用HTML，您可以在您輸入的文字中加入HTML，這樣就可以插入圖片、播放聲音或者創建不同顏色和大小的文字。</dd>
+<dd>如果您知道如何是用HTML，您可以在您輸入的文字中加入HTML，這樣就可以插入圖片、播放聲音或者建立不同顏色和大小的文字。</dd>
 　　
 </dl>
 　　

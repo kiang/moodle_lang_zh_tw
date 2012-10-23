@@ -93,7 +93,7 @@ $string['pluginname'] = 'LDAP選課';
 $string['pluginname_desc'] = '<p>您可以使用LDAP伺服器來控制註冊。假設您的LDAP樹已包含可以對應課程的群組，同時每個群組/課程將有成員資料來對應到學生。</p>
 <p>假設課程已在LDAP中以群組定義，而每個群組包含多個成員欄位(<em>成員</em>或<em>成員識別號</em>)，這欄位包含一個唯一的使用者識別。</p>
 <p>使用LDAP註冊，您的使用者<strong>必須</strong>有一個有效的身份證號欄位。LDAP群組必須有這個身份證號存在成員的欄位中，讓使用者可以註冊課程。如果您已經使用LDAP認證，這通常能運作正常。</p>
-<p>當使用者登入時，註冊資料就會更新。您也可以執行腳本來保持註冊資料同步。請看<em>enrol/ldap/enrol_ldap_sync.php</em>。</p>
+<p>當使用者登入時，註冊資料就會更新。您也可以執行指令來保持註冊資料同步。請看<em>enrol/ldap/enrol_ldap_sync.php</em>。</p>
 
 <p>這個外掛也可以設定為，當新的群組出現在LDAP時，自動建立新的課程。</p>';
 $string['pluginnotenabled'] = '外掛未啟用！';

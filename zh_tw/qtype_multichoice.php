@@ -68,4 +68,4 @@ $string['selectone'] = '選擇一個：';
 $string['shuffleanswers'] = '是否隨機排列選項？';
 $string['shuffleanswers_help'] = '如果啟用，每次作答時，試題內選項的順序會隨機排列。這功能要在測驗卷活動設定的"在試題內隨機排列"也啟動才可以。';
 $string['singleanswer'] = '選擇一個答案。';
-$string['toomanyselected'] = '你已經選擇太多選項。';
+$string['toomanyselected'] = '您已經選擇太多選項。';

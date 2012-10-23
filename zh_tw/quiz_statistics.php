@@ -69,7 +69,7 @@ $string['negcovar_help'] = '在試題分析時，若某一題目的得分與整�
 
 此模組的效率試題加權(effective question weight)計算公式無法處理這種案例。
 
-遇到這種情形，你可以重新編輯測驗卷，把該鑑別力為負的題目的配分(最大分數)改為零分，再重新計分即可。';
+遇到這種情形，您可以重新編輯測驗卷，把該鑑別力為負的題目的配分(最大分數)改為零分，再重新計分即可。';
 $string['nostudentsingroup'] = '還沒有學生在此一群組';
 $string['optiongrade'] = '部分得分';
 $string['pluginname'] = '統計';

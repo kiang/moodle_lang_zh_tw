@@ -39,7 +39,7 @@ $string['editingnumerical'] = '編輯數字題';
 $string['errornomultiplier'] = '您必須指定這個單位的乘數。';
 $string['errorrepeatedunit'] = '不能有兩個相同名稱的單位。';
 $string['geometric'] = '幾何的';
-$string['invalidnumber'] = '你必須輸入一有效的數字';
+$string['invalidnumber'] = '您必須輸入一有效的數字';
 $string['invalidnumbernounit'] = '您必須輸入一有效數字，答案中不要包含單位';
 $string['invalidnumericanswer'] = '在您輸入的答案之中，有一個不是有效數值。';
 $string['invalidnumerictolerance'] = '在您輸入的容忍度之中，有一個不是有效數值。';
@@ -57,16 +57,16 @@ $string['numericalmultiplier'] = '乘數';
 $string['numericalmultiplier_help'] = '乘數是用來乘以答案，以進行單位換算用的。
 
 單位1的預設乘數是1
-，因此如果正確的數值答案答案是5500，而你在單位1設定W做為單位，那麼正確答案是5500W。
+，因此如果正確的數值答案答案是5500，而您在單位1設定W做為單位，那麼正確答案是5500W。
 
-如果你在單位2加上一個新單位kW，而乘數為0.001，這表示另一個正確答案是5.5kW。
+如果您在單位2加上一個新單位kW，而乘數為0.001，這表示另一個正確答案是5.5kW。
 
 注意，可接受的誤差也 需要換算，因此允許誤差如果是100W，那換算成另一個單位就是0.1kW。';
 $string['numericalsummary'] = '答案為數字，可以包含單位。通過和多種標準答案比較來自動評分，有一定的容錯能力。';
 $string['oneunitshown'] = '單位1是自動顯示在答案方格旁邊';
 $string['onlynumerical'] = '完全沒有使用單位。只有數值會被計分。';
 $string['pleaseenterananswer'] = '請輸入一答案';
-$string['pleaseenteranswerwithoutthousandssep'] = '請輸入你的答案，不要使用千位的分隔符號 ({$a})';
+$string['pleaseenteranswerwithoutthousandssep'] = '請輸入您的答案，不要使用千位的分隔符號號 ({$a})';
 $string['relative'] = '相對的';
 $string['rightexample'] = '在右邊，例如1.00cm 或 1.00km';
 $string['selectunit'] = '選擇一個單位';
@@ -80,13 +80,13 @@ $string['unitedit'] = '編輯單位';
 $string['unitgraded'] = '必須要寫出單位，並會被評分';
 $string['unithandling'] = '單位處裡';
 $string['unithdr'] = '單位 {$a}';
-$string['unitincorrect'] = '你沒有寫出正確的單位';
+$string['unitincorrect'] = '您沒有寫出正確的單位';
 $string['unitmandatory'] = '強制的';
 $string['unitmandatory_help'] = '*答案將會依據寫出的單位來評分。
 
 *若單位欄是空白的，將會使用單位錯誤扣分。';
-$string['unitnotselected'] = '你必須選擇一種單位';
-$string['unitonerequired'] = '你必須輸入至少一種單位';
+$string['unitnotselected'] = '您必須選擇一種單位';
+$string['unitonerequired'] = '您必須輸入至少一種單位';
 $string['unitoptional'] = '可選用的單位';
 $string['unitoptional_help'] = '*若單位欄位不是空白的，這回答將會以這單位來計分。
 
@@ -101,7 +101,7 @@ $string['unitposition'] = '單位放在';
 $string['unitselect'] = '下拉選單';
 $string['validnumberformats'] = '有效數值格式';
 $string['validnumberformats_help'] = '一般數字13500.67, 13 500.67, 13500,67 或 13 500,67 <br/>
-*若你使用千位數的分隔符號，就要記得要加上小數點，13,500.67 : 13,500.<br />
+*若您使用千位數的分隔符號號，就要記得要加上小數點，13,500.67 : 13,500.<br />
 * 就指數形式，比如 1.350067 * 10<sup>4</sup>, 就使用 1.350067 E4 或 1.350067 E04';
 $string['validnumbers'] = '13500.67,
 13 500.67,

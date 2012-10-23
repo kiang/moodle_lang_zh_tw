@@ -28,18 +28,18 @@ defined('MOODLE_INTERNAL') || die();
 $string['accessdenied'] = '禁止存取';
 $string['accounts'] = '帳戶';
 $string['additionalhtml'] = '外加的HTML';
-$string['additionalhtml_desc'] = '這些設定允許你指定你要加到每一頁的HTML。
+$string['additionalhtml_desc'] = '這些設定允許您指定您要加到每一頁的HTML。
 
-你可以設定把HTML加到HEAD標籤裡面，緊接開啟的BODY標籤之下，或緊接關閉的BODY標籤之前。
+您可以設定把HTML加到HEAD標籤裡面，緊接開啟的BODY標籤之下，或緊接關閉的BODY標籤之前。
 
-這樣做可讓你很容易在每一頁加上自製的頁頭或頁尾，或為服務，如 Google Analytics 提供支援，而且它獨立於你挑選的主題佈景。';
+這樣做可讓您很容易在每一頁加上自製的頁頭或頁尾，或為服務，如 Google Analytics 提供支援，而且它獨立於您挑選的主題佈景。';
 $string['additionalhtmlfooter'] = '在 BODY 關閉之前';
-$string['additionalhtmlfooter_desc'] = '這裡的內容將會被添加到每一頁，在body標籤關閉之前。';
+$string['additionalhtmlfooter_desc'] = '這裡的內容將會被新增到每一頁，在body標籤關閉之前。';
 $string['additionalhtmlhead'] = '在 HEAD 之內';
-$string['additionalhtmlhead_desc'] = '這裡的內容將會被添加到每一頁的HEAD標籤的底部';
-$string['additionalhtml_heading'] = '外加的HTML添加到每一頁。';
+$string['additionalhtmlhead_desc'] = '這裡的內容將會被新增到每一頁的HEAD標籤的底部';
+$string['additionalhtml_heading'] = '外加的HTML新增到每一頁。';
 $string['additionalhtmltopofbody'] = '當 BODY是被開啟的';
-$string['additionalhtmltopofbody_desc'] = '這裡的內容將會立刻被添加到每一頁，在開啟的BODY標籤。';
+$string['additionalhtmltopofbody_desc'] = '這裡的內容將會立刻被新增到每一頁，在開啟的BODY標籤。';
 $string['adminseesall'] = '管理者可以瀏覽全部';
 $string['adminseesallevents'] = '管理者可以看見所有事件';
 $string['adminseesownevents'] = '管理者只看見自己的事件(同其他使用者)';
@@ -57,14 +57,14 @@ $string['allowobjectembed'] = '允許使用 EMBED 與 OBJECT 標籤';
 $string['allowrenames'] = '允許改名';
 $string['allowthemechangeonurl'] = '允許在這網址中改變主題';
 $string['allowuserblockhiding'] = '允許使用者隱藏區塊';
-$string['allowuserswitchrolestheycantassign'] = '允許沒有指派角色能力的用戶來切換角色';
+$string['allowuserswitchrolestheycantassign'] = '允許沒有指派角色能力的使用者來切換角色';
 $string['allowuserthemes'] = '允許使用者自選佈景';
 $string['antivirus'] = '防毒';
 $string['appearance'] = '外觀';
 $string['aspellpath'] = 'aspell的路徑';
 $string['authentication'] = '身份認證';
 $string['authpreventaccountcreation'] = '當正在驗證時，防止帳號被建立';
-$string['authpreventaccountcreation_help'] = '當認證用戶且它在本站還沒有帳號時，會自動在本站建立帳號。如果使用外部資料庫(例如LDAP)做認證，但是您希望只允許在本站有帳號的使用者瀏覽，那麼就啟用此選項。新帳號可以透過手動建立或者上傳使用者建立。注意此設定不會引響MNet認證。';
+$string['authpreventaccountcreation_help'] = '當認證使用者且它在本站還沒有帳號時，會自動在本站建立帳號。如果使用外部資料庫(例如LDAP)做認證，但是您希望只允許在本站有帳號的使用者瀏覽，那麼就啟用此選項。新帳號可以透過手動建立或者上傳使用者建立。注意此設定不會引響MNet認證。';
 $string['authsettings'] = '管理認證方式';
 $string['autolang'] = '自動偵測語言';
 $string['autologinguests'] = '自動登入為訪客';
@@ -74,9 +74,9 @@ $string['backgroundcolour'] = '透明色';
 $string['backups'] = '備份';
 $string['backup_shortname'] = '使用課程名稱作為備份檔的檔名';
 $string['backup_shortnamehelp'] = '使用課程名稱作為備份檔檔名的一部分';
-$string['badwordsconfig'] = '輸入禁用詞語列表（用逗號,分隔）';
+$string['badwordsconfig'] = '輸入停用詞語列表（用逗號,分隔）';
 $string['badwordsdefault'] = '如果自訂列表是空的，將使用語言包所提供的預設列表。';
-$string['badwordslist'] = '自訂禁用語列表';
+$string['badwordslist'] = '自訂停用語列表';
 $string['blockediplist'] = '封鎖的IP清單';
 $string['blockinstances'] = '區塊';
 $string['blockmultiple'] = '多重區塊';
@@ -103,10 +103,10 @@ $string['cachejs'] = '快取Javascript';
 $string['cachejs_help'] = '將Javascript快取並壓縮，可以明顯改進頁面裝載的表現，強烈建議使用在正式網站中，若是測試中的網站，建議關閉此功能。';
 $string['cachetext'] = '文字快取保留時間';
 $string['cachetype'] = '快取類型';
-$string['calendarexportsalt'] = '匯出行事曆時用的添加碼';
+$string['calendarexportsalt'] = '匯出行事曆時用的新增碼';
 $string['calendarsettings'] = '行事曆';
 $string['calendar_weekend'] = '週末';
-$string['cannotdeletemodfilter'] = '你不能將"{$a->filter}"解除安裝，因為它是 "{$a->filter}"模組的一部分。';
+$string['cannotdeletemodfilter'] = '您不能將"{$a->filter}"解除安裝，因為它是 "{$a->filter}"模組的一部分。';
 $string['cfgwwwrootslashwarning'] = '您的config.pho內的$CFG->wwwroot定義有誤。在字串尾端多了\'/\'字元，請您移除它。不然您會收到奇怪的錯誤訊息，如<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>所報告的。';
 $string['cfgwwwrootwarning'] = '您的config.pho內的$CFG->wwwroot定義有誤。和您現在存取的網址(URL)不同， 請更正它。不然您會收到奇怪的錯誤訊息，如<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>所報告的。';
 $string['change'] = '變更';
@@ -134,15 +134,15 @@ $string['commonfiltersettings'] = '共同過濾器設定';
 $string['commonsettings'] = '共同的設定';
 $string['componentinstalled'] = '元件已安裝';
 $string['computedfromlogs'] = '從 {$a} 開始計算的日誌記錄';
-$string['condifmodeditdefaults'] = '你在此設定的值，將會作為你建立一新活動時，活動設定表單上的預設值。
+$string['condifmodeditdefaults'] = '您在此設定的值，將會作為您建立一新活動時，活動設定表單上的預設值。
 
-你也可以配置哪一個活動設定是屬於進階的。';
+您也可以配置哪一個活動設定是屬於進階的。';
 $string['confeditorhidebuttons'] = '請選擇HTML編輯器中要隱藏的按鈕。';
-$string['configallcountrycodes'] = '這是可以在不同地方用來選擇國家的清單，比如說用戶的個人資料表。</br>
+$string['configallcountrycodes'] = '這是可以在不同地方用來選擇國家的清單，比如說使用者的個人資料表。</br>
 如果保持空白(預設)，將會使用在標準英文語言包的 countries.php 檔案裡的清單。</br>
 這是來自ISO 3166-1的清單。
-否則的話，你可以指定一個以逗點分隔的清單，例如：\'GB,FR,ES\'。</br>
-如果你在此加上新的、非標準的代碼，你就需要把它們加到\'en\'(英文)和你的語言包(可能是\'zh_tw\')裡的 countries.php 檔案中。';
+否則的話，您可以指定一個以逗點分隔的清單，例如：\'GB,FR,ES\'。</br>
+如果您在此加上新的、非標準的代碼，您就需要把它們加到\'en\'(英文)和您的語言包(可能是\'zh_tw\')裡的 countries.php 檔案中。';
 $string['configallowassign'] = '允許每欄左邊的角色可以指派的角色';
 $string['configallowblockstodock'] = '若啟用，且被選出的主題佈景所支援，那使用者可以選擇把區塊搬移到一特定的靠泊區。';
 $string['configallowcategorythemes'] = '開啟這個選項，佈景可套用於類別層級。這將會影響所有子類別及類別中的課程。除非他們已被另外設定佈景。注意：開啟這個選項可能會影響系統效能。';
@@ -152,7 +152,7 @@ $string['configallowobjectembed'] = '預設的安全考量，一般使用者是�
 $string['configallowoverride'] = '允許每欄左邊的角色可以置換的角色';
 $string['configallowoverride2'] = '選擇那些角可以被左邊欄中角色修改。<br />注意，這些設定權適用於具有權限moodle/role:override或moodle/role:safeoverride的使用者。';
 $string['configallowswitch'] = '要選擇一使用者可以切換過去的角色，這是要根據他們已經有的角色而定。<br/>
-除了要在這個表格中添加一個條目之外，該用戶也必須具有 moodle/role:switchroles 權限，才能夠切換。<br/>
+除了要在這個表格中新增一個項目之外，該使用者也必須具有 moodle/role:switchroles 權限，才能夠切換。<br/>
 注意，它只可能切換到有 moodle/course:view 權限的角色，而且不能切換到有 moodle/site:doanything 權限，因此，在這表格裡，有些欄是關閉的。';
 $string['configallowthemechangeonurl'] = '如果啟用，那麼可以用下面辦法邊更佈景主题：<br />
 向任意 Moodle URL加上?theme=themename（例如：mymoodlesite.com/?theme=afterburner）或<br />
@@ -160,35 +160,35 @@ $string['configallowthemechangeonurl'] = '如果啟用，那麼可以用下面�
 $string['configallowuserblockhiding'] = '是否允許使用者隱藏或顯示網站中各頁面兩側的區塊？這個功能使用JavaScript和Cookie來記住每一個可摺疊區塊的狀態，它只會影響使用者自己的畫面。';
 $string['configallowuserswitchrolestheycantassign'] = '預設情況下，使用者必需有moodle/role:assign權限才能切換角色。啟用這個選項會去掉這一限制，並使用"允許角色分配"表格來確定"切換角色到"下拉選單中的內容。我們建議您，在允許角色分配表格中，不要允許使用者切換到權限更高的角色。';
 $string['configallowuserthemes'] = '如果您啟用，則使用者可以設定自己的佈景主題。使用者的佈景主題設定會覆蓋網站的佈景主題(但不會取代課程的)。';
-$string['configallusersaresitestudents'] = '是否假定<strong>所有</strong>訪問網站首頁的用戶為學生。如果設定為是，則所有經過確認的用戶帳號都可以參加首頁上學生的活動。如果設定為否，則只有那些至少參加了一門課程學習的用戶才可以參加首頁上學生的活動。只有管理員和特別指定的教師才可以作為這些首頁活動的教師。';
+$string['configallusersaresitestudents'] = '是否假定<strong>所有</strong>訪問網站首頁的使用者為學生。如果設定為是，則所有經過確認的使用者帳號都可以參加首頁上學生的活動。如果設定為否，則只有那些至少參加了一門課程學習的使用者才可以參加首頁上學生的活動。只有管理員和特別指定的教師才可以作為這些首頁活動的教師。';
 $string['configauthenticationplugins'] = '請選擇要使用的認證外掛並且妥善安排，自動註冊功能將會透過註冊欄位選擇的外掛處理（通常是 email）。';
 $string['configautolang'] = '如果關閉網站預設值，就會由瀏覽器的設定來偵測預設的語言。';
 $string['configautologinguests'] = '當訪問者訪問時，是否自動以訪客(guest)身份登錄那些允許訪客(guest)進入的課程。';
 $string['configbloglevel'] = '此設定可以限制瀏覽本網站部落格的使用者層級。要注意的是：設定的是<br>瀏覽者</br>的層級，與發表者或者部落格型態無關。如果您不想要部落格，部落格也可以完全停用。';
-$string['configcachetext'] = '對於較大的或者是開啟了文本過濾器的網站，這個設置可以提高速度。在一段時間之內，已經處理過的文本的副本將會被保留。如果將這個值設得太小會減慢相應速度，但設定得太大也會使文本刷新緩慢。';
+$string['configcachetext'] = '對於較大的或者是開啟了文字過濾器的網站，這個設置可以提高速度。在一段時間之內，已經處理過的文字的副本將會被保留。如果將這個值設得太小會減慢相應速度，但設定得太大也會使文字刷新緩慢。';
 $string['configcachetype'] = '選擇 Moodle 要使用的快取類型，這只會設定快取，記得啟用 rcachee 來讓其他功能使用快取。 <strong>只有在</strong>您需要減少資料庫系統負載時才啟用，因為這會影響執行速度。中型網站建議使用\'internal\'；單一網頁伺服器並且安裝了 eAccelerator 或 Turckmmcache <em>且啟用共用記憶體選項</em> 時建議試試\'eaccelerator\'；如果您安裝了多個伺服器，且執行了一或多個 memcached 常駐以及使用 PHP-memcached 外掛，請選擇 \'memcached\' 並且調整下面的 memached 選項<br /><strong>注意：</strong> 請確認實際環境中的效能，快取功能可能讓網站速度減慢。在高流量的環境中 eAccelerator 與 memcached 可以帶來幫助，但是會增加網頁伺服器的 CPU 使用成本。';
 $string['configcalendarexportsalt'] = '這個隨機文字是用來改進認證令牌的安全性，這令牌是用來匯出行事曆。
 
-請注意，如果你更改這一添加碼，所有現有的令牌都會失效。';
+請注意，如果您更改這一新增碼，所有現有的令牌都會失效。';
 $string['configclamactlikevirus'] = '檔案似乎有病毒';
 $string['configclamdonothing'] = '檔案沒問題';
 $string['configclamfailureonupload'] = '如果您讓clam掃瞄上傳的文件，但並未正確配置clam或它因某些未知原因而運行失敗了，那應該怎麼做? 如果您選擇了「認為文件帶病毒」，那麼它們將會被轉移到隔離區或是被刪除。如果您選擇了「認為文件沒問題」，那麼文件將會如往常一樣被轉移到目標目錄中。無論選擇哪個，系統都會提醒管理員clam運行失敗了。如果您選擇「認為文件帶病毒」且由於某些原因clam運行失敗了(通常是因為您未能指定合法的 pathtoclam值)，所有上傳的文件將會被轉移到隔離區或者被刪除。使用這個設置要小心。';
 $string['configconvertformat'] = '如果<i>latex</i>、<i>dvips</i> 和 <i>convert</i> 有效，這將使用指定的格式建立影像。否則，將使用mimeTeX建立GIF圖片。';
-$string['configcookiehttponly'] = '使用新的PHP 5.2.0功能-瀏覽器只能用http要求來傳送cookie，不能用腳本語言傳送。不是所有的瀏覽器都支援此功能，此功能也可能與目前的程式碼不相容。此功能有助於防止部分XSS型式的攻擊。';
+$string['configcookiehttponly'] = '使用新的PHP 5.2.0功能-瀏覽器只能用http要求來傳送cookie，不能用指令語言傳送。不是所有的瀏覽器都支援此功能，此功能也可能與目前的程式碼不相容。此功能有助於防止部分XSS型式的攻擊。';
 $string['configcookiesecure'] = '如果伺服器僅接受https連線，建議啟動安全cookies傳送。啟動時，請確認網站伺服器不能接受http://或設定重新導向至固定的https://位址。當 <em>wwwroot目錄</em>網址不是以https://開頭時，此設定自動關閉。';
 $string['configcountry'] = '如果在此處設定一個國家或地區，則它將被用於使用者註冊時的預設值。如果要強制使用者自己選擇一個國家或地區，則保持此處為空白';
 $string['configcourserequestnotify'] = '輸入有建立課程申請時應當被通知的使用者。';
-$string['configcourserequestnotify2'] = '有新建立課程聲請時會被通知的使用者。只有擁有確認課程申請權限的用戶才會被列出。';
+$string['configcourserequestnotify2'] = '有新建立課程聲請時會被通知的使用者。只有擁有確認課程申請權限的使用者才會被列出。';
 $string['configcoursesperpage'] = '輸入課程清單每頁顯示的課程數目。';
 $string['configcronclionly'] = '設定這個項目後排程指令就只能夠從指令列執行，而不是透過網頁；這個設定會覆蓋下面設定的 cron 密碼。';
 $string['configcronremotepassword'] = '這表示 cron.php 程式如果沒有提供密碼就不會執行，提供密碼的方式就像這樣：<pre> http://site.example.com/admin/cron.php?password=opensesame </pre>，保持空白表示不需要密碼。';
 $string['configcurlcache'] = 'cURL快取的存活時間，以秒計';
-$string['configcustommenuitems'] = '你可以在此自訂一個客製化選單，以便在佈景主題中顯示。</br>
+$string['configcustommenuitems'] = '您可以在此自訂一個客製化選單，以便在佈景主題中顯示。</br>
 每一行包含一些選單文字，一個鏈結的網址 (選用的) 和一個工具提示標題(選用的), 並以"|"符號隔開。</br>
-你可以用"--"來指定分類架構。 </br>
+您可以用"--"來指定分類架構。 </br>
 例如: <pre> Moodle community|http://moodle.org -Moodle free support|http://moodle.org/support -Moodle development|http://moodle.org/development --Moodle Tracker|http://tracker.moodle.org --Moodle Docs|http://docs.moodle.org -Moodle News|http://moodle.org/news Moodle company -Moodle commercial hosting|http://moodle.com/hosting -Moodle commercial support|http://moodle.com/support </pre>';
 $string['configdbsessions'] = '如果開啟此設定，將會使用資料庫來保存現在的連線資訊。這對於那些大且繁忙的網站或是在群集中建立的網站是很有用的。對於多數網站，這個選項應當保持關閉，改用伺服器的硬碟來保存連線資訊。注意改變這個設定將會強制退出所有的正在連線的使用者(包括您)。';
-$string['configdebug'] = '如果您打開這個選項，那麼PHP的錯誤報告會增加，頁面上會出現更多的警告信息。這只對開發人員有用。';
+$string['configdebug'] = '如果您打開這個選項，那麼PHP的錯誤報告會增加，頁面上會出現更多的警告資訊。這只對開發人員有用。';
 $string['configdebugdisplay'] = '啟用後錯誤報告會顯示在 HTML 頁面，這個功能雖然實用，但是可能會破壞 XHTML、JS、cookies 與 HTTP 頁首；關閉表示記錄在伺服器紀錄檔案中，比較方便偵錯， PHP 的 error_log 設定會決定檔案的位置。';
 $string['configdebugpageinfo'] = '如果您希望在頁面註解顯示頁面訊息，就啟用此設定。';
 $string['configdebugsmtp'] = '在寄送郵件到 SMTP 伺服器時啟用額外的偵錯資訊。';
@@ -200,15 +200,15 @@ $string['configdefaultrequestcategory'] = '使用者提出的課程請求會自�
 $string['configdefaultrequestedcategory'] = '當課程申請核淮後，預設放到那個類別中。';
 $string['configdefaultuserroleid'] = '所有登入的使用者會具有您在這兒指定的權限，加上他們本身已經擁有的。預設是一般使用者角色（舊版是訪客角色），這不會跟他們原有的角色產生衝突，只是確保所有使用者具有課程層級所沒有指派的權限（例如發表部落格、管理行事曆等）。';
 $string['configdeleteincompleteusers'] = '超過這個時限，設定不完整的舊帳號將被刪除。';
-$string['configdeleteunconfirmed'] = '使用電子郵件認證註冊時，超過這個時限未認證的用戶將被刪除。';
+$string['configdeleteunconfirmed'] = '使用電子郵件認證註冊時，超過這個時限未認證的使用者將被刪除。';
 $string['configdenyemailaddresses'] = '要拒絕某些網域名稱的電子郵件地址，請把他們列在這裡。系統會接受所有其它網域名稱的郵件。例如<strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdisableuserimages'] = '關閉使用者變更個人資料的圖片功能。';
-$string['configdisplayloginfailures'] = '為指定用戶顯示登錄失敗的日誌。';
-$string['configdocroot'] = '定義Moodle文件的路徑.如果您希望擁有個別的線上文件，您可以修改它.然而, 如果你做了變更,請確認您的文件中的路徑格式與 http://docs.moodle.org中的格式相同.';
+$string['configdisplayloginfailures'] = '為指定使用者顯示登錄失敗的日誌。';
+$string['configdocroot'] = '定義Moodle文件的路徑.如果您希望擁有個別的線上文件，您可以修改它.然而, 如果您做了變更,請確認您的文件中的路徑格式與 http://docs.moodle.org中的格式相同.';
 $string['configdoctonewwindow'] = '如果您啟動此項，Moodel文件的連結將顯示在新視窗中。';
 $string['configeditordictionary'] = '這個數值會在 aspell 沒有使用者指定語言的字典時使用';
 $string['configeditorfontlist'] = '選擇要出現在編輯器下拉選單中的字體。';
-$string['configemailchangeconfirmation'] = '當用戶更改它們的電子郵件信箱資料，需要執行電子郵件確認的步驟。';
+$string['configemailchangeconfirmation'] = '當使用者更改它們的電子郵件信箱資料，需要執行電子郵件確認的步驟。';
 $string['configenableajax'] = '這個設定允許您控制網站的 AJAX (advanced client/server interfaces using Javascript) 使用，即使啟用這個項目使用者也可以在自己的設定中調整，不過停用就會套用到所有使用者。';
 $string['configenablecalendarexport'] = '啟用匯出或訂閱行事曆';
 $string['configenablecomments'] = '啟用回應';
@@ -224,17 +224,17 @@ $string['configenablerssfeedsdisabled2'] = 'RSS彙集在伺服器階層是關閉
 $string['configenablesafebrowserintegration'] = '啟用後，在測驗設定選單的"瀏覽器安全"區域中可以選擇"必須使用Safe Exam Browser"瀏覽http://www.safeexambrowser.org/　了解更多資訊。';
 $string['configenablestats'] = '如果您在此選擇\'是\'，Moodle將處理記錄及收集統計資料。根據您網路的流通量而定，可能會需要一些時間。如果您啟動此選項，您將可以看到關於您的每個課程或整個網站的有趣統計圖和統計資料。';
 $string['configenabletrusttext'] = 'Moodle預設會過濾來自使用者的文字來移除可能存在安全風險的惡意程式碼、媒體檔案，可信任內容系統讓指定的使用者能夠在沒有干擾的情況下在內容中使用那些進階功能；您需要先啟用這個設定，接著將信任內容的權限授予給指定的 Moodle 角色，接著來自該角色使用者建立或上傳的內容將會標示為可信任的，在顯示前不會進行過濾。';
-$string['configenablewebservices'] = '其他系統可以透過其他web服務登入到此Moodle並做各種操作。基於安全考量，您應該禁用這個選項，除非您真的要使用它。';
+$string['configenablewebservices'] = '其他系統可以透過其他web服務登入到此Moodle並做各種操作。基於安全考量，您應該停用這個選項，除非您真的要使用它。';
 $string['configenablewsdocumentation'] = '啟用自動產生web伺服器文件。使用者可以在他的安全密碼頁{$a}。只會顯示已啟用協定的文件。';
 $string['configerrorlevel'] = '選擇顯示的PHP警告數目。「正常」通常是最佳選擇。';
 $string['configexcludeoldflashclients'] = '某些版本的Adobe Flash外掛有可被惡意Flash攻擊的漏洞。您可以在這裡指定支持的最低版本。Moodle不會向使用更低版本的Flash的使用者顯示Flash文件。他們會看到一個講述如何升級的flash。此處留空會停用所有的檢查。';
-$string['configextendedusernamechars'] = '啟用這個選項將允許學生在用戶名稱中使用任何字元(這並不會影響它們實際的名字)。預設值是「否」，限制用戶名稱只能使用英文字母和數字。';
-$string['configextramemorylimit'] = '某些腳本像搜尋、備份/回存 或cron需要較多的記憶體，大型網站請設定較高的值。';
+$string['configextendedusernamechars'] = '啟用這個選項將允許學生在帳號稱中使用任何字元(這並不會影響它們實際的名字)。預設值是「否」，限制帳號稱只能使用英文字母和數字。';
+$string['configextramemorylimit'] = '某些指令像搜尋、備份/回存 或cron需要較多的記憶體，大型網站請設定較高的值。';
 $string['configextrauserselectorfields'] = '在搜索使用者時（比如分配角色或向小組新增使用者），除了全名外，還有哪些欄位也被搜索和顯示。安全起見，建議<em>不</em>要選擇帳號欄位。';
-$string['configfilterall'] = '過濾全部字符串，包括頭部、標題、導航欄等等。當使用多語言過濾時，這是非常有用的，否則它只會給您的系統帶來額外的負擔。';
+$string['configfilterall'] = '過濾全部字元串，包括頭部、標題、導航欄等等。當使用多語言過濾時，這是非常有用的，否則它只會給您的系統帶來額外的負擔。';
 $string['configfiltermatchoneperpage'] = '自動連結過濾器將只在整個網頁中的第一個相符的文字產生連結，其他的將被忽略。';
 $string['configfiltermatchonepertext'] = '自動連結過濾器將在網頁中的每一項目中(如資源、區塊)的第一個相符的文字產生連結，其他的將被忽略。如果每頁一個的設定為<i>是</i>時，此設定會被忽略。';
-$string['configfilteruploadedfiles'] = '使用該設置會讓Moodle在顯示上傳的HTML和文本前用過濾器處理他們。';
+$string['configfilteruploadedfiles'] = '使用該設置會讓Moodle在顯示上傳的HTML和文字前用過濾器處理他們。';
 $string['configforcelogin'] = '正常來說，網站和課程列表的首頁(不包含課程)，並不需要使用者登入。如果您要強制使用者登入才能瀏覽，請啟用此功能。';
 $string['configforceloginforprofiles'] = '啟用這個設定會強制訪問者在查看使用者資料頁面時必須以真實(非訪客)登錄。預設的情況下此選項是關閉的(「否」)，這樣訪問者可以在未正式入學前查看每一個課程的教師情況，但同時搜索引擎也可以看到這些資料。';
 $string['configframename'] = '如果您把本系統嵌入於網頁框架(frame)中，那麼在此填入該框架名稱，否則這裡須保持為『_top』。';
@@ -243,30 +243,30 @@ $string['configfrontpageloggedin'] = '上面選擇的項目會在使用者登入
 $string['configfullnamedisplay'] = '這定義了如何顯示名字。對於多數單一語言網站，最有效的設定是預設的「名 + 姓」，但也可以選擇隱藏姓或者讓當前的語言包來決定(一些語言有不同的習俗)。';
 $string['configgdversion'] = '指明已安裝的GD版本。預設顯示的版本號是自動探測的結果。不要輕易改變它，除非您清楚您在做什麼';
 $string['configgeoipfile'] = 'GeoIP City 二進位資料檔位置。此檔不屬Moodle發行，必須另外從<a href="http://www.maxmind.com/">MaxMind</a>取得。您可使用商業版本或免費版本。<br />簡易下載 <a href="http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz" >http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>然後解壓縮至您的伺服器中的 "{$a}"目錄。';
-$string['configgetremoteaddrconf'] = '若你的伺服器是位於反向代理伺服器之後，你可以使用這一設定來指定哪一個HTTP表頭可以信任，以包含遠端IP位址。
+$string['configgetremoteaddrconf'] = '若您的伺服器是位於反向代理伺服器之後，您可以使用這一設定來指定哪一個HTTP表頭可以信任，以包含遠端IP位址。
 
 這表頭會依序被讀取並使用第一個可以使用的。';
 $string['configgooglemapkey'] = '您必須輸入一特定的鑰匙才能使用以IP位址檢視的Google Maps影像。您可以在<a href="http://code.google.com/apis/maps/signup.html" >http://code.google.com/apis/maps/signup.html</a>.<br />免費取得此鑰匙。您的網站URL是:{$a}';
 $string['configgradebookroles'] = '這個設定讓您可以控制顯示在成績單的人，要顯示在課程成績單的人需要在課程中擁有至少一個指定的角色。';
 $string['configgradeexport'] = '選擇何種成績簿匯出格式當作您匯出成績的主要方法。選擇外掛將設定每一筆績績使用"最新匯出"欄位。例如，此可能形成匯出的記錄被區分為"最新"或者是"已更新"。倘若您尚未決定，則不要勾選任何選項。';
 $string['confighiddenuserfields'] = '選題哪些使用者資訊要隱藏，除了課程的教師們/管理者可看見外。此設定可以增加學生的隱私。同時按下CTRL鍵作多欄位的選擇。';
-$string['configidnumber'] = '指定用戶是否(a)不需要ID號，(b)要ID號但可留空，(c)必須要ID號。如果給出，它將顯示在用戶資料中。';
+$string['configidnumber'] = '指定使用者是否(a)不需要ID號，(b)要ID號但可留空，(c)必須要ID號。如果給出，它將顯示在使用者資料中。';
 $string['configintcachemax'] = '只用在內部快取，保留在快取的資料數量上限，建議為 50 ，數值越小使用的記憶體越少。';
 $string['configintro'] = '在此頁面中，您可以設定許多環境變數，它們可讓Moodle在您的伺服主機上運作的更好。不必太擔心—預設的設定值已經能讓系統很好地運作，而且您以後也可以再回到這裡改變這些設定值。';
-$string['configintroadmin'] = '在這個頁面中，您可以設定您的主管理員帳號，它可以完全控制網站。請確認您為它設定了一個安全的用戶名和密碼以及一個合法的電子郵件地址。您以後可以建立更多的管理員帳號。';
-$string['configintrosite'] = '在此頁中您可以配置首頁和這個網站的名稱。您可以在今後任何的時間透過首頁上的「網站設定」連接返回到此頁修改這些設定。';
+$string['configintroadmin'] = '在這個頁面中，您可以設定您的主管理員帳號，它可以完全控制網站。請確認您為它設定了一個安全的帳號和密碼以及一個合法的電子郵件地址。您以後可以建立更多的管理員帳號。';
+$string['configintrosite'] = '在此頁中您可以配置首頁和這個網站的名稱。您可以在今後任何的時間透過首頁上的「網站設定」連結返回到此頁修改這些設定。';
 $string['configintrotimezones'] = '這個頁面用於搜索新的關於全世界時區的資訊(包括夏時制規則)並更新您的本地資料庫。這些位置將會被按此次序逐一檢查：{$a}。這個過程通常是非常安全的，他不會破壞正常的安裝。您要更新您的時區嗎？';
 $string['configiplookup'] = '當您在記錄中點選了一個 IP 位址（例如 34.12.222.93），系統會顯示指定 IP 的可能位置；有許多這樣功能的外掛可以選擇，各有好壞。';
 $string['configkeeptagnamecase'] = '如果您想將使用者建立的標示名稱，保留其輸入時的大小寫，則勾選此項。';
-$string['configlang'] = '為整個網站選擇一種預設的語言。用戶是可以設定自己的語言的。';
+$string['configlang'] = '為整個網站選擇一種預設的語言。使用者是可以設定自己的語言的。';
 $string['configlangdir'] = '多數的語言都是從左向右寫的，但也有一些(如阿拉伯文和希伯來語)是從右向左寫的。';
 $string['configlanglist'] = '此處留空將允許使用者從您所有已安裝的語言種類中任選一種。當然如果您要縮短語言選單，那麼可以在此填入語言代碼，以逗號(,)隔開。例如：zh_tw,ja,en,es_es,fr,it。';
 $string['configlangmenu'] = '選擇要不要在主頁、登錄頁顯示通用的語言選單。這並不影響使用者在他們的個人資料中選擇偏愛的語言設定值。';
 $string['configlangstringcache'] = '將所有語言編譯後的字串快去在資料目錄中。如果您正在翻譯Moodle，或在Moodle程式碼編輯了字串，那麼應該關閉此選項。否則請啟用它，來提高效能。';
 $string['configlatinexcelexport'] = '選擇 Excel 匯出資料的編碼';
 $string['configlocale'] = '選擇網站的地區設定——它會影響日期的格式和語言。您的操作系統上必須安裝這種地區設置(如en_US或es_ES)。如果不知如何選擇，請不要填寫。';
-$string['configloginhttps'] = '啟用此選項會使 Moodle 在登入頁使用比較安全的https方法連接傳送資料(提供安全的登入)，然後在稍後改用正常的http連接以恢復到一般速度。<b>注意 </b>：此設定需要在web伺服器啟動https功能才可以使用，否則您自己可能會被鎖在站台之外，無法登入。';
-$string['configloglifetime'] = '在此指定保存用戶活動日誌的時間長短。超出此時間段的日誌將被自動刪除。最好是將日誌保留盡量長的時間，萬一需要他們呢？但如果您的伺服主機非常繁忙且有性能方面的問題，您也許會希望減少保留日誌的時間。';
+$string['configloginhttps'] = '啟用此選項會使 Moodle 在登入頁使用比較安全的https方法連結傳送資料(提供安全的登入)，然後在稍後改用正常的http連結以恢復到一般速度。<b>注意 </b>：此設定需要在web伺服器啟動https功能才可以使用，否則您自己可能會被鎖在站台之外，無法登入。';
+$string['configloglifetime'] = '在此指定保存使用者活動日誌的時間長短。超出此時間段的日誌將被自動刪除。最好是將日誌保留盡量長的時間，萬一需要他們呢？但如果您的伺服主機非常繁忙且有性能方面的問題，您也許會希望減少保留日誌的時間。';
 $string['configlookahead'] = '預看天數';
 $string['configmaxbytes'] = '這一設定限制了整個網站內上傳檔案的最大容量。
 
@@ -278,7 +278,7 @@ $string['configmaxeditingtime'] = '此參數指定使用者在多長時間內可
 $string['configmaxevents'] = '預看事件數';
 $string['configmemcachedhosts'] = '使用 memcached 時，用逗點分隔執行 memcached 程式的主機清單，使用 IP 位址可以避免 DNS 延遲，而在正常運行中的系統上新增、移除主機時可能會產生問題。';
 $string['configmemcachedpconn'] = '在 memcached 環境使用持續連線，請小心使用，在 memcached 重新啟動時可能會造成 Apache/PHP 出現問題。';
-$string['configmessaging'] = '是否應當開啟在網站用戶之間發送簡訊的功能?';
+$string['configmessaging'] = '是否應當開啟在網站使用者之間發送簡訊的功能?';
 $string['configmessagingdeletereadnotificationsdelay'] = '可以刪除已經讀取的通知，以節省空間。通知被閱讀多久後可以被刪除？';
 $string['configmessaginghidereadnotifications'] = '在瀏覽訊息歷程時，隱藏討論區發文之類的通知';
 $string['configminpassworddigits'] = '密碼必須有這麼多位數。';
@@ -287,23 +287,23 @@ $string['configminpasswordlower'] = '密碼必須有這麼多小寫字母。';
 $string['configminpasswordnonalphanum'] = '密碼必須有這麼多非阿拉白數字字元。';
 $string['configminpasswordupper'] = '密碼必須有這麼多大寫字母。';
 $string['configmycoursesperpage'] = '在使用者課程列表中最多顯示多少門課程';
-$string['configmymoodleredirect'] = '這設定強迫非管理者在登入時重新導向至“我的Moodle”，並以“我的Moodle”取代最上層的網站首頁。';
+$string['configmymoodleredirect'] = '這設定強迫非管理者在登入時重新導向至「我的Moodle」，並以「我的Moodle」取代最上層的網站首頁。';
 $string['configmypagelocked'] = '這一設定用來防止預設頁面被非管理員所編輯。';
-$string['confignavcourselimit'] = '當用戶沒有登入或沒有選修任何課程時，要限制只顯示幾個課程給他看。';
-$string['confignavshowallcourses'] = '若啟用，用戶將可在"我的課程"部分和課程結構中看到他們選修的課程。
+$string['confignavcourselimit'] = '當使用者沒有登入或沒有選修任何課程時，要限制只顯示幾個課程給他看。';
+$string['confignavshowallcourses'] = '若啟用，使用者將可在"我的課程"部分和課程結構中看到他們選修的課程。
 
-若關閉，用戶將只在導覽列的"我的課程"部分看到自己選修的課程。
+若關閉，使用者將只在導覽列的"我的課程"部分看到自己選修的課程。
 
-當用戶沒有登入或沒有選修任何課程時，他所看到的課程數仍受到"課程限制"的設定所限制。';
+當使用者沒有登入或沒有選修任何課程時，他所看到的課程數仍受到"課程限制"的設定所限制。';
 $string['confignavshowcategories'] = '在導覽列和導覽區塊顯示課程類別。
 
-用戶現在正在選修的課程將不會在上面，它們列在"我的課程"之下，而沒有分類別。';
+使用者現在正在選修的課程將不會在上面，它們列在"我的課程"之下，而沒有分類別。';
 $string['confignotifyloginfailures'] = '如果登入失敗的資料被記錄，可以透過E-mail將它們發送出去。誰應該收到這些通知呢？';
 $string['confignotifyloginthreshold'] = '如果發送登入失敗的通知，對於一個使用者或是IP位址而言，多少次登入失敗之後發送通知呢？';
 $string['confignotloggedinroleid'] = '沒有登入這個網站的使用者會以這個角色在網站活動，通常是訪客，不過您也許想要建立更多或更少限制的角色，而像是發表文章等功能還是會要求使用者確實登入。';
 $string['configopentogoogle'] = '如果使用該設定，Google將能夠以訪客的身份進入網站。通過Google搜索而來的訪問者也可以以訪客的身份登入網站。這個選項僅對允許訪客訪問的課程有效。';
 $string['configoverride'] = '在config.php定義';
-$string['configpasswordpolicy'] = '開啟此項將使Moodle不用有效的密碼策略檢查使用者密碼。使用下方設定來指定您的策略（如果您設定為"否”，將忽略。）';
+$string['configpasswordpolicy'] = '開啟此項將使Moodle不用有效的密碼策略檢查使用者密碼。使用下方設定來指定您的策略（如果您設定為"否」，將忽略。）';
 $string['configpathtoclam'] = 'Clam AV的路徑。通常是/usr/bin/clamscan或/usr/bin/clamdscan。設定了這個選項，Clam AV才能運行。';
 $string['configpathtodu'] = '導向du。通常是 /usr/bin/du。如果您做此輸入, 對於含有大量檔案的目錄，此輸入可以加速顯示目錄內容網頁的速度.';
 $string['configperfdebug'] = '如果您啟用這個功能，在標準佈景的頁尾處將出現效能的資訊。';
@@ -311,21 +311,21 @@ $string['configprofileroles'] = '在使用者個人資料和課程成員頁面�
 $string['configprofilesforenrolledusersonly'] = '為了防止個人訊息被竊取，尚未加入任何課程的使用者訊將是隱藏的。新使用者只有加入至少一門課程後，才可以加入個人訊息描述。';
 $string['configprotectusernames'] = '預設forget_password.php 不會顯示任何提示。因它可能引起使用者名稱或電子郵件地址的猜測。';
 $string['configproxybypass'] = '半形逗點分隔的主機或IP列表。瀏覽它們時不使用代理(例如，192.168.,mydomain.com)';
-$string['configproxyhost'] = '如果此伺服主機是通過代理(防火牆)上網，那麼請填入代理的主機名和端口，否則留空。';
+$string['configproxyhost'] = '如果此伺服主機是通過代理(防火牆)上網，那麼請填入代理的主機名和埠，否則留空。';
 $string['configproxypassword'] = '若需要透過代理伺服器存取網際網路(PHP及cURL擴充套件需要)，請在這裡設定密碼，否則空白。';
-$string['configproxyport'] = '如果這個主機需要使用代理伺服器，請在這裡指定代理主機的連接埠。';
+$string['configproxyport'] = '如果這個主機需要使用代理伺服器，請在這裡指定代理主機的連結埠。';
 $string['configproxytype'] = '網站代理伺服器型態(PHP5及 cURL 擴充套件支援SOCKS5時需要)';
 $string['configproxyuser'] = '若需要透過代理伺服器存取網際網路(PHP及cURL擴充套件需要)，請在這裡設定使用者名稱，否則空白。';
 $string['configquarantinedir'] = '如果您希望Clam AV把受感染的文件轉移到一個隔離目錄中，那麼請在此處指定它。這個目錄對於Web伺服主機必須是可寫的。如果您在此處留空或者填寫了一個不存在或無法訪問的目錄，受感染的文件將會被刪除。注意末尾不需要斜線。';
 $string['configrcache'] = '使用快取來儲存資料庫資料，記得同時要設定快取類型。';
 $string['configrcachettl'] = '快取資料的保存時間（秒），建議使用小一點（&lt;15）的數字。';
-$string['configrecaptchaprivatekey'] = '您的Moodle伺服器和recaptcha.net伺服器溝通所使用的字元串。至 http://recaptcha.net取得。';
-$string['configrecaptchapublickey'] = '顯示reCAPTCHA元件在登入表格中所使用的字元串。由http://recaptcha.net產生。';
+$string['configrecaptchaprivatekey'] = '您的Moodle伺服器和recaptcha.net伺服器溝通所使用的字串。至 http://recaptcha.net取得。';
+$string['configrecaptchapublickey'] = '顯示reCAPTCHA元件在登入表格中所使用的字串。由http://recaptcha.net產生。';
 $string['configrequestedstudentname'] = '在已申請課程中學生的稱謂';
 $string['configrequestedstudentsname'] = '在已申請課程中學生的稱謂';
 $string['configrequestedteachername'] = '在已申請課程中教師的稱謂';
 $string['configrequestedteachersname'] = '在已申請課程中教師的稱謂';
-$string['configrequiremodintro'] = '如果你不要強迫用戶進入每一活動的說明，請關閉這一選項。';
+$string['configrequiremodintro'] = '如果您不要強迫使用者進入每一活動的說明，請關閉這一選項。';
 $string['configrestrictbydefault'] = '上面所選的類別中新建立的課程在預設情況下其模組是否受限?';
 $string['configrestrictmodulesfor'] = '哪些課程會受到停用某些活動模組<b>設置</b>的影響？注意，此設置僅對教師有效。管理員總是可以向課程新增任意活動。';
 $string['configrunclamavonupload'] = '啟用時，clam AV會掃描所有上傳的檔案。';
@@ -339,11 +339,11 @@ $string['configsectionpermissions'] = '權限';
 $string['configsectionrequestedcourse'] = '開課申請';
 $string['configsectionsecurity'] = '安全';
 $string['configsectionstats'] = '統計';
-$string['configsectionuser'] = '用戶';
-$string['configsecureforms'] = '當讀取表單的資料時，Moodle可以提供更多的安全級別。如果此選項被啟用，系統將檢查瀏覽器的HTTP_REFERER變量是否與當前的表單相符。在一些極個別的情況下，這會帶來一些麻煩，譬如用戶使用防火牆(如Zonealarm)並配置了從Web信息中刪除HTTP_REFERER的時候。其症狀是遇到表單就再也無法前進了。如果用戶在登入頁面上發生錯誤，或許您應當選在關閉這個選項，儘管這樣做會使您的網站進一步暴露在暴力密碼攻擊之下。如果不知道選什麼，那就讓它保留「是」吧。';
+$string['configsectionuser'] = '使用者';
+$string['configsecureforms'] = '當讀取表單的資料時，Moodle可以提供更多的安全級別。如果此選項被啟用，系統將檢查瀏覽器的HTTP_REFERER變量是否與當前的表單相符。在一些極個別的情況下，這會帶來一些麻煩，譬如使用者使用防火牆(如Zonealarm)並配置了從Web資訊中刪除HTTP_REFERER的時候。其症狀是遇到表單就再也無法前進了。如果使用者在登入頁面上發生錯誤，或許您應當選在關閉這個選項，儘管這樣做會使您的網站進一步暴露在暴力密碼攻擊之下。如果不知道選什麼，那就讓它保留「是」吧。';
 $string['configsessioncookie'] = '此選項用來設定Moodle連線所使用的cookie的名稱。這個選項是可選的，僅僅在一種情況下比較有用：一個網站上運行了多個Moodle的拷貝，要避免cookie發生混亂。';
-$string['configsessioncookiedomain'] = '透過此選項可以設定Moodle cookie有效的網域名稱。此選項對於制定Moodle(如認證或選課插件)非常有用，可以讓Moodle和另一子網域上的應用程式共享session資訊。<strong>警告：強烈建議您不要修改此選項-錯誤的設定將會導致包含管理員在內的所有人都無法登入。</strong>';
-$string['configsessioncookiepath'] = '如果您需要修改瀏覽器送出Moodle cookes的地方，您可以修改這個選項將其指定為您網站的某個目錄。否則預設情況下會使用“/”。';
+$string['configsessioncookiedomain'] = '透過此選項可以設定Moodle cookie有效的網域名稱。此選項對於制定Moodle(如認證或選課外掛)非常有用，可以讓Moodle和另一子網域上的應用程式共享session資訊。<strong>警告：強烈建議您不要修改此選項-錯誤的設定將會導致包含管理員在內的所有人都無法登入。</strong>';
+$string['configsessioncookiepath'] = '如果您需要修改瀏覽器送出Moodle cookes的地方，您可以修改這個選項將其指定為您網站的某個目錄。否則預設情況下會使用「/」。';
 $string['configsessiontimeout'] = '如果使用者登入一段時間沒有動作(讀取網頁)，就會被自動登出(session被終止)，此變數可以設定此時間值。';
 $string['configshowcommentscount'] = '顯示回應數量。它會在顯示評論連結時多一次資料庫查詢。';
 $string['configshowsiteparticipantslist'] = '網站中所有的學生和教師將會被列在網站參與者列表中。誰可以查看這個列表呢?';
@@ -351,7 +351,7 @@ $string['configsitedefaultlicense'] = '預設網站授權方式';
 $string['configsitedefaultlicensehelp'] = '在這網站所出版的內容預設的授權方式';
 $string['configsitemaxcategorydepth'] = '最大類別層數';
 $string['configsitemaxcategorydepthhelp'] = '這是訂定最多顯示幾層子類別';
-$string['configslasharguments'] = '通過使用「斜線參數」(即這裡的第二選項)腳本來提供對文件(圖像、上傳的資料等)的訪問。該方法能讓文件更容易地緩存於網頁瀏覽器和代理伺服主機等。但有些PHP伺服主機不支持這種方法，所以如果您查看上傳的文件或圖像有點麻煩，請選擇第一個選項。';
+$string['configslasharguments'] = '通過使用「斜線參數」(即這裡的第二選項)指令來提供對文件(圖像、上傳的資料等)的訪問。該方法能讓文件更容易地緩存於網頁瀏覽器和代理伺服主機等。但有些PHP伺服主機不支持這種方法，所以如果您查看上傳的文件或圖像有點麻煩，請選擇第一個選項。';
 $string['configsmartpix'] = '啟用這個項目時，圖示會由一個PHP程式提供，先是搜尋目前佈景、接著所有上層佈景、接著是Moodle /pix 資料夾，這樣一來會減少佈景中重複的圖片檔案，但是會犧牲一點效能。';
 $string['configstartwday'] = '每週的開始';
 $string['configstatsfirstrun'] = '在此指定<b>第一次</b>產生統計資料時，自動排程程式應處理多長期間的記錄檔。如果您的流量很大而且是在共用主機上，不建議您將時間設定的太長，那將會需要很長時間來執行而且耗費相當多的資源。（注意，在這個設定中， 1 個月 = 28 天，而圖表與報表中， 1 個月 = 該月實際天數）';
@@ -367,17 +367,17 @@ $string['configsupportemail'] = '當此網站的使用者需要一般性的協�
 $string['configsupportname'] = '這是一個透過電子郵件或網址來提供一般性協助的人或其他團體的名字。';
 $string['configsupportpage'] = '當此網站的使用者需要一般性的協助時(例如，當新使用者建立他們的帳號時)，此網址將提供給他們。如果此網址是空白的，則不提供。';
 $string['configthemedesignermode'] = '正常情況下，為了提升運作效能，佈景主題的圖片和排版格式單，都會暫存在瀏覽器和伺服器的記憶體裡一段很長的時間。<br/>
-如果你是在設計背景主題或編寫程式碼，那你可能要開啟這一模式，這樣你才不會看到那暫存的版本。<br/>
-警告：這將會使你的網站頁面顯示得更慢。另一種方式是，你也可以在佈景主題選擇頁中，以手工重設這佈景主題的快取。';
-$string['configthemelist'] = '此項留空白則用戶可以使用所有的合法主題風格。如果您希望讓可選的主題風格列表短一些，您可以在此指定一些。譬如: standard,orangewhite。';
-$string['configtimezone'] = '您可以在此設定預設時區。這只是用於顯示日期的預設時區——每個用戶都可以設定他自己的時區。此處的「伺服主機時間」讓Moodle預設情況下直接使用伺服主機上作業系統的設定，而使用者個人設定中的「伺服主機時間」則表示預設情況下使用此處的設定。';
+如果您是在設計背景主題或編寫程式碼，那您可能要開啟這一模式，這樣您才不會看到那暫存的版本。<br/>
+警告：這將會使您的網站頁面顯示得更慢。另一種方式是，您也可以在佈景主題選擇頁中，以手動重設這佈景主題的快取。';
+$string['configthemelist'] = '此項留空白則使用者可以使用所有的合法主題風格。如果您希望讓可選的主題風格列表短一些，您可以在此指定一些。譬如: standard,orangewhite。';
+$string['configtimezone'] = '您可以在此設定預設時區。這只是用於顯示日期的預設時區——每個使用者都可以設定他自己的時區。此處的「伺服主機時間」讓Moodle預設情況下直接使用伺服主機上作業系統的設定，而使用者個人設定中的「伺服主機時間」則表示預設情況下使用此處的設定。';
 $string['configunzip'] = 'unzip程序的位置(僅針對Unix系統，可選)。如果指定了，將用它來解壓伺服主機上的zip文件。如果留空，則Moodle使用內部函數解壓。';
-$string['configuseblogassociations'] = '是否允許用戶將部落格文章和課程相關聯，以組織他們的文章？';
+$string['configuseblogassociations'] = '是否允許使用者將部落格文章和課程相關聯，以組織他們的文章？';
 $string['configuseexternalyui'] = '使用Yahoo伺服器的線上文件，而非使用本地文件。警告：必須要能瀏覽網際網路，否則您網站上的AJAX會無效。此設定並不相容於使用https的網站。';
 $string['configuserquota'] = '使用者私人文件區的最大容量配額(單位bytes)。 {$a->bytes} bytes == {$a->displaysize}';
 $string['configusetags'] = '啟用全網站性的標示嗎?';
 $string['configvariables'] = '環境變數';
-$string['configverifychangedemail'] = '在修改email地址時也對於網域名稱進行限制。如果關閉此選項，則只在建立用戶十限制email地址的網域。';
+$string['configverifychangedemail'] = '在修改email地址時也對於網域名稱進行限制。如果關閉此選項，則只在建立使用者十限制email地址的網域。';
 $string['configvisiblecourses'] = '正常顯示隱藏類別中的課程';
 $string['configwarning'] = '小心修改這些選項——不合法的值可能導致錯誤。';
 $string['configxmlstrictheaders'] = '設定為啟動，每一網頁將會以XML http標頭或序言產生，因此瀏覽器將線上顯示XHTML錯誤。此設定僅對開發很有幫助。';
@@ -396,13 +396,13 @@ $string['coursecontact_desc'] = '這個設定允許您控制課程說明顯示�
 $string['coursemgmt'] = '新增/修改課程';
 $string['courseoverview'] = '課程綜覽';
 $string['courserequestnotify'] = '開課申請的通知';
-$string['courserequestnotifyemail'] = '用戶 {$a->user} 申請開設一個新的課程於{$a->link}';
+$string['courserequestnotifyemail'] = '使用者 {$a->user} 申請開設一個新的課程於{$a->link}';
 $string['courserequests'] = '開課申請';
 $string['courserequestspending'] = '審核開課申請';
 $string['courses'] = '課程';
 $string['coursesperpage'] = '每頁的課程數';
 $string['creatornewroleid'] = '建立者在新課程的角色';
-$string['creatornewroleid_help'] = '如果使用者還沒有取得管理這個新課程的權限，那麼該用戶就會自動使用此角色選課。';
+$string['creatornewroleid_help'] = '如果使用者還沒有取得管理這個新課程的權限，那麼該使用者就會自動使用此角色選課。';
 $string['cron'] = '排程（Cron）';
 $string['cronclionly'] = '只能從指令模式執行 Cron';
 $string['cronerrorclionly'] = '抱歉，管理者設定這個頁面無法透過網際網路存取。';
@@ -431,7 +431,7 @@ $string['custommenuitems'] = '自訂選單項目';
 $string['datarootsecurityerror'] = '<p><strong>安全性警告！</strong></p><p>您的dataroot目錄設在錯誤的位置，導致它向整個Web公開。這意味著世界上的任何人都可以瀏覽到您的私密檔案。其中有些檔案還可以被駭客利用，以管理員的身分瀏覽您的網站！</p><p>您<em>必須</em>將dataroot目錄({$a})移動到一個不在web公開目錄下的新位置，並對應的更新config.php中的<code>$CFG->dataroot</code>設定。</p>';
 $string['datarootsecuritywarning'] = '您的網站設定可能不安全，請確認您的資料根目錄({$a})無法直接透過網路存取。';
 $string['dbmigrate'] = 'Moodle 資料庫轉移';
-$string['dbmigrateconnecerror'] = '無法連接到指定的資料庫';
+$string['dbmigrateconnecerror'] = '無法連結到指定的資料庫';
 $string['dbmigrateencodingerror'] = '指定資料庫的編碼為 {$a} ，而非指定的 UNICODE/UTF8。<br />請重新指定。';
 $string['dbmigratepostgres'] = '您似乎是使用 PostgreSQL 資料庫。為了繼續轉移工作，您須手動建立一個以 "UNICODE"(PostgreSQL 7) 或 "UTF8" (PostgreSQL 8)編碼的資料庫來儲存轉移的資料。請在下面輸入您的新資料庫連線設定：';
 $string['dbmigratewarning'] = '在開始這個動作前請確認您已經備份了 moodle 的資料庫，如果您不確定如何進行，請聯繫您的系統管理員。在開始轉換時，您的 Moodle 網站狀態會變更為維護模式。';
@@ -461,10 +461,10 @@ $string['defaultsettinginfo'] = '預設:{$a}';
 $string['defaultuserroleid'] = '所有使用者的預設角色';
 $string['defaultvalues'] = '預設值';
 $string['deleteerrors'] = '刪除出錯';
-$string['deletefilterareyousure'] = '你確定要刪除過濾器"{$a}"';
-$string['deletefilterareyousuremessage'] = '您正要完全刪除過濾器“{$a}”。您確定要卸載它嗎？';
-$string['deletefilterfiles'] = '與過濾器“{$a->filter}”有關的所有資料都已從資料庫刪除。為了徹底刪除（並防止此過濾器自己重新安裝），您現在應該在伺服器上刪除此目錄：{$a->directory}';
-$string['deleteincompleteusers'] = '刪除登錄不完整的用戶於';
+$string['deletefilterareyousure'] = '您確定要刪除過濾器"{$a}"';
+$string['deletefilterareyousuremessage'] = '您正要完全刪除過濾器「{$a}」。您確定要卸載它嗎？';
+$string['deletefilterfiles'] = '與過濾器「{$a->filter}」有關的所有資料都已從資料庫刪除。為了徹底刪除（並防止此過濾器自己重新安裝），您現在應該在伺服器上刪除此目錄：{$a->directory}';
+$string['deleteincompleteusers'] = '刪除登錄不完整的使用者於';
 $string['deleteunconfirmed'] = '刪除未確認的使用者';
 $string['deleteuser'] = '刪除使用者';
 $string['deletingfilter'] = '刪除過濾器"{$a}"';
@@ -472,11 +472,11 @@ $string['density'] = '密度';
 $string['denyemailaddresses'] = '禁止的郵件網域名稱';
 $string['development'] = '開發';
 $string['devicedetectregex'] = '設備偵測定期表述';
-$string['devicedetectregex_desc'] = '預設上，Moodle可以偵測到預設類型的設備(桌上型個人電腦、手提電腦等)，行動裝置(手機和小的手握設備)，平板電腦(ipad、ANdroid tables)和以前傳下來的(IE6用戶)。</br>
+$string['devicedetectregex_desc'] = '預設上，Moodle可以偵測到預設類型的設備(桌上型個人電腦、手提電腦等)，行動裝置(手機和小的手握設備)，平板電腦(ipad、ANdroid tables)和以前傳下來的(IE6使用者)。</br>
 佈景主題選擇器可以用來根據設備的不同來區分不同的主題佈景。</br>
 這一設定允許一般表述允許偵測額外設備類型(比預設類型還優先)。</br>
-舉例來說，你可以輸入一般表述"/(MIDP-1.0|Maemo|Windows CE)/" 要偵測一些常被使用的功能手機，要加上"featurephone"</br>
-這個添加"featurephone"於主題佈景選擇器的功能，可以讓你添加一個可用於這些設備的新主題佈景。</br>
+舉例來說，您可以輸入一般表述"/(MIDP-1.0|Maemo|Windows CE)/" 要偵測一些常被使用的功能手機，要加上"featurephone"</br>
+這個新增"featurephone"於主題佈景選擇器的功能，可以讓您新增一個可用於這些設備的新主題佈景。</br>
 其他手機將仍然使用為行動裝置類型所選出的主題佈景。';
 $string['devicedetectregexexpression'] = '定期表述';
 $string['devicedetectregexvalue'] = '回復的數值';
@@ -506,7 +506,7 @@ $string['emoticonalt'] = '替代用文字';
 $string['emoticoncomponent'] = '圖片成分';
 $string['emoticonimagename'] = '圖片名稱';
 $string['emoticons'] = '表情符號';
-$string['emoticons_desc'] = '這表單定義了用於你的網站的情緒圖示。
+$string['emoticons_desc'] = '這表單定義了用於您的網站的情緒圖示。
 
 若要從這表格移除一列，把需要的欄位都改成空白值，再儲存表單即可。
 
@@ -591,7 +591,7 @@ $string['filtersettingsgeneral'] = '一般過瀘器設定';
 $string['filteruploadedfiles'] = '過濾上傳檔案';
 $string['forcelogin'] = '強制使用者登入';
 $string['forceloginforprofileimage'] = '強制使用者登入才能檢視使用者圖片';
-$string['forceloginforprofileimage_help'] = '如果啟用，只有已經登入的使用者才能查看用戶的個人大頭貼，並且所有通知郵件都將使用預設大頭貼。';
+$string['forceloginforprofileimage_help'] = '如果啟用，只有已經登入的使用者才能查看使用者的個人大頭貼，並且所有通知郵件都將使用預設大頭貼。';
 $string['forceloginforprofiles'] = '強制使用者登入後才能檢視個人資料';
 $string['forcetimezone'] = '強制預設時區';
 $string['framename'] = '框架名';
@@ -621,10 +621,10 @@ $string['gradeexport'] = '主要的成績匯出方式';
 $string['groupenrolmentkeypolicy'] = '選課分組密碼規則';
 $string['groupenrolmentkeypolicy_desc'] = '打開此選項後，Moodle會按照既定的密碼策略檢查分組選課密碼。';
 $string['guestroleid'] = '訪客的角色';
-$string['guestroleid_help'] = '此角色會自動分配給來賓使用者。它也被臨時分配給通過訪問選課插件進入課程的未選課使用者。';
+$string['guestroleid_help'] = '此角色會自動分配給來賓使用者。它也被臨時分配給通過訪問選課外掛進入課程的未選課使用者。';
 $string['helpadminseesall'] = '管理者可以看到所有行事曆或只有他們自己的行事曆?';
 $string['helpcalendarsettings'] = '設定多種日曆及日期時間相關的外觀';
-$string['helpforcetimezone'] = '您可以允許用戶選擇他自己的時區或者讓所有用戶只能使用同一時區。';
+$string['helpforcetimezone'] = '您可以允許使用者選擇他自己的時區或者讓所有使用者只能使用同一時區。';
 $string['helpsitemaintenance'] = '用於升級和其他需要的工作';
 $string['helpstartofweek'] = '此日曆要以星期幾來當星期的第一天?';
 $string['helpupcominglookahead'] = '此日曆預設要顯示未來幾天的行事?';
@@ -659,7 +659,7 @@ $string['invalidsection'] = '錯誤的區域';
 $string['invaliduserchangeme'] = '帳號 "changeme" 是保留字，您不能夠用來註冊。';
 $string['ipblocked'] = '本站現在不可瀏覽。';
 $string['ipblocker'] = 'IP阻擋';
-$string['ipblockersyntax'] = '每行止放一項。有效的項目可以是完整的IP位址(例如<b>192.168.10.1</b>），它只與一個主機匹配，也可以是部分位址(例如<b>192.168.</b>)，它與任何用這些數字開頭的位址匹配；也可以是CIDR表示法（例如<b>231.54.211.0/20</b>）；還可以是一個IP位址的範圍（例如<b>231.3.56.10-20</b>），指名位址最後一個數字的範圍。不支援網域名稱（比如“example.com”）。空行會被忽略。';
+$string['ipblockersyntax'] = '每行止放一項。有效的項目可以是完整的IP位址(例如<b>192.168.10.1</b>），它只與一個主機辨識，也可以是部分位址(例如<b>192.168.</b>)，它與任何用這些數字開頭的位址辨識；也可以是CIDR表示法（例如<b>231.54.211.0/20</b>）；還可以是一個IP位址的範圍（例如<b>231.3.56.10-20</b>），指名位址最後一個數字的範圍。不支援網域名稱（比如「example.com」）。空行會被忽略。';
 $string['iplookup'] = 'IP 位址查詢';
 $string['iplookupinfo'] = '預設Moodle使用免費線上NetGeo(網際網路地理資料庫)伺服器來查詢IP位址的地理位置，不幸地此資料庫不再受維護而且可能回傳<em>錯誤</em>的資料。建議從MaxMind安裝本地的免費GeoLite City資料庫複本。<br/>IP位址地理位置僅用簡單的地圖或使用Google Maps來顯示。請注意您需有Google帳號並申請免費的Google Maps API key來啟動互動式地圖。';
 $string['iplookupmaxmindnote'] = '此產品包含由MaxMind建立的GeoLite資料，可從<a href="http://www.maxmind.com/">http://www.maxmind.com/</a>取得.';
@@ -670,9 +670,9 @@ $string['lang16notify'] = 'Moodle 1.6及其後續版本允許您從 download.moo
 $string['langcache'] = '語言選單快取';
 $string['langcache_desc'] = '如果啟用快取語言選單，可用的翻譯的清單會被快取。
 
-當你經由內建的語言套件管理工具來安裝或刪除語言套件時這快取會自動更新。
+當您經由內建的語言套件管理工具來安裝或刪除語言套件時這快取會自動更新。
 
-如果你以手動安裝一新語言套件時，你必須使用清除所有快取的功能來更新快取清單。';
+如果您以手動安裝一新語言套件時，您必須使用清除所有快取的功能來更新快取清單。';
 $string['langedit'] = '語言編輯';
 $string['langimport'] = '語言匯入工具';
 $string['langimportdisabled'] = '語言匯入功能已被禁止。您必須手動在文件系統上更新語言包。';
@@ -690,7 +690,7 @@ $string['langpacks'] = '語言包';
 $string['langpackupdated'] = '語言包 {$a} 更新成功';
 $string['langpackupdateskipped'] = '跳過更新{$a}語言包';
 $string['langpackuptodate'] = '{$a}語言包是最新的';
-$string['langpackwillbeupdated'] = '提醒譯者：在更新過程中，Moodle會嘗試更新您的語言包。你在非本地語言資料夾的修正將會被覆蓋。';
+$string['langpackwillbeupdated'] = '提醒譯者：在更新過程中，Moodle會嘗試更新您的語言包。您在非本地語言資料夾的修正將會被覆蓋。';
 $string['langrmyourself'] = '為了防止數據遺失，lang.php不能被覆蓋已經存在內容為空的文件。請手動刪除它。';
 $string['langstringcache'] = '快取所有的語言字串';
 $string['languagesettings'] = '語言設定';
@@ -728,7 +728,7 @@ $string['maturity100'] = '測試版';
 $string['maturity150'] = '等待發行';
 $string['maturity200'] = '穩定版本';
 $string['maturity50'] = '內部測試版';
-$string['maturitycoreinfo'] = '您的網站正在執行不穩定的“{$a}”開發版本程式碼。';
+$string['maturitycoreinfo'] = '您的網站正在執行不穩定的「{$a}」開發版本程式碼。';
 $string['maturitycorewarning'] = '您正要安裝或升級的Moodle版本包含不穩定的"{$a}"開發版程式，它還不是和在正式網站使用。如果您不想這樣，請確認您正在以穩定分支的Moodle代碼升級。閱讀Moodle文件了解更多細節。';
 $string['maxbytes'] = '上傳檔案大小的最大值';
 $string['maxconsecutiveidentchars'] = '連續相同字母數量';
@@ -762,10 +762,10 @@ $string['minpasswordupper'] = '密碼最少要有幾個大寫字母';
 $string['misc'] = '雜項';
 $string['missinglangparent'] = '缺少語言參數。<em>{$a->lang}</em>的<em>{$a->parent}</em>';
 $string['mnetrestore_extusers'] = '<strong>注意：</strong>這個備份檔案包含了遠端網路使用者帳號，在還原時會是處理過程的一部分。';
-$string['mnetrestore_extusers_admin'] = '<strong>注意：</strong>您選擇的備份文件似乎是來自另一個Moodle，且文件中包含遠端Moodle網路用戶帳號。還原過程將會嘗試把所有已有用戶和Moodle網路主機匹配。所有不匹配的帳號將自動轉換為網際網路的認證帳號(而不是mnet帳號)。還原日誌將記錄詳情。';
+$string['mnetrestore_extusers_admin'] = '<strong>注意：</strong>您選擇的備份文件似乎是來自另一個Moodle，且文件中包含遠端Moodle網路使用者帳號。還原過程將會嘗試把所有已有使用者和Moodle網路主機辨識。所有不辨識的帳號將自動轉換為網際網路的認證帳號(而不是mnet帳號)。還原日誌將記錄詳情。';
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意：</strong>這個備份檔案看起來是來自一個不同的 Moodle 網站，包含的遠端 Moodle 網路使用者帳號在還原時可能發生錯誤，目前不支援這個操作。如果您確定檔案是來自這個 Moodle 網站，或是您確定所有必要的 Moodle 網路主機都設定完成，您也許想要試著還原。';
-$string['mnetrestore_extusers_noadmin'] = '<strong>注意：</strong>您選擇的備份檔案似乎是來自另一個Moodle，且文件中包含遠端Moodle網路使用者帳號。您不可以進行這種還原。請聯繫網站管理員，或者不包含用戶資訊(模組、文件等)還原課程。';
-$string['mnetrestore_extusers_switchuserauth'] = '遠端Moodle網路用戶 {$a->username} (來自 {$a->mnethosturl}) 切換到本地 {$a->auth} 身分以驗證的用戶。';
+$string['mnetrestore_extusers_noadmin'] = '<strong>注意：</strong>您選擇的備份檔案似乎是來自另一個Moodle，且文件中包含遠端Moodle網路使用者帳號。您不可以進行這種還原。請聯繫網站管理員，或者不包含使用者資訊(模組、文件等)還原課程。';
+$string['mnetrestore_extusers_switchuserauth'] = '遠端Moodle網路使用者 {$a->username} (來自 {$a->mnethosturl}) 切換到本地 {$a->auth} 身分以驗證的使用者。';
 $string['modeditdefaults'] = '活動設定的預設值';
 $string['modsettings'] = '管理活動';
 $string['modulesecurity'] = '模組的安全性';
@@ -777,21 +777,21 @@ $string['mustenablestats'] = '本網站的統計功能還未被開啟。';
 $string['mycoursesperpage'] = '課程數量';
 $string['mydashboard'] = '系統預設的操作面板';
 $string['mymoodle'] = '我的Moodle';
-$string['mymoodleredirect'] = '強制用戶使用“我的Moodle”';
+$string['mymoodleredirect'] = '強制使用者使用「我的Moodle」';
 $string['mypage'] = '預設的"我的Moodle"頁面';
 $string['mypagelocked'] = '鎖定預設頁面';
 $string['myprofile'] = '預設的個人資料頁';
 $string['mysql416bypassed'] = '不過，若您的網站僅使用 iso-8859-1 (拉丁) 語言，您可以繼續使用目前安裝的 MySQL 4.1.12 (或以上的版本)。';
 $string['mysql416required'] = 'Moodle 1.6 需要 MySQL 4.1.16以上的版本來確保未來所有資料都能夠轉換為 UTF-8 編碼。';
 $string['navcourselimit'] = '課程限制';
-$string['navigationupgrade'] = '這次升級包含兩個新的導覽區塊來代替管理、課程、活動和師生名冊區塊。如果您已經為這些區塊設定了某些特殊的權限，那麼您應該檢查一下是否一切都在按照你想要的方式工作。';
+$string['navigationupgrade'] = '這次升級包含兩個新的導覽區塊來代替管理、課程、活動和師生名冊區塊。如果您已經為這些區塊設定了某些特殊的權限，那麼您應該檢查一下是否一切都在按照您想要的方式工作。';
 $string['navshowallcourses'] = '顯示所有課程';
 $string['navshowcategories'] = '顯示課程類目';
 $string['neverdeleteruns'] = '從不刪除執行';
 $string['nobookmarksforuser'] = '您沒有任何的書籤。';
 $string['nochanges'] = '未改變';
 $string['nodatabase'] = '沒有資料庫';
-$string['nohttpsformobilewarning'] = '建議啟用HTTPS並使用有效的認證。Moodle app總會先嘗試使用安全連接。';
+$string['nohttpsformobilewarning'] = '建議啟用HTTPS並使用有效的認證。Moodle app總會先嘗試使用安全連結。';
 $string['nolangupdateneeded'] = '您的語言包已經是最新的了，不需要升級。';
 $string['nomissingstrings'] = '沒有缺少字串';
 $string['nonewsettings'] = '在這次的升級中並沒有加入新的設定項目。';
@@ -838,9 +838,9 @@ $string['php533warning'] = '建議用PHP 5.3.3以上';
 $string['phpfloatproblem'] = '在處裡PHP浮點數字- {$a}時，偵測到意外的問題';
 $string['pleaserefreshregistration'] = '您的網站已在Moodle.org登記。自從您上次的更新後，如果有重大的改變，請考慮在{$a}更新登記資料。';
 $string['pleaseregister'] = '請註冊您的網站以移除此按鈕。';
-$string['plugin'] = '插件';
-$string['plugins'] = '插件';
-$string['pluginsoverview'] = '插件綜覽';
+$string['plugin'] = '外掛';
+$string['plugins'] = '外掛';
+$string['pluginsoverview'] = '外掛綜覽';
 $string['profilecategory'] = '分類';
 $string['profilecategoryname'] = '分類名稱 (必須是唯一不重複)';
 $string['profilecategorynamenotunique'] = '這個分類名稱已經被使用了';
@@ -857,8 +857,8 @@ $string['profiledefaultdata'] = '預設值';
 $string['profiledeletecategory'] = '刪除一個分類';
 $string['profiledeletefield'] = '刪除一個欄位';
 $string['profiledescription'] = '欄位的描述說明';
-$string['profiledscript'] = '這一腳本已經被查驗過';
-$string['profiledscriptview'] = '檢視這一腳本的查驗訊息';
+$string['profiledscript'] = '這一指令已經被查驗過';
+$string['profiledscriptview'] = '檢視這一指令的查驗訊息';
 $string['profileeditcategory'] = '編輯分類：{$a}';
 $string['profileeditfield'] = '編輯個人資料欄位：{$a}';
 $string['profilefield'] = '個人資料欄位';
@@ -884,7 +884,7 @@ $string['profilename'] = '名稱';
 $string['profilenofieldsdefined'] = '沒有定義欄位';
 $string['profilerequired'] = '這個欄位是必填的嗎？';
 $string['profileroles'] = '查驗可見的角色';
-$string['profilesforenrolledusersonly'] = '只查驗選課的用戶';
+$string['profilesforenrolledusersonly'] = '只查驗選課的使用者';
 $string['profileshortname'] = '簡稱(必須是唯一不重複)';
 $string['profileshortnamenotunique'] = '這個簡稱已經被使用了';
 $string['profilesignup'] = '顯示在註冊的頁面上？';
@@ -892,7 +892,7 @@ $string['profilespecificsettings'] = '特別的設定';
 $string['profilevisible'] = '誰可以看見這個欄位？';
 $string['profilevisibleall'] = '每個人都可以看見';
 $string['profilevisible_help'] = '*無法看見 -- 只用於私人資料，但管理員可看見。
-*用戶可以看見 -- 只用於私人資料，用戶和管理員可看見。
+*使用者可以看見 -- 只用於私人資料，使用者和管理員可看見。
 *每個人都可看見。';
 $string['profilevisiblenone'] = '隱藏';
 $string['profilevisibleprivate'] = '使用者可以看見';
@@ -900,7 +900,7 @@ $string['profiling'] = '查驗中';
 $string['profilingallowall'] = '繼續查驗';
 $string['profilingallowall_help'] = '如果啟用此設定，那麼在任何時候，您可以在任何地方(PGC)使用PROFILEALL參數來啟動對Moodle session生命週期中執行的所有腳板的剖析。類似的，您可以使用PROFILEALLSTOP參數來停止剖析。';
 $string['profilingallowme'] = '選擇性查驗';
-$string['profilingallowme_help'] = '如果啟用此設定，那麼，您可以選擇性的在任何地方(PGC)使用PROFILEME參數，來剖析該腳本。同樣的，你可以使用DONFROFILEME參數禁止剖析。';
+$string['profilingallowme_help'] = '如果啟用此設定，那麼，您可以選擇性的在任何地方(PGC)使用PROFILEME參數，來剖析該指令。同樣的，您可以使用DONFROFILEME參數禁止剖析。';
 $string['profilingautofrec'] = '自動的查驗';
 $string['profilingautofrec_help'] = '通過設定此參數，一些請求（基於指定的頻率(1/XXX) 隨機選擇)會被選出、自動剖析、保存結果以待進一步分析。注意這種剖析方法會使用包含/排除設定。設定為0會停用自動剖析。';
 $string['profilingenabled'] = '啟用查驗';
@@ -917,11 +917,11 @@ $string['protectusernames'] = '保護使用者姓名';
 $string['proxybypass'] = '不使用代理伺服器';
 $string['proxyhost'] = 'Proxy 主機';
 $string['proxypassword'] = 'Proxy密碼';
-$string['proxyport'] = 'Proxy 連接埠';
+$string['proxyport'] = 'Proxy 連結埠';
 $string['proxytype'] = 'Proxy類態';
 $string['proxyuser'] = 'Proxy使用者名稱';
 $string['purgecaches'] = '清除所有的快取';
-$string['purgecachesconfirm'] = 'Moodle可以快取佈景主題、javascript、語言字串、已經過濾的文字、rss feed和許多其他已處裡過的資料。清空這些暫存會從伺服器刪除這些數據，並強制瀏覽器重新下載數據，從而使您能看到由目前程式產生的最新資料。清空快取並沒有危險，但在服務器和客戶端還沒有處裡完新訊息和產生快取之前，您的網站可能會顯得有點慢。';
+$string['purgecachesconfirm'] = 'Moodle可以快取佈景主題、javascript、語言字串、已經過濾的文字、rss feed和許多其他已處裡過的資料。清空這些暫存會從伺服器刪除這些數據，並強制瀏覽器重新下載數據，從而使您能看到由目前程式產生的最新資料。清空快取並沒有危險，但在伺服器和客戶端還沒有處裡完新訊息和產生快取之前，您的網站可能會顯得有點慢。';
 $string['purgecachesfinished'] = '全部快取已經清除';
 $string['qtyperqpwillberemoved'] = '在更新期間，RQP問題類型將被移除。您不能再使用這種問題類型，這樣就不會遇到任何問題。';
 $string['qtyperqpwillberemovedanyway'] = '在更新時，也將RQP問題移除。您的資料庫中有一些RQP問題存在，除非您在繼續更新前，重新安裝程式碼 http://moodle.org/mod/data/view.php?d=13&amp;rid=797，否則它會停止運作。';
@@ -940,7 +940,7 @@ $string['registration'] = '註冊';
 $string['releasenoteslink'] = '關於這個版本的 Moodle資訊，請參考線上 <a target="_new" href="{$a}">版本摘要</a>';
 $string['remotelangnotavailable'] = '由於 Moodle 無法連結到 download.moodle.org，我們無法自動完成語言包的安裝。請從 http://dopwnload.moodle.org 下載相應的 zip 文件，並將它們複製到 {$a} 目錄中解壓。';
 $string['renameerrors'] = '改名時出現錯誤';
-$string['requiredentrieschanged'] = '<strong>重要-請一定要閱讀<br/>(這項警告只會在升級過程中顯示) </strong><br/>為了修復一個bug，使用了"必須完成的條目數"和"檢視前必須完成的條目數"的資料庫活動的設定將被修改。請查看a href="http://moodle.org/mod/forum/discuss.php?d=110928" target="_blank">資料庫模組討論區</a>了解更多細節。還可以在<a href="http://docs.moodle.org/en/Adding/editing_a_database#Required_entries" target="_blank">Moodle文件</a>中了解這些設定的特性。<br/><br/>這個修改影響您系統中的下列資料庫：(請馬上備份此列表，並在升級結束後，檢查這些活動是否仍按照教師期望的方式運作。)<br/><strong>{$a->text}</strong><br/>';
+$string['requiredentrieschanged'] = '<strong>重要-請一定要閱讀<br/>(這項警告只會在升級過程中顯示) </strong><br/>為了修復一個bug，使用了"必須完成的項目數"和"檢視前必須完成的項目數"的資料庫活動的設定將被修改。請查看a href="http://moodle.org/mod/forum/discuss.php?d=110928" target="_blank">資料庫模組討論區</a>了解更多細節。還可以在<a href="http://docs.moodle.org/en/Adding/editing_a_database#Required_entries" target="_blank">Moodle文件</a>中了解這些設定的特性。<br/><br/>這個修改影響您系統中的下列資料庫：(請馬上備份此列表，並在升級結束後，檢查這些活動是否仍按照教師期望的方式運作。)<br/><strong>{$a->text}</strong><br/>';
 $string['requiredtemplate'] = '必須的。您可能使用這裡的語法(%l = lastname, %f = firstname, %u = username)。更多資訊查看幫助和舉例。';
 $string['requiremodintro'] = '必須輸入活動敘述';
 $string['requires'] = '必須的';
@@ -1000,7 +1000,7 @@ $string['sitepolicies'] = '網站政策';
 $string['sitepolicy'] = '網站政策的網址';
 $string['sitepolicyguest'] = '給訪客的網站連結政策';
 $string['sitepolicyguest_help'] = '如果您有一份網站使用協議，並且需要所有訪客在使用此網站前閱讀並同意，那麼請在此指定它的網址，否則請留空白。網址可以指向任何公開的網址。注意：如果設定了強制登入，那麼未登入的使用者瀏覽會被拒絕。';
-$string['sitepolicy_help'] = '如果您有一份網站使用規範，並且需要所有的用戶在使用此網站前閱讀並同意，那麼請在此指定它的URL，否則請留空。URL可以指向任何地址，一個方便的方法是指向網站中的文件，如 http://yoursite/file.php/1/policy.html 。';
+$string['sitepolicy_help'] = '如果您有一份網站使用規範，並且需要所有的使用者在使用此網站前閱讀並同意，那麼請在此指定它的URL，否則請留空。URL可以指向任何地址，一個方便的方法是指向網站中的文件，如 http://yoursite/file.php/1/policy.html 。';
 $string['sitesectionhelp'] = '選擇後，網站首頁會出現一個主題區。';
 $string['slasharguments'] = '使用斜線參數';
 $string['smartpix'] = '智慧圖形搜尋';
@@ -1041,8 +1041,8 @@ $string['themesettings'] = '佈景設定';
 $string['therewereerrors'] = '資料有錯誤';
 $string['timezone'] = '預設時區';
 $string['timezoneforced'] = '這是網站管理員規定必須這樣做';
-$string['timezoneisforcedto'] = '強制所有用戶使用';
-$string['timezonenotforced'] = '用戶可以選擇自己的時區';
+$string['timezoneisforcedto'] = '強制所有使用者使用';
+$string['timezonenotforced'] = '使用者可以選擇自己的時區';
 $string['tokenizerrecommended'] = '建議安裝 PHP Tokenizer 外掛，它可以增進 Moodle 網路功能。';
 $string['unattendedoperation'] = '自動化安裝';
 $string['unbookmarkthispage'] = '移除這個頁面的書籤';
@@ -1058,13 +1058,13 @@ $string['updateaccounts'] = '更新現有帳號';
 $string['updatecomponent'] = '更新元件';
 $string['updatelangs'] = '更新所有已安裝的語言包';
 $string['updatetimezones'] = '更新時區';
-$string['upgrade197notice'] = '<p>Moodle 1.9.7 包含了ㄧ些關於用戶密碼和備份的安全性修補，以保護你網站的用戶資料。 其結果是與備份有關的設定和權限會被改變。<br />
+$string['upgrade197notice'] = '<p>Moodle 1.9.7 包含了ㄧ些關於使用者密碼和備份的安全性修補，以保護您網站的使用者資料。 其結果是與備份有關的設定和權限會被改變。<br />
 細節請參見<a href="http://docs.moodle.org/dev/Moodle_1.9.7_release_notes" target="_blank">Moodle 1.9.7 發行說明</a> 。';
 $string['upgrade197noticesubject'] = 'Moodle 1.9.7安全通知';
-$string['upgrade197salt'] = '為了減少密碼被盜的風險，強烈建議你設定一個密碼防盜碼。</br>詳細請看 <a href="{$a}" target="_blank">密碼防盜碼文件</a>。';
+$string['upgrade197salt'] = '為了減少密碼被盜的風險，強烈建議您設定一個密碼防盜碼。</br>詳細請看 <a href="{$a}" target="_blank">密碼防盜碼文件</a>。';
 $string['upgradeerror'] = '升級{$a->plugin}到版本{$a->version}時發生未知錯誤，不能繼續進行。';
 $string['upgradeforumread'] = '在Moodle 1.5中增加了一項新的功能，它可以跟蹤論區張貼的內容是否已經閱讀。<br />為了使用這個功能，您需要<a href="{$a}">升級您的資料表</a>。';
-$string['upgradeforumreadinfo'] = '在Moodle 1.5中增加了一項新的功能，它可以追蹤討論區張貼的內容是否已經閱讀。為了使用這個功能，您需要升級您的資料表，為已經存在的討論區資料增加欄位。如果您的網站很大，這會花費很長的時間(數小時)，並且給資料庫伺服主機帶來很大負擔，因此最好在夜深人靜時再做這個工作。當然，在您的網站升級時，它還是可以繼續工作的，用戶不會受到任何影響。一旦您開始了這個工作，就必須讓它執行到結束(保持瀏覽器開啟著)。當然，如果您中途關閉了瀏覽器：不用擔心，重新開始就可以了。< br /><br />您現在要開始升級的程序嗎？';
+$string['upgradeforumreadinfo'] = '在Moodle 1.5中增加了一項新的功能，它可以追蹤討論區張貼的內容是否已經閱讀。為了使用這個功能，您需要升級您的資料表，為已經存在的討論區資料增加欄位。如果您的網站很大，這會花費很長的時間(數小時)，並且給資料庫伺服主機帶來很大負擔，因此最好在夜深人靜時再做這個工作。當然，在您的網站升級時，它還是可以繼續工作的，使用者不會受到任何影響。一旦您開始了這個工作，就必須讓它執行到結束(保持瀏覽器開啟著)。當然，如果您中途關閉了瀏覽器：不用擔心，重新開始就可以了。< br /><br />您現在要開始升級的程序嗎？';
 $string['upgradelogs'] = '為了完整的功能，需要將您的舊日誌升級。<a href="{$a}">更多資訊</a>';
 $string['upgradelogsinfo'] = '網站的變動記錄保存在日誌中.升級它以便查看最新的完整記錄。升級較大規模網站的日誌檔或許費時較長，耐心一些，升級過程中不要關閉瀏覽器--升級會順利的，它不會影響升級後使用者的使用<br /><br />您要升級日誌檔嗎?';
 $string['upgradesettings'] = '新設定';
@@ -1104,17 +1104,17 @@ $string['upwards'] = '向上';
 $string['useblogassociations'] = '啟用關聯';
 $string['useexternalyui'] = '使用線上YUI  libraries';
 $string['usehtmleditor'] = '使用 HTML 編輯器';
-$string['user'] = '用戶';
+$string['user'] = '使用者';
 $string['useraccountupdated'] = '已更新使用者數據';
 $string['useraccountuptodate'] = '使用者更新';
-$string['userbulk'] = '批次處理用戶';
+$string['userbulk'] = '批次處理使用者';
 $string['userdeleted'] = '使用者已刪除';
-$string['userlist'] = '瀏覽用戶清單';
-$string['userpolicies'] = '用戶管理辦法';
+$string['userlist'] = '瀏覽使用者清單';
+$string['userpolicies'] = '使用者管理辦法';
 $string['userpreference'] = '使用者偏好設定';
 $string['userquota'] = '使用者配額';
 $string['userrenamed'] = '已修改帳號';
-$string['users'] = '用戶';
+$string['users'] = '使用者';
 $string['userscreated'] = '已建立(多個)使用者';
 $string['usersdeleted'] = '使用者已刪除';
 $string['usersrenamed'] = '已修改(多個)帳號';

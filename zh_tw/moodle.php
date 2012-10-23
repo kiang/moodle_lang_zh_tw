@@ -154,13 +154,13 @@ $string['autosubscribeno'] = '不，不要自動訂閱討論區文章';
 $string['autosubscribeyes'] = '要，當我發表文章時，訂閱該討論區文章';
 $string['availability'] = '可使用的';
 $string['availability_help'] = '<p align="center"><b>課程可用性</b></p>
-<p>這個選項允許你完全地“隱藏”你的課程。</p>
+<p>這個選項允許您完全地「隱藏」您的課程。</p>
 <p>隱藏的課程將不會出現在課程教師和管理員之外的其他人的課程清單上。</p>
 <p>即使學生嘗試直接訪問課程的鏈結，系統也不會允許他登入。</p>
 　　';
 $string['availablecourses'] = '可使用課程';
 $string['back'] = '返回';
-$string['backto'] = '返回“{$a}”';
+$string['backto'] = '返回「{$a}」';
 $string['backtocourselisting'] = '回到課程列表';
 $string['backtopageyouwereon'] = '返回前一個頁面';
 $string['backtoparticipants'] = '回到課程參與者清單';
@@ -221,7 +221,7 @@ $string['categorydeleted'] = '已刪除{$a}類別';
 $string['categoryduplicate'] = '名為{$a}類別已經存在！';
 $string['category_help'] = '<p align="center"><b>課程類目</b></p>
 <p>您的Moodle管理員可以設立幾個課程類目。</p>
-<p>例如，“自然科學”，“人文科學”，“公共衛生”等。</p>
+<p>例如，「自然科學」，「人文科學」，「公共衛生」等。</p>
 <p>選擇一個最適合用於您的課程的。這個選擇將影響到您的課程顯示在課程清單上的位置，也更容易讓學生找到您的課程。</p>
 　　　　　　';
 $string['categorymodifiedcancel'] = '類別已經修改！請取消並且再試一次。';
@@ -285,7 +285,7 @@ $string['confirmed'] = '您的註冊已經獲准';
 $string['confirmednot'] = '您的註冊尚未獲准！';
 $string['content'] = '內容';
 $string['continue'] = '下一頁';
-$string['continuetocourse'] = '按這裏進入您的課程';
+$string['continuetocourse'] = '按這裡進入您的課程';
 $string['convertingwikitomarkdown'] = '把Wiki轉為Markdown';
 $string['cookiesenabled'] = '您的瀏覽器必須啟動 Cookies 功能';
 $string['cookiesenabled_help'] = '<p align="center"><b>Cookies</b></p>
@@ -294,7 +294,7 @@ $string['cookiesenabled_help'] = '<p align="center"><b>Cookies</b></p>
 
 <p>最重要的是session cookie，通常叫做<b>MoodleSession</b>。您必須在瀏覽器裏設定允許這個cookie，以便使您的登入在頁與頁之間繼續有效。當您登出或關閉瀏覽器之後，這個在瀏覽器和伺服器裏的cookie都會被刪除。</p>
 
-<p>另一個cookie純粹是為了方便，通常被叫做類似<b>MOODLEID</b>之類的名字。它只用來在瀏覽器裏記住您的用戶名。讓您再次回到本站時，登入頁面裏的用戶名就會替您填好。為了保有隱私而刪除此cookie是安全的(您需要在瀏覽器中自己刪除)，只不過每次登入都要重新輸入用戶名而已。</p>';
+<p>另一個cookie純粹是為了方便，通常被叫做類似<b>MOODLEID</b>之類的名字。它只用來在瀏覽器裏記住您的帳號。讓您再次回到本站時，登入頁面裏的帳號就會替您填好。為了保有隱私而刪除此cookie是安全的(您需要在瀏覽器中自己刪除)，只不過每次登入都要重新輸入帳號而已。</p>';
 $string['cookiesnotenabled'] = '不幸地，您所使用的瀏灠器的cookies功能目前未啟動';
 $string['copy'] = '複製';
 $string['copyasnoun'] = '複製';
@@ -495,10 +495,10 @@ $string['downloadods'] = '以 ODS檔案格式下載';
 $string['downloadtext'] = '以 文字檔格式下載';
 $string['doyouagree'] = '您是否已經閱覽以上說明條件並且同意所有內容?';
 $string['duplicate'] = '複製';
-$string['duplicateconfirm'] = '您確定要複製{$a->modtype}“{$a->modname}”？';
+$string['duplicateconfirm'] = '您確定要複製{$a->modtype}「{$a->modname}」？';
 $string['duplicatecontcourse'] = '返回課程';
 $string['duplicatecontedit'] = '編輯新的複製';
-$string['duplicatesuccess'] = '{$a->modtype}“{$a->modname}”已經被成功複製';
+$string['duplicatesuccess'] = '{$a->modtype}「{$a->modname}」已經被成功複製';
 $string['duplicatinga'] = '複製中：{$a}';
 $string['edhelpaspellpath'] = '要在編輯器中使用拼寫檢查功能，您必須在伺服器上安裝<strong>aspell 0.50</strong>或其更高版本，並且還要正確地指定aspell程式的路徑。在Unix/Linux系統上通常是<strong>/usr/bin/aspell</strong>，當然也可能是其它地方。';
 $string['edhelpbgcolor'] = '定義編輯區域的背景顏色。<br />有效值範例:#ffffff或white';
@@ -852,7 +852,7 @@ $string['icqnumber'] = 'ICQ 號碼';
 $string['idnumber'] = '識別號碼';
 $string['idnumbercourse'] = '課程識別號碼';
 $string['idnumbercourse_help'] = '<p align="center"><b>課程編號</b></p>
-<p>課程的編號用於和外部系統(如，教務處成績登錄系統)相配合——它從不顯示於Moodle的內部。如果您的課程有一個正式的編號，可以在這裏使用它……否則你可以空著它。</p>
+<p>課程的編號用於和外部系統(如，教務處成績登錄系統)相配合——它從不顯示於Moodle的內部。如果您的課程有一個正式的編號，可以在這裡使用它……否則您可以空著它。</p>
 　　';
 $string['idnumbermod'] = 'ID識別號碼';
 $string['idnumbermod_help'] = 'ID可以在成績計算公式中唯一標記一個活動．
@@ -917,9 +917,9 @@ $string['listfiles'] = '{$a} 中的檔案清單';
 $string['listofallpeople'] = '顯示所有人員';
 $string['livelogs'] = '日誌';
 $string['local'] = '本地';
-$string['localplugindeleteconfirm'] = '您正要完全刪除本地插件"{$a}"。這將從資料庫刪除與它有關的所有資料。您確定要繼續嗎？';
-$string['localplugins'] = '本地插件';
-$string['localpluginsmanage'] = '管理本地插件';
+$string['localplugindeleteconfirm'] = '您正要完全刪除本地外掛"{$a}"。這將從資料庫刪除與它有關的所有資料。您確定要繼續嗎？';
+$string['localplugins'] = '本地外掛';
+$string['localpluginsmanage'] = '管理本地外掛';
 $string['location'] = '位置';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = '您以{$a}身分登入';
@@ -969,7 +969,7 @@ $string['managemodules'] = '模組管理';
 $string['manageroles'] = '角色與權限';
 $string['markedthistopic'] = '這個主題被強化為目前的主要議題';
 $string['markthistopic'] = '將本主題設定為 目前教學主題';
-$string['matchingsearchandrole'] = '與 \'{$a->search}\'匹配的 {$a->role}';
+$string['matchingsearchandrole'] = '與 \'{$a->search}\'辨識的 {$a->role}';
 $string['maxfilesize'] = '新上傳檔案的最大容量：{$a}';
 $string['maximumchars'] = '最多 {$a} 個字元';
 $string['maximumgrade'] = '最高成績';
@@ -994,7 +994,7 @@ $string['messageprovider:courserequestrejected'] = '課程開課被拒絕通知'
 $string['messageprovider:errors'] = '本站的嚴重錯誤';
 $string['messageprovider:errors_help'] = '有管理員必須知道的嚴重錯誤。';
 $string['messageprovider:instantmessage'] = '使用者之間的私人訊息';
-$string['messageprovider:instantmessage_help'] = '此小節設定在收到本站其他使用者直接給你的消息後，該如何處裡。';
+$string['messageprovider:instantmessage_help'] = '此小節設定在收到本站其他使用者直接給您的消息後，該如何處裡。';
 $string['messageprovider:notices'] = '關於某些小問題的通知';
 $string['messageprovider:notices_help'] = '有一些管理員可能會有興趣的通知';
 $string['messageselect'] = '選擇這個使用者為收件人';
@@ -1157,7 +1157,7 @@ $string['nofilesyet'] = '本課程尚未上傳過任何檔案';
 $string['nograde'] = '沒有成績紀錄';
 $string['noimagesyet'] = '本課程從未上傳過任何圖片';
 $string['nologsfound'] = '沒有日誌資料';
-$string['nomatchingusers'] = '沒有符合“{$a}”的使用者';
+$string['nomatchingusers'] = '沒有符合「{$a}」的使用者';
 $string['nomorecourses'] = '沒有合適的課程被找到';
 $string['nomoreidnumber'] = '未使用身份號碼來避免碰撞';
 $string['none'] = '無';
@@ -1187,7 +1187,7 @@ $string['notenrolled'] = '{$a} 並未登記本課程.';
 $string['notenrolledprofile'] = '這項個人資料無法查閱，因為使用者並沒有選修這門課程。';
 $string['noteusercannotrolldatesoncontext'] = '<strong>注意：</strong>因為您缺少必須的權限，在恢復備份時候不能恢復日期';
 $string['noteuserschangednonetocourse'] = '注意：當還原使用者資料(活動紀錄、檔案或簡訊)時，課程使用帳號也必須還原回去。已經幫您修改設定。';
-$string['nothingnew'] = '前次登入至今尚未添加新的課程內容';
+$string['nothingnew'] = '前次登入至今尚未新增新的課程內容';
 $string['nothingtodisplay'] = '沒什麼可顯示';
 $string['notice'] = '注意';
 $string['noticenewerbackup'] = '這個備份檔已經由Moodle {$a->backuprelease} ({$a->backupversion})建立，同時您{$a->serverrelease} ({$a->serverversion})還要新。這可能會造成一些不一致性，因為無法保證備份檔案的向下相容性。';
@@ -1219,7 +1219,7 @@ $string['numwords'] = '{$a} 字數';
 $string['numyears'] = '{$a 年';
 $string['ok'] = 'OK';
 $string['oldpassword'] = '現在的密碼';
-$string['olduserdirectory'] = '這是舊用戶的目錄，而且不再需要。您可以安全的刪除它。裡面的檔案已經複製到新用戶的目錄了。';
+$string['olduserdirectory'] = '這是舊使用者的目錄，而且不再需要。您可以安全的刪除它。裡面的檔案已經複製到新使用者的目錄了。';
 $string['opentoguests'] = '訪客 權限';
 $string['optional'] = '選項';
 $string['order'] = '次序';
@@ -1274,9 +1274,9 @@ $string['pictureofuser'] = '使用者圖片';
 $string['pleaseclose'] = '現在請關閉這個視窗';
 $string['pleasesearchmore'] = '請多搜尋一些字詞';
 $string['pleaseusesearch'] = '請使用搜尋功能';
-$string['plugin'] = '插件';
-$string['plugincheck'] = '檢查插件程式';
-$string['plugindeletefiles'] = '與插件“{$a->name}”有關的所有資料都已經從資料庫刪除。為了防止插件被重新安裝，您現在應從伺服器刪除此目錄：{$a->directory}';
+$string['plugin'] = '外掛';
+$string['plugincheck'] = '檢查外掛程式';
+$string['plugindeletefiles'] = '與外掛「{$a->name}」有關的所有資料都已經從資料庫刪除。為了防止外掛被重新安裝，您現在應從伺服器刪除此目錄：{$a->directory}';
 $string['pluginsetup'] = '設定外掛程式';
 $string['policyaccept'] = '我了解並且同意';
 $string['policyagree'] = '您必須同意這規範才能繼續使用這個網站。您同意嗎?';
@@ -1299,7 +1299,7 @@ $string['preview'] = '預覽';
 $string['previewhtml'] = 'HTML 格式預覽';
 $string['previeworchoose'] = '預覽或選擇網頁呈現方式';
 $string['previous'] = '向前';
-$string['previouslyselectedusers'] = '之前選擇的使用者不符合“{$a}”';
+$string['previouslyselectedusers'] = '之前選擇的使用者不符合「{$a}」';
 $string['previoussection'] = '上一單元';
 $string['primaryadminsetup'] = '設定管理員帳號';
 $string['profile'] = '簡介';
@@ -1323,7 +1323,7 @@ $string['refreshingevents'] = '更新事件';
 $string['registration'] = 'Moodle 註冊';
 $string['registrationcontact'] = '允許從公眾網路訪問';
 $string['registrationcontactno'] = '不，我不希望在網站列表中顯示聯絡表單';
-$string['registrationcontactyes'] = '是的，提供一個表單以方便未來的Moodle用戶聯絡我';
+$string['registrationcontactyes'] = '是的，提供一個表單以方便未來的Moodle使用者聯絡我';
 $string['registrationemail'] = '電子郵件通知';
 $string['registrationinfo'] = '<p>此網頁讓您到moodle.org註冊您的Moodle網站。註冊是自由的。註冊的主要優點是會將您列入重大通知的電子郵件清單中，例如:新版Moodle釋出消息及安全警報等。<p>預設中，您的資料保有隱私，而且絕不會遭受販賣或轉交給其他人。收集這些資料的唯一原因是支援的目的，同時建立一個完整的Moodle社群的統計圖。<p>如果您註冊了，您可以讓您的網站名稱、國家及URL加到Moodle網站的開放清單中。<p>所有新註冊都會經過手動確認，才加到這個清單中，但一旦您加入後，您可以隨時用此表單更新您的註冊資料。';
 $string['registrationinfotitle'] = '註冊訊息';
@@ -1333,7 +1333,7 @@ $string['registrationyes'] = '是的，請提醒我有關的重要事件';
 $string['reject'] = '駁回';
 $string['rejectdots'] = '駁回...';
 $string['reload'] = '重新載入';
-$string['remoteappuser'] = '遠端的{$a}用戶';
+$string['remoteappuser'] = '遠端的{$a}使用者';
 $string['remove'] = '移除';
 $string['removeadmin'] = '可能的管理員';
 $string['removecreator'] = '移除開課教師';
@@ -1402,7 +1402,7 @@ $string['rssarticles'] = 'RSS連結文章數設定';
 $string['rsserror'] = '讀取RSS資料錯誤';
 $string['rsserrorauth'] = '您的RSS連結不包含有效的認證標記';
 $string['rsserrorguest'] = '這個feed使用訪客身分連結資料，但是訪客沒有讀取資料的權限，請以一個有效的使用者瀏覽這個feed的原始位址(URL)，並取得一個新的RSS連結。';
-$string['rsskeyshelp'] = '為了保證安全和隱私，RSS feed的URL中包含一個特殊的認證，用來標明他們屬於哪個使用者。這可以防止其他用戶從RSS feed取得他們不應該瀏覽到的訊息。</p><p>在您第一次瀏覽會產生RSS feed的Moodle頁面時，此認證會自動建立。如果您擔心您的RSS feed認證已經被洩漏，您可以點及這裡的重置連結在取得一個新的。但請注意，您目前的RSS feed的URL將會失效。';
+$string['rsskeyshelp'] = '為了保證安全和隱私，RSS feed的URL中包含一個特殊的認證，用來標明他們屬於哪個使用者。這可以防止其他使用者從RSS feed取得他們不應該瀏覽到的訊息。</p><p>在您第一次瀏覽會產生RSS feed的Moodle頁面時，此認證會自動建立。如果您擔心您的RSS feed認證已經被洩漏，您可以點及這裡的重置連結在取得一個新的。但請注意，您目前的RSS feed的URL將會失效。';
 $string['rsstype'] = '此活動使用RSS格式';
 $string['saveandnext'] = '儲存更改並顯示下一位';
 $string['savechanges'] = '儲存更改';
@@ -1492,7 +1492,7 @@ $string['shortname'] = '課程簡稱';
 $string['shortnamecollisionwarning'] = '[*]= 這個簡稱已經被其他課程使用，請修改！';
 $string['shortnamecourse'] = '課程簡稱';
 $string['shortnamecourse_help'] = '<p align="center"><b>課程簡稱</b></p>
-<p>許多機構會用一個速記的方法去提及一個課程，例如，BP102，或者COMMS。即使你還沒有一個這樣的課程名稱，也可以在這裏加上。它將會使用在不適合使用長名字的地方(比如，電子郵件的主旨行一樣)。</p>
+<p>許多機構會用一個速記的方法去提及一個課程，例如，BP102，或者COMMS。即使您還沒有一個這樣的課程名稱，也可以在這裡加上。它將會使用在不適合使用長名字的地方(比如，電子郵件的主旨行一樣)。</p>
 　　';
 $string['shortnametaken'] = '這個課程簡稱已有其他課程使用';
 $string['shortnameuser'] = '使用者簡稱';
@@ -1646,7 +1646,7 @@ $string['summary_help'] = '<p align="center"><b>主題/週 的摘要</b></p>
 
 <p>每一則摘要要簡短，這樣課程頁才不會太長。</p>
 
-<p>如果您發現，您想說的話不是只有一兩句話，那就考慮改添加一資源到這主題上(例如，第一個活動可能是一個<b>有關這主題</b>的頁面).</p>';
+<p>如果您發現，您想說的話不是只有一兩句話，那就考慮改新增一資源到這主題上(例如，第一個活動可能是一個<b>有關這主題</b>的頁面).</p>';
 $string['summaryof'] = '{$a} 的總結';
 $string['supplyinfo'] = '請提供一些個人訊息';
 $string['switchdevicedefault'] = '切換到標準的佈景主題';
@@ -1679,7 +1679,7 @@ $string['todaylogs'] = '今日的紀錄';
 $string['toeveryone'] = '給每個人';
 $string['toomanybounces'] = '這個電子郵件信箱已經有太多退回信件。您<b>必須</b>更改後才可繼續。';
 $string['toomanytoshow'] = '可顯示的使用者太多';
-$string['toomanyusersmatchsearch'] = '太多使用者（{$a->count}位）符合“{$a->search}”';
+$string['toomanyusersmatchsearch'] = '太多使用者（{$a->count}位）符合「{$a->search}」';
 $string['toomanyuserstoshow'] = '太多使用者（{$a}位）要顯示';
 $string['toonly'] = '只給 {$a}';
 $string['top'] = '最上層';
@@ -1760,7 +1760,7 @@ $string['usernamenotfound'] = '資料庫中找不到這個使用者名稱';
 $string['usernameoremail'] = '輸入帳號或信箱';
 $string['usernotconfirmed'] = '無法確認 {$a}';
 $string['userpic'] = '使用者圖片';
-$string['users'] = '用戶';
+$string['users'] = '使用者';
 $string['userselectorautoselectunique'] = '如果只搜尋到一個符合的使用者，就會自動選擇他';
 $string['userselectorpreserveselected'] = '保留被選擇的使用者，即使他們不再符合搜尋條件';
 $string['userselectorsearchanywhere'] = '在使用者名稱中的任意位置搜尋';
@@ -1858,5 +1858,5 @@ $string['youneedtoenrol'] = '您必須先選修這門課程，才能執行這個
 $string['yourlastlogin'] = '您最後登入的時間';
 $string['yourself'] = '您自己';
 $string['yourteacher'] = '您的教師 {$a}';
-$string['yourwordforx'] = '您稱呼“{$a}”為';
+$string['yourwordforx'] = '您稱呼「{$a}」為';
 $string['zippingbackup'] = '壓縮備份資料中';

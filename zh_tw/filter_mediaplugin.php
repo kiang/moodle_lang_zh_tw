@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fallbackaudio'] = '聲音鏈結';
 $string['fallbackvideo'] = '影片鏈結';
-$string['filtername'] = '多媒體插件';
+$string['filtername'] = '多媒體外掛';
 $string['flashanimation'] = 'Flash動畫';
 $string['flashanimation_help'] = '擴展名為*.swf的文件。出於安全原因，此過濾器只對可信文字有效。';
 $string['flashvideo'] = 'Flash視頻';

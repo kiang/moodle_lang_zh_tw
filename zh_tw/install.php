@@ -36,11 +36,11 @@ $string['chooselanguage'] = '選擇一種語言';
 $string['chooselanguagehead'] = '選擇一種語言';
 $string['chooselanguagesub'] = '請選擇在安裝過程中使用的語言。稍後您可以根據需要重新選擇用於網站和使用者的語言。';
 $string['cliadminpassword'] = '新管理員密碼';
-$string['cliadminusername'] = '管理員帳號用戶名稱';
-$string['clialreadyinstalled'] = '檔案 config.php  已經存在，若你要升級這一網站，請使用admin/cli/upgrade.php';
+$string['cliadminusername'] = '管理員帳號帳號稱';
+$string['clialreadyinstalled'] = '檔案 config.php  已經存在，若您要升級這一網站，請使用admin/cli/upgrade.php';
 $string['cliinstallfinished'] = '安裝已經成功地完成';
 $string['cliinstallheader'] = 'Moodle {$a} 指令行安裝程式';
-$string['climustagreelicense'] = '在無互動模式，你必須經指定---同意--授權選向來同意授權。';
+$string['climustagreelicense'] = '在無互動模式，您必須經指定---同意--授權選向來同意授權。';
 $string['clitablesexist'] = '資料庫的資料表已經呈現出來。指令行介面安裝不能繼續。';
 $string['compatibilitysettings'] = '檢查您的PHP設定...';
 $string['compatibilitysettingshead'] = '檢查您的PHP設定...';
@@ -51,14 +51,14 @@ $string['configurationcomplete'] = '設定完成';
 $string['configurationcompletehead'] = '設定完成';
 $string['configurationcompletesub'] = 'Moodle會嘗試將設定資料儲存在您的Moodle根目錄中。';
 $string['database'] = '資料庫';
-$string['databasecreationsettings'] = '現在您必須配置資料庫，它將存放大多數Moodle的資料。這資料庫將會由Moodle4Windows安裝程式自動建立，並設定如下： <b>類型:</b> 由安裝程式固定設為"mysql"<br /> <b>主機:</b> 固定設為"localhost"<br /> <b>名稱:</b> 資料庫名稱，如，moodle<br /> <b>用戶:</b> 固定設為 "root" <br /> <b>密碼:</b> 您資料庫的密碼<br /> <b>表格接首字首:</b> 在所有的表格名稱前加上自定的接首字';
+$string['databasecreationsettings'] = '現在您必須配置資料庫，它將存放大多數Moodle的資料。這資料庫將會由Moodle4Windows安裝程式自動建立，並設定如下： <b>類型:</b> 由安裝程式固定設為"mysql"<br /> <b>主機:</b> 固定設為"localhost"<br /> <b>名稱:</b> 資料庫名稱，如，moodle<br /> <b>使用者:</b> 固定設為 "root" <br /> <b>密碼:</b> 您資料庫的密碼<br /> <b>表格接首字首:</b> 在所有的表格名稱前加上自定的接首字';
 $string['databasecreationsettingshead'] = '現在您需要設定大部分 Moodle 資料儲存的資料庫，透過下面指定的設定，安裝程式可以自動建立資料庫。';
 $string['databasecreationsettingssub'] = '<b>類型：</b> 安裝程式固定使用 "mysql" <br /> <b>主機：</b> 安裝程式固定使用 "localhost"<br /> <b>名稱：</b> 資料庫名稱，例如 moodle<br /> <b>帳號：</b> 安裝程式固定使用 "root"<br /> <b>密碼：</b> 您的資料庫密碼<br /> <b>資料表前置字元：</b> 選擇性為所有資料表名稱加入前置字元';
 $string['databasecreationsettingssub2'] = '<b>類型:</b>由安裝程式固定為"mysqli"<br />
 <b>主機:</b>由安裝程式固定為"localhost" <br />
 <b>名稱:</b>資料庫名稱，例如, moodle<br />
-<b>用戶:</b> 由安裝程式固定為 "root" 目錄<br />
-<b>密碼:</b> 你的資料庫的密碼<br />
+<b>使用者:</b> 由安裝程式固定為 "root" 目錄<br />
+<b>密碼:</b> 您的資料庫的密碼<br />
 <b>資料表接首字:</b> 自選的接首字，用來放在所有資料表名稱的前面。';
 $string['databasehead'] = '資料庫設定';
 $string['databasehost'] = '資料庫主機';
@@ -93,28 +93,28 @@ $string['databasesettingssub_mysqli'] = '<b>類型：</b> 改良的MySQL<br/>
 <b>帳號：</b> 您的資料庫帳號<br/>
 <b>密碼：</b> 您的資料庫密碼<br/>
 <b>表格前置字元：</b>在所有的表格名稱前加上字首（可自選的）';
-$string['databasesettingssub_oci8po'] = '<b>類型:</b> Oracle<br /> <b>主機:</b> 不需要，必須留空<br /> <b>名稱:</b> 給出tnsnames.ora連接的名稱<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的, 最大2cc.)';
+$string['databasesettingssub_oci8po'] = '<b>類型:</b> Oracle<br /> <b>主機:</b> 不需要，必須留空<br /> <b>名稱:</b> 給出tnsnames.ora連結的名稱<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的, 最大2cc.)';
 $string['databasesettingssub_odbc_mssql'] = '<b>類型:</b> SQL*Server (超過 ODBC) <b><font color="red">實驗的! (不可用在產品中)</font></b><br /> <b>主機:</b> 給出ODBC控制面板中DSN的名字<br /> <b>名稱：</b> 資料庫名稱，例如moodle<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的)';
 $string['databasesettingssub_postgres7'] = '<b>類型:</b> PostgreSQL<br /> <b>主機:</b> 例如，localhost或者db.isp.com<br /> <b>名稱：</b> 資料庫名稱，例如moodle<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的)';
 $string['databasesettingswillbecreated'] = '<b>註:</b>如果資料庫不存在，安裝程式將會自動建立';
 $string['databasesocket'] = 'Unix插口';
 $string['databasetypehead'] = '選擇資料庫磁碟機';
-$string['databasetypesub'] = 'Moodle支援好幾種類型的資料庫伺服器。若你不知道使用哪一種類型，請聯絡你的伺服器管理員。';
-$string['databaseuser'] = '資料庫用戶';
+$string['databasetypesub'] = 'Moodle支援好幾種類型的資料庫伺服器。若您不知道使用哪一種類型，請聯絡您的伺服器管理員。';
+$string['databaseuser'] = '資料庫使用者';
 $string['dataroot'] = '資料目錄';
 $string['datarooterror'] = '您所指定的\'資料目錄\'找不到或無法建立。請更正路徑，或者手動建立該目錄。';
 $string['datarootpermission'] = '資料目錄存取授權';
-$string['datarootpublicerror'] = '你指定的"資料目錄"是可以經由網路直接存取的，你必須使用不同的目錄。';
+$string['datarootpublicerror'] = '您指定的"資料目錄"是可以經由網路直接存取的，您必須使用不同的目錄。';
 $string['dbconnectionerror'] = '無法連到您指定的資料庫,請查檢您的資料庫設定';
 $string['dbcreationerror'] = '建立資料庫錯誤,無法以您給的資料庫名稱建立資料表';
 $string['dbhost'] = '主機位址';
 $string['dbpass'] = '密碼';
 $string['dbprefix'] = '資料表名稱的前置字元';
 $string['dbtype'] = '類型';
-$string['dbwrongencoding'] = '您選擇的資料庫使用了字元集{$a}，我們推薦您使用一個Unicode (UTF-8)字元集的資料庫。當然，您可以選擇“跳過資料庫字元集檢查”來跳過這個環節，但您將來可能會遇到問題。';
-$string['dbwronghostserver'] = '您必須遵循上面所說明的“主機”規則。';
+$string['dbwrongencoding'] = '您選擇的資料庫使用了字元集{$a}，我們推薦您使用一個Unicode (UTF-8)字元集的資料庫。當然，您可以選擇「跳過資料庫字元集檢查」來跳過這個環節，但您將來可能會遇到問題。';
+$string['dbwronghostserver'] = '您必須遵循上面所說明的「主機」規則。';
 $string['dbwrongnlslang'] = '在您的web伺服器中的NLS_LANG環境變數必須用 AL32UTF8 字元集。請查閱有關如何正確配置OCI8的PHP文件。';
-$string['dbwrongprefix'] = '您必須遵循上面所說明的“資料表前置字元”規則。';
+$string['dbwrongprefix'] = '您必須遵循上面所說明的「資料表前置字元」規則。';
 $string['directorysettings'] = '<p>請確認Moodle安裝的位置。</p>
 
 <p><b>網站位址:</b>
@@ -136,7 +136,7 @@ $string['downloadlanguagebutton'] = '下載 "{$a}" 語言包';
 $string['downloadlanguagehead'] = '下載語言包';
 $string['downloadlanguagenotneeded'] = '您可以用預設的語言包 "{$a}" 繼續安裝過程。';
 $string['downloadlanguagesub'] = '您現在可以選擇下載一個語言包然後用指定的語言繼續安裝過程。<br /><br />如果您無法下載語言包，安裝過程會繼續以英文繼續進行。（只要安裝完成，您還是可以下載、安裝其他的語言包）';
-$string['doyouagree'] = '你是否同意？(yes?no)';
+$string['doyouagree'] = '您是否同意？(yes?no)';
 $string['environmenthead'] = '檢查您的環境中...';
 $string['environmentsub'] = '正在檢查系統的相關元件來確認是否符合安裝需求';
 $string['environmentsub2'] = '每個Moodle的發行版都有一些對PHP版本的最低要求和幾個必須安裝的PHP擴展。在每次安裝和升級前會做完整的環境檢查。如果您不知道如何安裝新版或啟用PHP擴展，請與伺服器管理員聯繫。';
@@ -173,8 +173,8 @@ $string['inputdatadirectory'] = '資料目錄：';
 $string['inputwebadress'] = '網頁位址：';
 $string['inputwebdirectory'] = 'Moodle目錄：';
 $string['installation'] = '安裝';
-$string['langdownloaderror'] = '很不幸地，語言“{$a}”並未安裝。安裝過程將以英文繼續。';
-$string['langdownloadok'] = '語言“{$a}”已經成功安裝了。安裝過程將會以此語言繼續。';
+$string['langdownloaderror'] = '很不幸地，語言「{$a}」並未安裝。安裝過程將以英文繼續。';
+$string['langdownloadok'] = '語言「{$a}」已經成功安裝了。安裝過程將會以此語言繼續。';
 $string['magicquotesruntime'] = 'Magic Quotes 執行時間';
 $string['magicquotesruntimeerror'] = '這應該關閉';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes 應該關閉執行時間，讓Moodle的功能能正常。</p>
@@ -257,8 +257,8 @@ $string['sessionautostarterror'] = '這應該關閉';
 $string['sessionautostarthelp'] = '<p>Moodle 需要有session功能的支援,沒有它無法正確動作 .</p>
 <p>Sessions 可以在 php.ini 檔案中啟動,請尋找其中 session.auto_start 參數.</p>';
 $string['skipdbencodingtest'] = '略過資料庫編碼測試';
-$string['sqliteextensionisnotpresentinphp'] = '請檢查你的php.ini或重新編譯PHP。';
-$string['upgradingqtypeplugin'] = '升級試題/類型插件';
+$string['sqliteextensionisnotpresentinphp'] = '請檢查您的php.ini或重新編譯PHP。';
+$string['upgradingqtypeplugin'] = '升級試題/類型外掛';
 $string['welcomep10'] = '{$a->installername} ({$a->installerversion})';
 $string['welcomep20'] = '這個頁面是提醒您已經成功安裝與啟動 <strong>{$a->packname} {$a->packversion}</strong> ，恭喜！';
 $string['welcomep30'] = '<strong>{$a->installername}</strong>包含了可以建立<strong>Moodle</strong>執行環境的應用程序：';

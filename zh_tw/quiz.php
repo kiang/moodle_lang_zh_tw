@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['accessnoticesheader'] = '您可以預覽本測驗，但如果這是一個實際作答，你會被封鎖，因為：';
+$string['accessnoticesheader'] = '您可以預覽本測驗，但如果這是一個實際作答，您會被封鎖，因為：';
 $string['action'] = '動作';
 $string['adaptive'] = '適性模式';
 $string['adaptive_help'] = '如果啟用，在本測驗的一次答題中，可以多次回答同一道題。例如，如果一次回答被評為錯誤，學生可以馬上再次嘗試。不過，如果「使用罰分」設置開啟，那麼每次錯誤的嘗試都會導致丟分。';
@@ -34,12 +34,12 @@ $string['addarandomquestion'] = '增加一隨機試題';
 $string['addarandomquestion_help'] = '新增隨機題後，會從類別中隨機選出一道題，插入到測驗中。也就是說，不同學生會得到不同的題。如果測驗允許多次答題，那麼每次答題都會看到不同的題。';
 $string['adddescriptionlabel'] = '增加描述/標籤';
 $string['addingquestion'] = '新增一題';
-$string['addingquestions'] = '頁面的這一邊用來管理題庫。試題分門別類，以便管理。類別中的試題可用於您的課程中的任何測驗。如果您選擇“公佈”它們，則其他課程也可以使用。<br/><br/>您在選擇或建立類別後才能新增或編輯試題。您可以選擇任何試題加入到左側的試卷中。';
+$string['addingquestions'] = '頁面的這一邊用來管理題庫。試題分門別類，以便管理。類別中的試題可用於您的課程中的任何測驗。如果您選擇「公佈」它們，則其他課程也可以使用。<br/><br/>您在選擇或建立類別後才能新增或編輯試題。您可以選擇任何試題加入到左側的試卷中。';
 $string['addmoreoverallfeedbacks'] = '再增加 {no} 個回饋欄';
 $string['addnewgroupoverride'] = '增加群組覆蓋';
 $string['addnewpagesafterselected'] = '在選定的試題後增加新頁';
 $string['addnewquestionsqbank'] = '新增試題到類別{$a->catname}: {$a->link}';
-$string['addnewuseroverride'] = '新增用戶覆蓋';
+$string['addnewuseroverride'] = '新增使用者覆蓋';
 $string['addpagehere'] = '增加新頁到此';
 $string['addquestion'] = '增加試題';
 $string['addquestions'] = '增加試題';
@@ -73,14 +73,14 @@ $string['answersingleyes'] = '僅可挑選一個答案';
 $string['answerswithacceptederrormarginmustbenumeric'] = '允許誤差的答案，必須是數值';
 $string['answertoolong'] = '答案太長(最多255個英文字元)，超過第{$a}行後的應刪除';
 $string['aon'] = 'AON 格式';
-$string['areyousureremoveselected'] = '你確定要刪除所有選出的試題嗎？';
+$string['areyousureremoveselected'] = '您確定要刪除所有選出的試題嗎？';
 $string['asshownoneditscreen'] = '顯示在編輯螢幕';
 $string['attempt'] = '作答次數';
 $string['attemptalreadyclosed'] = '這一作答次己經完成';
 $string['attemptclosed'] = '作答次尚未關閉';
 $string['attemptduration'] = '花費時間';
 $string['attemptedon'] = '作答已經開始';
-$string['attempterror'] = '你不能在這一時間做這一測驗，因為：{$a}';
+$string['attempterror'] = '您不能在這一時間做這一測驗，因為：{$a}';
 $string['attemptfirst'] = '第一次作答';
 $string['attemptincomplete'] = '此次作答(由 {$a}) 尚未完成';
 $string['attemptlast'] = '最後一次作答';
@@ -122,7 +122,7 @@ $string['cannotloadquestion'] = '無法載入試題選項';
 $string['cannotloadtypeinfo'] = '無法載入試題型態資訊';
 $string['cannotopen'] = '無法開啟匯出的檔案({$a})';
 $string['cannotrestore'] = '無法回存試題';
-$string['cannotreviewopen'] = '你無法檢視這次作答，它仍在開放作答中';
+$string['cannotreviewopen'] = '您無法檢視這次作答，它仍在開放作答中';
 $string['cannotsavelayout'] = '無法儲存版面設計';
 $string['cannotsavenumberofquestion'] = '無法儲存每一頁顯示的試題數';
 $string['cannotsavequestion'] = '無法儲存試題清單';
@@ -150,15 +150,15 @@ $string['comment'] = '評論';
 $string['commentorgrade'] = '發表評論或者修改分數';
 $string['comments'] = '評論';
 $string['completedon'] = '完成於';
-$string['configadaptive'] = '若你選擇"是"，學生在這測驗的同一作答次中，可以對同一試題多次作答，直到答對為止。';
+$string['configadaptive'] = '若您選擇"是"，學生在這測驗的同一作答次中，可以對同一試題多次作答，直到答對為止。';
 $string['configattemptsallowed'] = '限制學生在這一測驗上的作答次數。';
 $string['configdecimaldigits'] = '顯示分數時，小數點後面要有幾位小數';
 $string['configdecimalplaces'] = '顯示這測驗總分數時，小數點後面要有幾位小數';
 $string['configdecimalplacesquestion'] = '顯示個別試題分數時，小數點後面要有幾位小數';
 $string['configdelay1'] = '如果您設置了一個時延，那麼學生在第一次答題之後必須等待這段時間。';
-$string['configdelay1st2nd'] = '若你在此設一間隔時間，那學生在第一次做答結束之後，要經過這麼長時間才可做第二次。';
-$string['configdelay2'] = '若你在此設一間隔時間，那麼學生要做第三次或以上次數時，每次都需要等待那麼久的時間。';
-$string['configdelaylater'] = '若你在此設一間隔時間，那麼學生要做第三次、第四次....時，每次都需要等待那麼久的時間才可做下一次。';
+$string['configdelay1st2nd'] = '若您在此設一間隔時間，那學生在第一次做答結束之後，要經過這麼長時間才可做第二次。';
+$string['configdelay2'] = '若您在此設一間隔時間，那麼學生要做第三次或以上次數時，每次都需要等待那麼久的時間。';
+$string['configdelaylater'] = '若您在此設一間隔時間，那麼學生要做第三次、第四次....時，每次都需要等待那麼久的時間才可做下一次。';
 $string['configeachattemptbuildsonthelast'] = '如果允許多次作答，那麼每次重新作答時都會包含前一次作答的結果。';
 $string['configgrademethod'] = '如果允許多次作答，那麼要以什麼方式計算學生在此測驗上的最後分數？';
 $string['configintro'] = '這裡設置的值是您建立新測驗時設置表單中的預設值。您還可以配置哪些測驗設置是高級設置。';
@@ -168,9 +168,9 @@ $string['configpenaltyscheme'] = '在適性模式中，每一錯誤的反應都�
 $string['configpopup'] = '在測驗作答時，強迫開啟一彈出式視窗，並使用 JavaScript 技術來限制學生做複製與黏貼動作等等。';
 $string['configrequirepassword'] = '學生必須在輸入這一密碼之後才能作測驗。';
 $string['configrequiresubnet'] = '學生只能夠從這些電腦上作測驗。';
-$string['configreviewoptions'] = '這些選項控制當用戶檢視測驗作答或看測驗報告時，他們可以看到什麼樣的訊息，。';
+$string['configreviewoptions'] = '這些選項控制當使用者檢視測驗作答或看測驗報告時，他們可以看到什麼樣的訊息，。';
 $string['configshowblocks'] = '在測驗作答時顯示區塊';
-$string['configshowuserpicture'] = '在作答時，將用戶的照片顯示在螢幕上。';
+$string['configshowuserpicture'] = '在作答時，將使用者的照片顯示在螢幕上。';
 $string['configshufflequestions'] = '如果啟用此選項，則每一個學生在做此測驗時，此測驗的試題的順序將重新隨機排列。';
 $string['configshufflewithin'] = '如果您啟用此選項，則每一學生開始做此測驗，試題之內的選項(答案)順序也會隨機排列。
 這功能要將試題的設定上也啟用才能重新排列。';
@@ -199,12 +199,12 @@ $string['countdown'] = '倒數計時';
 $string['countdownfinished'] = '考試已結束，現在您可以公佈答案了';
 $string['countdowntenminutes'] = '測驗將於10分鐘後結束';
 $string['coursetestmanager'] = '課程測驗管理(CTM)格式';
-$string['createcategoryandaddrandomquestion'] = '添加類目並新增隨機試題';
+$string['createcategoryandaddrandomquestion'] = '新增類目並新增隨機試題';
 $string['createfirst'] = '您必須先建立簡答題目。';
 $string['createmultiple'] = '建立多個題目';
 $string['createnewquestion'] = '產生新題目';
 $string['createquestionandadd'] = '您必須先建立一些簡答題。';
-$string['custom'] = '自定義格式';
+$string['custom'] = '自訂格式';
 $string['dataitemneed'] = '您需要至少增加一個資料項目集，才能得到一個有效的題目';
 $string['datasetdefinitions'] = '類別{$a}可重複使用的資料集定義';
 $string['datasetnumber'] = '數目';
@@ -238,7 +238,7 @@ $string['duplicateresponse'] = '您之前已經交過相同的答案，因此本
 $string['eachattemptbuildsonthelast'] = '顯示前一次答題的結果於試卷上';
 $string['eachattemptbuildsonthelast_help'] = '　　<p align="center"><b>在上一次回答的基礎上作答</b></p>
 　　
-　　<p>如果允許多次參加測驗並將此選項設定為<b>是</b>，則每次參加測驗時都會是用上一次回答的答案作為缺省答案。這允許通過多次參加測驗來徹底完成它。</p>
+　　<p>如果允許多次參加測驗並將此選項設定為<b>是</b>，則每次參加測驗時都會是用上一次回答的答案作為預設答案。這允許通過多次參加測驗來徹底完成它。</p>
 　　
 　　<p>如果希望每次參加測驗時都顯示新的問題，請選擇<b>否</b>。</p>';
 $string['editcategories'] = '編輯類別';
@@ -263,7 +263,7 @@ $string['emailconfirmbody'] = '{$a->username},您好
 這封郵件確認我們已經接收到您的作答。
 
 您可以連線至 {$a->quizurl} 檢閱測驗。';
-$string['emailconfirmsmall'] = '謝謝你提交你的答案到 \'{$a->quizname}\'';
+$string['emailconfirmsmall'] = '謝謝您提交您的答案到 \'{$a->quizname}\'';
 $string['emailconfirmsubject'] = '測驗繳交確認：{$a->quizname}';
 $string['emailnotifybody'] = '{$a->username},您好
 
@@ -275,7 +275,7 @@ $string['emailnotifysubject'] = '{$a->studentname}已經完成測驗{$a->quiznam
 $string['empty'] = '空白';
 $string['enabled'] = '啟用';
 $string['endtest'] = '完成作答...';
-$string['erroraccessingreport'] = '你不能存取這一報告';
+$string['erroraccessingreport'] = '您不能存取這一報告';
 $string['errorinquestion'] = '試題有錯誤';
 $string['errormissingquestion'] = '錯誤:系統缺少編號為{$a}的試題';
 $string['errornotnumbers'] = '錯誤: 答案必須是數值';
@@ -440,7 +440,7 @@ $string['noattemptstoshow'] = '沒有作答結果可顯示';
 $string['nocategory'] = '錯誤或是沒有指定類別';
 $string['noclose'] = '沒有關閉日期';
 $string['nocommentsyet'] = '還沒有評論';
-$string['noconnection'] = '現在無法連接到網頁伺服器上，以處理這一題目。請聯絡網站管理員。';
+$string['noconnection'] = '現在無法連結到網頁伺服器上，以處理這一題目。請聯絡網站管理員。';
 $string['nodataset'] = '沒有任何東西-它不是萬用字元';
 $string['nodatasubmitted'] = '沒有被上傳的數據。';
 $string['noessayquestionsfound'] = '找不到人工評分的題目';
@@ -517,7 +517,7 @@ $string['penalty'] = '倒扣';
 $string['penaltyscheme'] = '使用倒扣';
 $string['penaltyscheme_help'] = '<p align="center"><b>使用扣分規則</b></p>
 
-<p>如果測驗是以適性(adaptive)模式實施，那就會允許學生在答錯之後繼續嘗試作答，直到答對。在這種情況下，你可能考慮針對每個錯誤反應採取扣分，這使得嘗試愈多次的才答對的人，分數就會愈低。在設定或編輯試題的時候，每一個誘答的扣分比例，是個別決定的。</p>
+<p>如果測驗是以適性(adaptive)模式實施，那就會允許學生在答錯之後繼續嘗試作答，直到答對。在這種情況下，您可能考慮針對每個錯誤反應採取扣分，這使得嘗試愈多次的才答對的人，分數就會愈低。在設定或編輯試題的時候，每一個誘答的扣分比例，是個別決定的。</p>
 
 <p>除非這測驗採用適性模式執行，否則這一設定不會有效果。</p>';
 $string['percentcorrect'] = '答對百分比';
@@ -666,7 +666,7 @@ $string['requiresubnet_help'] = '　　<p align="center"><b>要求特定網路�
 　　<p>您可以使用三種類型的數位(不能是用功能變數名稱)：
 　　<ol>
 　　<li>完整IP位址如<b>192.168.10.1</b>，它與一台電腦(或代理)對應。</li>
-　　<li>部分位元址如<b>192.168</b>，它匹配所有以此數字開始的位址。</li>
+　　<li>部分位元址如<b>192.168</b>，它辨識所有以此數字開始的位址。</li>
 　　<li>CIDR格式，如<b>231.54.211.0/20</b>，它允許您指定子網。</li>
 　　</ol>
 　　</p>
@@ -743,7 +743,7 @@ $string['showinsecurepopup'] = '作答時使用"安全"彈出視窗';
 $string['shownoattempts'] = '顯示未作答的學生';
 $string['shownoattemptsonly'] = '只顯示未作答的學生';
 $string['showteacherattempts'] = '顯示有作答的老師';
-$string['showuserpicture'] = '顯示用戶的照片';
+$string['showuserpicture'] = '顯示使用者的照片';
 $string['showuserpicture_help'] = '若啟用，在作答時或回顧時，學生的姓名和照片會顯示在螢幕上。這可方便監考老師確認是否有人冒名代考。';
 $string['shuffle'] = '隨機排列';
 $string['shuffleanswers'] = '隨機排列答案';
@@ -787,7 +787,7 @@ $string['timelimit'] = '時間限制';
 $string['timelimitexeeded'] = '抱歉! 測驗時限到了!';
 $string['timelimit_help'] = '　　<p align="center"><strong>時間限制</strong></p>
 　　
-　　<p>缺省的情況下，測驗並沒有時間限制，學生花多少時間來完成它都沒有問題。</p>
+　　<p>預設的情況下，測驗並沒有時間限制，學生花多少時間來完成它都沒有問題。</p>
 　　
 　　<p>如果您指定了時間限制，系統會做以下工作以儘量保證測驗是在規定時內完成的：</p>
 　　
@@ -825,7 +825,7 @@ $string['upgradingquizattempts'] = '升級測驗作答次： {$a->done}/{$a->out
 $string['upgradingveryoldquizattempts'] = '升級每一舊的測驗作答次： {$a->done}/{$a->outof}';
 $string['url'] = '網址';
 $string['usedcategorymoved'] = '此類別已經搬移至網站層次。由於刪除此課程後，此伺服器上的其他測驗使用這些問題。';
-$string['useroverrides'] = '用戶覆蓋';
+$string['useroverrides'] = '使用者覆蓋';
 $string['usersnone'] = '還沒有學生存取過這一測驗卷';
 $string['validate'] = '有效日期';
 $string['viewallanswers'] = '檢視 {$a} 人的測驗結果';

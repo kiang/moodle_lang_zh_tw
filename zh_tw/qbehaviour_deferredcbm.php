@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['assumingcertainty'] = '你沒有選擇一個確定程度。所以假定為：{$a}';
+$string['assumingcertainty'] = '您沒有選擇一個確定程度。所以假定為：{$a}';
 $string['certainty1'] = '不太有信心(少於67%)';
 $string['certainty2'] = '普通(多於67%)';
 $string['certainty3'] = '非常有信心(大於80%)';
-$string['howcertainareyou'] = '你有多少信心說你的答案是對的？{$a}';
-$string['markadjustment'] = '基於你表達的信心程度，你的基本分數{$a->rawmark}已被停整成 {$a->mark}。';
+$string['howcertainareyou'] = '您有多少信心說您的答案是對的？{$a}';
+$string['markadjustment'] = '基於您表達的信心程度，您的基本分數{$a->rawmark}已被停整成 {$a->mark}。';
 $string['pluginname'] = '信心加權法';

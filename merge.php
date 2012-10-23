@@ -51,12 +51,12 @@ foreach(glob("{$sourceLang}/*.php") AS $file) {
 	foreach($sourceStrings AS $key => $val) {
 		$targetContent .= '$string[\'' . $key . '\'] = \'';
 		if(isset($targetStrings[$key])) {
-			$targetContent .= str_replace('\'', '\\\'', $targetStrings[$key]);
+			$translated = strtr($targetStrings[$key], $zh2TW);
 		} else {
 			$translated = strtr($val, $zh2Hant);
 			$translated = strtr($translated, $zh2TW);
-			$targetContent .= str_replace('\'', '\\\'', $translated);
 		}
+		$targetContent .= str_replace('\'', '\\\'', $translated);
 		$targetContent .= '\';' . "\n";
 	}
 	file_put_contents($targetFile, $targetContent);
