@@ -33,6 +33,7 @@ $string['auth_radiusnasport'] = '連接埠';
 $string['auth_radiusnasport_key'] = '連接埠';
 $string['auth_radiussecret'] = '共享密鑰';
 $string['auth_radiussecret_key'] = '密鑰';
+$string['auth_radiustype'] = '選擇一個驗證機制來配合使用RADIUS伺服器。';
 $string['auth_radiustypechapmd5'] = 'CHAP MD5';
 $string['auth_radiustype_key'] = '認證';
 $string['auth_radiustypemschapv1'] = 'Microsoft CHAP 第一版';

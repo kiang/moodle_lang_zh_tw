@@ -25,8 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['defaultname'] = '匯入試題{$a}';
-$string['importnotext'] = '在XML檔少了試題文字';
-$string['notenoughtsubans'] = '無法匯入配合題"{$a}"，因為配合題至少需要兩個試題和三個答案。';
-$string['pluginname'] = 'Blackboard格式';
-$string['pluginname_help'] = 'Blackboard格式能讓試題以Blackboard第五版的"POOL" 類型的匯出格式儲存，然後用來匯入Blackboard系統。';
+$string['blackboard'] = 'Blackboard';
+$string['blackboard_help'] = 'Blackboard 格式支持匯入用 Blackboard 版本 5 「POOL」類型匯出的題目。';

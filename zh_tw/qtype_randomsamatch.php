@@ -25,14 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addingrandomsamatch'] = '新增一道隨機填空辨識題';
+$string['editingrandomsamatch'] = '編輯隨機填空辨識題';
 $string['nosaincategory'] = '您選擇的這個\'{$a->catname}\'題目類別中，沒有簡答題。請選擇一個不同類別，並製作一些題目。';
 $string['notenoughsaincategory'] = '您選擇的這個\'{$a->catname}\'題目類別中，只有 {$a->nosaquestions}題簡答題。請選擇一個不同類別，並製作更多題目，或是減少您的待選題目數。';
-$string['pluginname'] = '隨機簡答配合題';
-$string['pluginnameadding'] = '新增一隨機簡答配合題';
-$string['pluginnameediting'] = '編輯一隨機簡答配合題';
-$string['pluginname_help'] = '從學生觀點，它就是一個配合題。
-
-其差別是這些配對用的清單是從當前類別下的選擇題隨機抽選出來的。
-
-這一類別下需要有足夠未使用的簡答題，否則會有錯誤訊息。';
-$string['pluginnamesummary'] = '它就像配合題，只是它是由某一類別下的簡答題隨機抽選出來。';
+$string['randomsamatch'] = '隨機填空辨識題';
+$string['randomsamatch_help'] = '從學生的角度看，很像辨識題。區別是，名詞和短句（問題）列表是從當前類別的填空題中隨機抽取的。此類別中必須有足夠數量的還未使用的填空題，否則會顯示錯誤資訊。';
+$string['randomsamatchsummary'] = '很像辨識題，不過是用指定類別中的填空題隨機生成的。';

@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['plugidnname_help'] = 'Learnwise格式能讓Moodle將選擇題儲存成Learnwise的 XML格式。';
-$string['pluginname'] = 'Learnwise 格式';
+$string['learnwise'] = 'Learnwise 格式';
+$string['learnwise_help'] = '此格式支持匯入用 Learnwise XML 格式保存的選擇題。';

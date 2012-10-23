@@ -1,6 +1,5 @@
 <?php
 include 'ZhConversion.php';
-include 'dbcconv/dbcconv.php';
 define('MOODLE_INTERNAL', true);
 
 $sourceLang = 'zh_cn';
@@ -54,8 +53,9 @@ foreach(glob("{$sourceLang}/*.php") AS $file) {
 		if(isset($targetStrings[$key])) {
 			$targetContent .= str_replace('\'', '\\\'', $targetStrings[$key]);
 		} else {
-			$translated = str_replace('\'', '\\\'', dbcconv($val, 0));
-			$targetContent .= str_replace('\'', '\\\'', strstr($translated, $zh2Hant));
+			$translated = strtr($val, $zh2Hant);
+			$translated = strtr($translated, $zh2TW);
+			$targetContent .= str_replace('\'', '\\\'', $translated);
 		}
 		$targetContent .= '\';' . "\n";
 	}

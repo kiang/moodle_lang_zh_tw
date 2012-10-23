@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addcomment'] = '新增註解';
 $string['addentry'] = '新增條目';
 $string['addingcomment'] = '增加一條註解';
+$string['alias'] = '關鍵詞';
 $string['aliases'] = '關鍵字(詞)';
 $string['aliases_help'] = '<p align="center"><b>同義字(別名)</b></p>
 <p>辭彙表中的每一個詞條都可以有一系列相關的同義字(或別名)。</p>
@@ -55,9 +56,9 @@ $string['allowprintview_help'] = '　　<p align="center"><b>允許列印視圖<
 　　<p>您可以選擇是否開啟自功能。</p>
 　　
 　　<p>教師總是可以使用列印視圖。</p>';
+$string['andmorenewentries'] = '還有 {$a} 個新詞條。';
 $string['answer'] = '答案';
 $string['approve'] = '核准';
-$string['areaentry'] = '定義';
 $string['areyousuredelete'] = '您確定要刪除這條目嗎？';
 $string['areyousuredeletecomment'] = '您確定要刪除這註解嗎？';
 $string['areyousureexport'] = '您確定要匯出這條目到';
@@ -104,6 +105,8 @@ $string['commentdeleted'] = '註解已經被刪除';
 $string['comments'] = '註解';
 $string['commentson'] = '註解在';
 $string['commentupdated'] = '註解已經更新';
+$string['completionentries'] = '學生必須建立項目：';
+$string['completionentriesgroup'] = '必建詞條';
 $string['concept'] = '概念';
 $string['concepts'] = '概念';
 $string['configenablerssfeeds'] = '此設定將啟動辭典的RSS功能,您可以在每個辭典中分別設定';
@@ -115,6 +118,7 @@ $string['defaultapproval'] = '預設的審核狀態';
 $string['defaultapproval_help'] = '　　<p align="center"><b>缺省審核狀態</b></p>
 　　
 　　<p>這個選項允許教師設定學生所提交詞條的缺省狀態。它可以是自動處於已審核狀態(可以被所有人查閱)，或者需要教師逐一審核。</p>';
+$string['defaulthook'] = '預設鉤子';
 $string['defaultmode'] = '預設模式';
 $string['defaultsortkey'] = '預設的排序值';
 $string['defaultsortorder'] = '預設的排序順序';
@@ -170,6 +174,7 @@ $string['displayformat_help'] = '<p align="center"><b>詞條的顯示格式</b><
 <p>Moodle管理員可以創建新的格式，方法請參考<b>mod/glossary/formats/README.txt</b>中內容。</p>';
 $string['displayformats'] = '顯示格式';
 $string['displayformatssetup'] = '顯示格式設定';
+$string['duplicatecategory'] = '類別重名';
 $string['duplicateentry'] = '副本項目';
 $string['editalways'] = '隨時編輯';
 $string['editalways_help'] = '<p align="center"><b>總可以編輯</b></p>
@@ -206,6 +211,7 @@ $string['entryusedynalink_help'] = '<p align="center"><b>啟動詞條的自動�
 　　';
 $string['errcannoteditothers'] = '您無法編輯其他使用者的條目資料';
 $string['errconceptalreadyexists'] = '這個概念已經存在，這個辭典不允許重複。';
+$string['errdeltimeexpired'] = '您不能刪除它。時限已到！';
 $string['erredittimeexpired'] = '這條目的編輯時間已經超過。';
 $string['errorparsingxml'] = '解析檔案時發生錯誤，請確認 XML 語法正確。';
 $string['explainaddentry'] = '新增條目到目前的辭典。<br> 概念和定義是必填的欄位';
@@ -233,6 +239,8 @@ $string['fullmatch_help'] = '<p align="center"><b>整個詞彙符合</b></p>
 $string['glossary:approve'] = '核准未批准的條目';
 $string['glossary:comment'] = '建立評論';
 $string['glossary:export'] = '匯出條目';
+$string['glossary:exportentry'] = '匯出單個詞條';
+$string['glossary:exportownentry'] = '匯出您的單個詞條';
 $string['glossary:import'] = '匯入條目';
 $string['glossaryleveldefaultsettings'] = '全域辭典設定';
 $string['glossary:managecategories'] = '管理類別';
@@ -248,13 +256,17 @@ $string['glossarytype_help'] = '　　<p align="center"><b>定義課程的主辭
 　　
 　　<p>注意：每門課程只能擁有一個主辭彙表，並且只有教師才能更新它。</p>';
 $string['glossary:view'] = '檢視辭典';
+$string['glossary:viewallratings'] = '查看所有人給的原始評分';
+$string['glossary:viewanyrating'] = '查看每個人收到的總評分';
 $string['glossary:viewrating'] = '檢視評比';
 $string['glossary:write'] = '建立新條目';
+$string['guestnoedit'] = '訪客不能編輯詞彙表';
 $string['importcategories'] = '匯入類別';
 $string['importedcategories'] = '匯入的類別';
 $string['importedentries'] = '匯入的條目';
 $string['importentries'] = '匯入條目';
 $string['importentriesfromxml'] = '從 XML 檔案匯入條目';
+$string['includegroupbreaks'] = '包含分組';
 $string['isglobal'] = '設定為全域辭典?';
 $string['isglobal_help'] = '　　<p align="center"><b>定義全局辭彙表</b></p>
 　　
@@ -263,6 +275,7 @@ $string['isglobal_help'] = '　　<p align="center"><b>定義全局辭彙表</b>
 　　<p>這些辭彙表可以是任何課程的一部分(但通常是在首頁上)。</p>
 　　
 　　<p>全局辭彙表與普通的本地辭彙表之間的差別主要在於自動鏈結時全局辭彙表是針對整個站點的(而不僅僅是辭彙表所述的課程)。</p>';
+$string['letter'] = '字母';
 $string['linkcategory'] = '自動連結該類別';
 $string['linkcategory_help'] = '　　<p align="center"><b>自動鏈結該類別</b></p>
 　　
@@ -273,6 +286,7 @@ $string['linking'] = '自動連結';
 $string['mainglossary'] = '主辭典';
 $string['maxtimehaspassed'] = '抱歉, 已超過了修改該評論 ({$a}) 的最大時限!';
 $string['modulename'] = '辭典';
+$string['modulename_help'] = '詞彙模組能讓使用者建立和維護像字典一樣的定義列表。無論詞名出現在課程的哪裡，都可以被自動連結到對應的詞條。';
 $string['modulenameplural'] = '辭典';
 $string['newentries'] = '新辭典條目';
 $string['newglossary'] = '新辭典';
@@ -283,10 +297,19 @@ $string['nocomments'] = '（未找到註解）';
 $string['noconceptfound'] = '沒有找到概念或定義';
 $string['noentries'] = '在此單元中門沒找到相關條目';
 $string['noentry'] = '沒找到條目';
+$string['nopermissiontodelcomment'] = '您不能刪除其他人的評論！';
+$string['nopermissiontodelinglossary'] = '您不能在評論此詞彙表！';
+$string['nopermissiontoviewresult'] = '您只能看您自己的詞條的結果';
+$string['notapproved'] = '詞條還未被接受。';
 $string['notcategorised'] = '未分類';
 $string['numberofentries'] = '條目數';
 $string['onebyline'] = '(每行一個)';
+$string['page-mod-glossary-edit'] = '詞彙表新增/編輯詞條頁面';
+$string['page-mod-glossary-view'] = '查看詞彙表編輯頁面';
+$string['page-mod-glossary-x'] = '任意詞彙表模組頁面';
+$string['pluginadministration'] = '詞彙表管理';
 $string['pluginname'] = '辭典';
+$string['popupformat'] = '彈出視窗格式';
 $string['printerfriendly'] = '友善列印';
 $string['printviewnotallowed'] = '不允許列印檢視';
 $string['question'] = '問題';
@@ -294,12 +317,14 @@ $string['rejectedentries'] = '已拒絕條目';
 $string['rejectionrpt'] = '拒絕條目報告';
 $string['resetglossaries'] = '刪除條目由';
 $string['resetglossariesall'] = '從所有辭典中刪除條目';
+$string['rssarticles'] = 'RSS 中最近文章個數';
 $string['rssarticles_help'] = '　　<p align="center"><b>RSS新文章數目</b></p>
 　　
 　　<p>這個選項允許您設定包含在RSS種子中的文章數目。</p>
 　　
 　　<p>對於大多數辭彙表來說，5到20之間的數位都是可以的。如果您的辭彙表經常更新，可以增加這個數字。</p>';
 $string['rsssubscriberss'] = '顯示概念“{$a}”的RSS匯集';
+$string['rsstype'] = '此活動的 RSS 來源';
 $string['rsstype_help'] = '<p align="center"><b>辭彙表的RSS種子</b></p>
 　　
 <p>這個選項允許您啟動辭彙表的RSS種子。</p>

@@ -29,3 +29,29 @@ $string['filelockedmail'] = '您所使用註冊課程的文字檔({$a}) 無法�
 $string['filelockedmailsubject'] = '重大錯誤: 註冊檔';
 $string['location'] = '檔案位置';
 $string['mailadmin'] = '用電子郵件通知管理者';
+$string['mailstudents'] = '通過 Email 提醒學生';
+$string['mailteachers'] = '通過 Email 提醒教師';
+$string['mapping'] = '文字文件對應';
+$string['messageprovider:flatfile_enrolment'] = '文字文件選課消息';
+$string['pluginname'] = '文字文件（CSV）';
+$string['pluginname_desc'] = '該方法會反覆在您指定的位置檢查和處理一個特殊格式的文字文件。此文件每行應有四個或六個用逗號分隔的欄位：
+
+<pre class="informationbox">
+*  operation, role, idnumber(使用者), idnumber(課程) [, starttime, endtime]
+其中：
+*  operation        = add | del
+*  role             = student | teacher | teacheredit
+*  idnumber(使用者)   = 使用者表中的學號（不是id）
+*  idnumber(課程) = 課程表中的編號（不是id）
+*  starttime        = 開始時間（從epoch以來的秒數）- 可選
+*  endtime          = 結束時間（從epoch以來的秒數）- 可選
+</pre>
+例如：
+<pre class="informationbox">
+   add, student, 5, CF101
+   add, teacher, 6, CF101
+   add, teacheredit, 7, CF101
+   del, student, 8, CF101
+   del, student, 17, CF101
+   add, student, 21, CF101, 1091115000, 1091215000
+</pre>';

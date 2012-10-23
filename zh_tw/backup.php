@@ -50,8 +50,7 @@ $string['backupdetailsnonstandardinfo'] = '所選出的檔案不是標準的Mood
 
 回存過程會嘗試將它轉換為標準格式再回存它。';
 $string['backupformat'] = '格式';
-$string['backupformatimscc1'] = 'IMS Common Cartridge 1.0';
-$string['backupformatimscc11'] = 'IMS Common Cartridge 1.1';
+$string['backupformatimscc'] = 'IMS通用容器';
 $string['backupformatmoodle1'] = 'Moodle1格式';
 $string['backupformatmoodle2'] = 'Moodle 2格式';
 $string['backupformatunknown'] = '未知的格式';
@@ -131,19 +130,7 @@ $string['errorminbackup20version'] = '這一備份檔是以Moodle備份模組的
 最低需求是 {$a->min}，無法被回存。';
 $string['errorrestorefrontpage'] = '錯誤! 不允許還原覆蓋首頁';
 $string['executionsuccess'] = '備份檔已經成功建立';
-$string['filealiasesrestorefailures'] = '以別名回存失敗';
-$string['filealiasesrestorefailures_help'] = '別名檔是指向其他檔案的象徵性鏈結，包括那些儲存在外部倉儲的。
-
-在某些情況下，Moodle無法儲存它們，舉例來說，把備份檔回存到另一個網站，或指向的檔案已經不存在。
-
-失敗的更多細節和真正的理由，可以在回存日誌檔中找到。';
-$string['filealiasesrestorefailuresinfo'] = '某些包含在備份檔的別名檔案無法被回存。
-
-以下清單包含它們在原始網站中被期待的位置和指向的資源檔。';
 $string['filename'] = '檔案名稱';
-$string['filereferencesincluded'] = '備份包包含了引用外部內容的檔案，它們在其他網站無法作用';
-$string['filereferencesnotsamesite'] = '備份是來自不同網站，檔案得引用無法恢復';
-$string['filereferencessamesite'] = '備份是來自相同網站，檔案的引用可以恢復';
 $string['generalactivities'] = '包含活動';
 $string['generalanonymize'] = '匿名訊息';
 $string['generalbackdefaults'] = '一般備份預設';
@@ -172,7 +159,6 @@ $string['importfile'] = '匯入一備份檔';
 $string['importsuccess'] = '匯入已經完成，請擊點繼續以回到課程';
 $string['includeactivities'] = '包含：';
 $string['includeditems'] = '包含項目：';
-$string['includefilereferences'] = '檔案引用到外部內容';
 $string['includesection'] = '學習單元{$a}';
 $string['includeuserinfo'] = '用戶資料';
 $string['locked'] = '已被封鎖';
@@ -181,7 +167,6 @@ $string['lockedbyhierarchy'] = '因依賴關係被鎖定';
 $string['lockedbypermission'] = '你無足夠權限去更改這一設定';
 $string['loglifetime'] = '保持日誌檔';
 $string['managefiles'] = '管理備份檔';
-$string['missingfilesinpool'] = '在備份過程中，有些檔案無法被儲存，備份檔將無法回存它們';
 $string['moodleversion'] = 'Moodle版本';
 $string['moreresults'] = '有太多結果，請輸入更精確詳細的搜尋詞。';
 $string['nomatchingcourses'] = '沒有課程可以顯示';
@@ -196,7 +181,6 @@ $string['restoreactivity'] = '恢復活動';
 $string['restorecourse'] = '恢復課程';
 $string['restorecoursesettings'] = '課程設定';
 $string['restoreexecutionsuccess'] = '這課程已經成功地回存，擊點以下"繼續"按鈕，將帶你檢視你回存的課程。';
-$string['restorefileweremissing'] = '某些檔案無法被回存，因為它們在備份檔中找不到';
 $string['restorenewcoursefullname'] = '新課程名稱';
 $string['restorenewcourseshortname'] = '新課程簡稱';
 $string['restorenewcoursestartdate'] = '新開始日期';
@@ -235,8 +219,6 @@ $string['rootsettingcalendarevents'] = '包含行事曆事件';
 $string['rootsettingcomments'] = '包含評語';
 $string['rootsettingfilters'] = '包含過濾器';
 $string['rootsettinggradehistories'] = '包含成績紀錄';
-$string['rootsettingimscc1'] = '轉換到IMS Common Cartridge 1.0';
-$string['rootsettingimscc11'] = '轉換到IMS Common Cartridge 1.1';
 $string['rootsettinglogs'] = '包含課程日誌';
 $string['rootsettingroleassignments'] = '包含使用者角色指派';
 $string['rootsettings'] = '備份設定';
@@ -250,8 +232,6 @@ $string['selectacourse'] = '選擇一課程';
 $string['setting_course_fullname'] = '課程名稱';
 $string['setting_course_shortname'] = '課程簡稱';
 $string['setting_course_startdate'] = '課程開始日期';
-$string['setting_keep_groups_and_groupings'] = '保持當前的群組和分類';
-$string['setting_keep_roles_and_enrolments'] = '保持當前的角色和環境';
 $string['setting_overwriteconf'] = '覆寫課程配置';
 $string['storagecourseandexternal'] = '課程備份檔案區和指定的目錄';
 $string['storagecourseonly'] = '課程備份檔案區';

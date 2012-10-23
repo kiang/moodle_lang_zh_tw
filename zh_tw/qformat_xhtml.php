@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'XHTML 格式';
-$string['pluginname_help'] = 'XHTML 格式能讓在這類目的所有試題可以匯出到使用嚴格XHTML的單一頁面，好讓其他應用程式也可以使用。';
+$string['xhtml'] = 'XHTML格式';
+$string['xhtml_help'] = 'XHTML 格式將此類別中的所有題目匯出到一個嚴格符合 XHTML 規範的網頁中，供其它應用程序使用。';

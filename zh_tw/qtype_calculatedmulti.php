@@ -25,12 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '計算的選擇題';
-$string['pluginnameadding'] = '新增一計算的選擇題';
-$string['pluginnameediting'] = '編輯一計算的選擇題';
-$string['pluginname_help'] = '計算的選擇題就像選擇題，其選項是數值經過公式計算的結果
-
-例如，如果這個問題是“長度{l}和寬度{w}的矩形面積為多少？” 那選項之一就要是 {= {l}*{w}} (其中*表示乘號)。';
-$string['pluginnamesummary'] = '計算的選擇題就像選擇題，其選項是數值經過公式計算的結果。
-
-而這些數值是在做測驗時，由一集合中隨機挑選出來。';
+$string['addingcalculatedmulti'] = '新增一道選項版計算題';
+$string['calculatedmulti'] = '計算題選項版';
+$string['calculatedmulti_help'] = '計算題選項版和選擇題類似，但在選項中可以包含計算公式，可以使用通配符（放在大括號中），而在答題時通配符會被替換。例如，題目是「長為{l}寬為{w}的長方形面積是多少？」，其中一個選項是「{={l}*{w}}」（ * 表示乘法）。';
+$string['calculatedmultisummary'] = '計算題選項版和選擇題類似，但選項中可以有計算公式，在答題時，公式的值計算自從一個集合中隨機選擇的數值。';
+$string['editingcalculatedmulti'] = '編輯選項版計算題';

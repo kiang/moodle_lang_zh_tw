@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addingshortanswer'] = '新增一道填空題';
 $string['addmoreanswerblanks'] = '增加 {no} 個空白答案';
 $string['answer'] = '答案：{$a}';
 $string['answermustbegiven'] = '若這裡有分數或回饋，你就必須輸入一答案';
@@ -34,15 +35,12 @@ $string['casesensitive'] = '大小寫有區分';
 $string['caseyes'] = '是的，大小寫必須符合';
 $string['correctansweris'] = '正確答案是：{$a}';
 $string['correctanswers'] = '正確答案';
+$string['editingshortanswer'] = '編輯填空題';
 $string['filloutoneanswer'] = '您必須提供至少一個可能的答案。答案欄留空白將會被忽略。
 
 可以使用 \'*\' 為萬用字元去搭配任何字元。第一個符合的答案將用來決定分數與回饋。';
 $string['notenoughanswers'] = '這種題型至少需要 {$a} 個答案';
 $string['pleaseenterananswer'] = '請輸入一個答案';
-$string['pluginname'] = '簡答題';
-$string['pluginnameadding'] = '新增一簡答題';
-$string['pluginnameediting'] = '編輯一簡答題';
-$string['pluginname_help'] = '要回答這種試題(可能包含圖片)，作答者需要輸入一文字或片語。這裡可能有幾種可接受的答案，每一種有不同的分數。
-
-如果選擇了"區分大小寫"，那麼答案"Word"或"word"可以設定不同的得分。';
-$string['pluginnamesummary'] = '允許以一個或幾個字做回應，計分時和幾種範例答案作比較，它可能包含萬用字。';
+$string['shortanswer'] = '填空題';
+$string['shortanswer_help'] = '此類題目（題干可以包含圖片）的答題者輸入一個詞或一句話做為答案。可以設定多個正確答案，每個答案可以有不同的得分。如果勾選了「大小寫敏感」選項，那麼您就可以給「Word」和「word」不同的分數。';
+$string['shortanswersummary'] = '允許用一個或多個詞回答，系統通過和不同的標準答案（可以包含通配符）對比來自動評分。';

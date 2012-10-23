@@ -29,6 +29,5 @@ $string['disregardedwithoutpenalty'] = '這次的提交無效，會被忽視且�
 $string['gradingdetails'] = '這次提交的分數：{$a->raw}/{$a->max}';
 $string['gradingdetailsadjustment'] = '考慮先前的嘗試，這一題給<strong>{$a->cur}/{$a->max}</strong>分';
 $string['gradingdetailspenalty'] = '這次提交導致被扣{$a} 分';
-$string['gradingdetailspenaltytotal'] = '到目前總扣分: {$a}';
 $string['notcomplete'] = '沒有完成';
 $string['pluginname'] = '直到答對法';

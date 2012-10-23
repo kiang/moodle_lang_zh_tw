@@ -25,22 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['application/epub_zip'] = 'EPUB 電子書';
 $string['application/msword'] = 'Word 文件';
 $string['application/pdf'] = 'PDF 文件';
-$string['application/vnd.moodle.backup'] = 'Moodle 備份';
 $string['application/vnd.ms-excel'] = 'Excel 試算表';
 $string['application/vnd.ms-powerpoint'] = 'Powerpoint 簡報檔';
-$string['application/vnd.openxmlformats-officedocument.presentationml.presentation'] = 'Powerpoint 簡報';
-$string['application/vnd.openxmlformats-officedocument.presentationml.slideshow'] = 'Powerpoint 幻燈秀';
-$string['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'] = 'Excel 試算表';
-$string['application/vnd.openxmlformats-officedocument.spreadsheetml.template'] = 'Excel 樣板';
-$string['application/vnd.openxmlformats-officedocument.wordprocessingml.document'] = 'Word 文件';
-$string['archive'] = '檔案庫({$a->EXT})';
-$string['audio'] = '聲音檔 ({$a->EXT})';
-$string['default'] = '{$a->mimetype}';
+$string['application/zip'] = 'ZIP 文檔';
+$string['audio/mp3'] = 'MP3 音頻文件';
+$string['audio/wav'] = 'WAV 音頻文件';
 $string['document/unknown'] = '檔案';
-$string['image'] = '圖像({$a->MIMETYPE2})';
-$string['text/html'] = 'HTML 文件';
+$string['image/bmp'] = '未壓縮的 BMP 圖片';
+$string['image/gif'] = 'GIF 圖片';
+$string['image/jpeg'] = 'JPEG 圖片';
+$string['image/png'] = 'PNG圖像';
 $string['text/plain'] = '文字檔';
 $string['text/rtf'] = 'RTF文件';

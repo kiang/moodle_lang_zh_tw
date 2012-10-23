@@ -25,8 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['defaultname'] = '已匯入試題{$a}';
-$string['imagenotfound'] = '在匯入時，沒有找到路徑{$a}的圖像檔';
-$string['importnotext'] = '在XML檔少了試題文字';
-$string['pluginname'] = 'Blackboard V6+格式';
-$string['pluginname_help'] = 'Blackboard V6+格式能讓Moodle將試題儲存成所有的 Blackboard匯出格式，日後經由 .dat 或 .zip檔匯入。就 .zip檔而言，是支持圖像匯入的。';
+$string['blackboard_six'] = 'Blackboard V6+';
+$string['blackboard_six_help'] = 'Blackboard V6+ 格式支持匯入Blackboard 匯出的 zip 文件。它對Blackboard 版本 6 和 7 只提供有限的支持。';

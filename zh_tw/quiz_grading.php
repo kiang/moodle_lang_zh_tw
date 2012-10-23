@@ -66,7 +66,6 @@ $string['inprogress'] = '進行中';
 $string['invalidattemptid'] = '沒有這個作答編號';
 $string['invalidquestionid'] = '找不到編號 {$a} 的可計分試題';
 $string['noquestionsfound'] = '沒有找到需要人工計分的試題';
-$string['nothingfound'] = '沒有東西可顯示';
 $string['options'] = '選項';
 $string['orderattempts'] = '排列作答次';
 $string['pluginname'] = '人工閱卷';
