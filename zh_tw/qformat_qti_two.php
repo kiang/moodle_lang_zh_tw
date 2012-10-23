@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['qti_two'] = 'IMS QTI 2.0 格式';
-$string['qti_two_help'] = '此格式支持用 IMS QTI 格式（2.0 版本）導出的 zip 文件�一';
+$string['qti_two_help'] = '此格式支持用 IMS QTI 格式（2.0 版本）導出的 zip 文件。';

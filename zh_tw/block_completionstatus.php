@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['completionprogressdetails'] = '進度細節';
 $string['completionstatus'] = '課程進度狀態';
 $string['criteriagroup'] = '條件組';
-$string['firstofsecond'] = '{$a->second}中的{$a->firs一';
+$string['firstofsecond'] = '{$a->second}中的{$a->first}';
 $string['pluginname'] = '課程進度狀態';
 $string['requirement'] = '前提';

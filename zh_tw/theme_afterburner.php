@@ -50,7 +50,7 @@ $string['choosereadme'] = '<div class="clearfix">
   <h2>授權</h2>
   <p>Moodle 核心提供的所有主題，包括此主題的授權協議都是 <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。</p>
  </div>
-</di一';
+</div>';
 $string['pluginname'] = '飛速';
 $string['region-side-post'] = '右側';
 $string['region-side-pre'] = '左側';

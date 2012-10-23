@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['learnwise'] = 'Learnwise 格式';
-$string['learnwise_help'] = '此格式支持導入用 Learnwise XML 格式保存的選擇題�一';
+$string['learnwise_help'] = '此格式支持導入用 Learnwise XML 格式保存的選擇題。';

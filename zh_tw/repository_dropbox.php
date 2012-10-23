@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'Dropbox API密鑰';
 $string['configplugin'] = 'Dropbox配置';
-$string['dropbox'] = 'Dropb一';
+$string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = '查看一個Dropbox文件夾';
-$string['instruction'] = '您可以從<a href="http://www.dropbox.com/developers/apps">Dropbox developers</a>獲得您的 API Key 和 secret。設置 key 的時候，請為“Access level”選擇“Full Dropbox”�一';
+$string['instruction'] = '您可以從<a href="http://www.dropbox.com/developers/apps">Dropbox developers</a>獲得您的 API Key 和 secret。設置 key 的時候，請為“Access level”選擇“Full Dropbox”。';
 $string['notitle'] = '無標題';
-$string['pluginname'] = 'Dropb一';
+$string['pluginname'] = 'Dropbox';
 $string['remember'] = '記住我';
-$string['secret'] = 'Dropbox secr一';
+$string['secret'] = 'Dropbox secret';

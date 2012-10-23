@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addselfassessment'] = '添加自我評價';
 $string['allocationaddeddetail'] = '要完成的新評價：<strong>{$a->reviewername}</strong>要評價 <strong>{$a->authorname}</strong>的作業';
-$string['allocationdeallocategraded'] = '不能解除分配已評分的評價：評價人 <strong>{$a->reviewername}</strong>，作業作者：<strong>{$a->authorname}</stron一';
+$string['allocationdeallocategraded'] = '不能解除分配已評分的評價：評價人 <strong>{$a->reviewername}</strong>，作業作者：<strong>{$a->authorname}</strong>';
 $string['allocationreuseddetail'] = '重用評價：<strong>{$a->reviewername}</strong>繼續做 <strong>{$a->authorname}</strong>的評價人';
 $string['allocationsettings'] = '分配設置';
 $string['assessmentdeleteddetail'] = '已解除分配的評價: <strong>{$a->reviewername}</strong> 不再評價 <strong>{$a->authorname} 的作業';
@@ -35,7 +35,7 @@ $string['assesswosubmission'] = '不交作業也可以評價';
 $string['confignumofreviews'] = '默認隨機分配作業的個數';
 $string['excludesamegroup'] = '防止在同一組的同學互相評價';
 $string['noallocationtoadd'] = '不需添加分配';
-$string['nogroupusers'] = '<p>警告：如果互動評價處在“可視小組”模式或者“分隔小組”模式，那麼用戶必須至少屬於一個組，才能用此工具向他們分配評價任務。不屬於任何組的用戶仍然可以做自我評價或者刪除已有的評價。</p> <p>這些用戶目前還未被加入任何組：{$a}</一';
+$string['nogroupusers'] = '<p>警告：如果互動評價處在“可視小組”模式或者“分隔小組”模式，那麼用戶必須至少屬於一個組，才能用此工具向他們分配評價任務。不屬於任何組的用戶仍然可以做自我評價或者刪除已有的評價。</p> <p>這些用戶目前還未被加入任何組：{$a}</p>';
 $string['numofdeallocatedassessment'] = '解除分配 {$a} 個評價';
 $string['numofrandomlyallocatedsubmissions'] = '隨機分配 {$a} 個作業';
 $string['numofreviews'] = '評價次數';

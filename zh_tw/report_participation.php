@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['page-report-participation-index'] = '課程參與報告';
+$string['page-report-participation-x'] = '任何參與報告';
 $string['participation:view'] = '檢視課程參與報告';
+$string['pluginname'] = '課程參與';

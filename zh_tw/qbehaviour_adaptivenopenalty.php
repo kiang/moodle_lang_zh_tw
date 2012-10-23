@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '自適應模式（無罰分�一';
+$string['pluginname'] = '直到答對法(答錯不倒扣)';

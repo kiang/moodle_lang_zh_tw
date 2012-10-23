@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['noauthtoken'] = '沒有從 google 收到認證令牌。請確定您已允許 moodle 訪問您的 google 賬號�一';
-$string['nosessiontoken'] = '一個不存在的會話令牌阻止向 google 導出�一';
+$string['noauthtoken'] = '沒有從 google 收到認證令牌。請確定您已允許 moodle 訪問您的 google 賬號。';
+$string['nosessiontoken'] = '一個不存在的會話令牌阻止向 google 導出。';
 $string['pluginname'] = 'Google 文件';
-$string['sendfailed'] = '文件 {$a} 未能成功傳送到 goog一';
+$string['sendfailed'] = '文件 {$a} 未能成功傳送到 google';

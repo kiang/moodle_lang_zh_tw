@@ -30,17 +30,17 @@ $string['boxnet:view'] = '查看box.net容器';
 $string['callbackurl'] = '回調鏈接';
 $string['callbackurltext'] = '<ol>
 <li>請再次訪問<a href="http://www.box.net/developers/services">box.net開發者網站</a>。</li>
-<li>確認您設置了box.net服務的回調鏈接為<strong>{$a}</strong></li></o一';
+<li>確認您設置了box.net服務的回調鏈接為<strong>{$a}</strong></li></ol>';
 $string['callbackwarning'] = '<ol>
 <li>從box.net為此Moodle網站申請一個<a href="http://www.box.net/developers/services">box.net API</a> 。</li>
 <li>在此輸入box.net api密鑰，然後點擊保存，再回到此頁面。您會看到Moodle為您生成的回調鏈接。</li>
-<li>再到box.net網站編輯您的box.net詳細信息，設置此回調URL。</li></o一';
+<li>再到box.net網站編輯您的box.net詳細信息，設置此回調URL。</li></ol>';
 $string['configplugin'] = 'Box.net配置';
 $string['information'] = '從<a href="http://www.box.net/developers/services">Box.net開發者頁面</a>為您的Moodle網站申請一個API密鑰';
 $string['invalidpassword'] = '無效的密碼';
 $string['nullfilelist'] = '此容器中沒有文件';
 $string['password'] = '密碼';
-$string['pluginname'] = 'Box.n一';
+$string['pluginname'] = 'Box.net';
 $string['pluginname_help'] = 'Box.net上的容器';
 $string['saved'] = 'Box.net數據已保存';
 $string['shareurl'] = '共享鏈接';

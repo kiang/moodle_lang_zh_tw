@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Merlot.org配置';
 $string['licensekey'] = '授權密鑰';
 $string['merlot:view'] = '查看Merlot容器';
-$string['pluginname'] = 'Merlot.o一';
-$string['pluginname_help'] = 'Merlot.o一';
+$string['pluginname'] = 'Merlot.org';
+$string['pluginname_help'] = 'Merlot.org';

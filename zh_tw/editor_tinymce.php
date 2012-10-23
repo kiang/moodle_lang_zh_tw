@@ -257,15 +257,16 @@ $string['advlist:square'] = '方形';
 $string['advlist:types'] = '樣式';
 $string['advlist:upper_alpha'] = '大寫的英文字';
 $string['advlist:upper_roman'] = '大寫的羅馬數字';
-$string['autosave:restore_content'] = '恢復自動儲存的內容�一';
+$string['autosave:restore_content'] = '恢復自動儲存的內容。';
 $string['autosave:unload_msg'] = '如果离开此页面将导致所做的更改全部遗失。';
 $string['autosave:warning_message'] = '如果你恢復已保存的內容，你將失去目前正在編輯的內容。
 
-您確定要恢復已保存的內容�一';
+您確定要恢復已保存的內容？
+';
 $string['common:apply'] = '应用';
 $string['common:browse'] = '浏览';
-$string['common:browseimage'] = '查找或上傳一個圖片.一';
-$string['common:browsemedia'] = '查找或上傳一個音頻、視頻或applet.一';
+$string['common:browseimage'] = '查找或上傳一個圖片...';
+$string['common:browsemedia'] = '查找或上傳一個音頻、視頻或applet...';
 $string['common:cancel'] = '取消';
 $string['common:class_name'] = '样式';
 $string['common:clipboard_msg'] = '复制、剪切、粘贴功能在Mozilla和Firefox中无法使用。n是否需要了解更多有关此问题的信息？';
@@ -286,8 +287,10 @@ $string['contextmenu:right'] = '居右';
 $string['directionality:ltr_desc'] = '文字从左到右';
 $string['directionality:rtl_desc'] = '文字从右到左';
 $string['dragmath:dragmath_desc'] = '插入公式';
-$string['dragmath:dragmath_javaneeded'] = '若要使用此網頁，你需要一個支持Java的瀏覽器。從{$a}下載最新的Java插件�一';
-$string['dragmath:dragmath_title'] = 'DragMath公式編輯器一';
+$string['dragmath:dragmath_javaneeded'] = '若要使用此網頁，你需要一個支持Java的瀏覽器。從{$a}下載最新的Java插件。
+';
+$string['dragmath:dragmath_title'] = 'DragMath公式編輯器
+';
 $string['emotions:delta_height'] = '';
 $string['emotions:delta_width'] = '';
 $string['emotions_dlg:cool'] = '冷酷';
@@ -526,8 +529,8 @@ $string['paste_dlg:text_title'] = '在键盘上同时按下CTRL和V键，以粘�
 $string['paste_dlg:word_title'] = '在键盘上同时按下CTRL和V键，以粘贴文字到此窗口。';
 $string['paste:paste_text_desc'] = '以纯文字粘贴';
 $string['paste:paste_word_desc'] = '从Word粘贴';
-$string['paste:plaintext_mode'] = '粘貼現在工作在純文本模式。再次點擊切換回普通的粘貼模式�一';
-$string['paste:plaintext_mode_sticky'] = '粘貼現在工作在純文本模式。再次點擊切換回正常粘貼模式。粘貼過一次之後，也會回到正常粘貼模式�一';
+$string['paste:plaintext_mode'] = '粘貼現在工作在純文本模式。再次點擊切換回普通的粘貼模式。';
+$string['paste:plaintext_mode_sticky'] = '粘貼現在工作在純文本模式。再次點擊切換回正常粘貼模式。粘貼過一次之後，也會回到正常粘貼模式。';
 $string['paste:selectall_desc'] = '全选';
 $string['pluginname'] = 'TinyMCE HTML編輯器';
 $string['preview:preview_desc'] = '预览';

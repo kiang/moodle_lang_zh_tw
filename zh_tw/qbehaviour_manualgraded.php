@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '人工評分';
+$string['pluginname'] = '人工計分';

@@ -43,21 +43,21 @@ $string['courserolelabelerror'] = '{$a->label} 錯誤，課程：{$a->coursename
 $string['datelabelisafter'] = '{$a->label} 晚於 {$a->after}';
 $string['datelabelisbefore'] = '{$a->label} 早於 {$a->before}';
 $string['datelabelisbetween'] = '{$a->label} 在 {$a->after} 與 {$a->before} 之間';
-$string['defaultx'] = '缺省（{$a}�一';
+$string['defaultx'] = '缺省（{$a}）';
 $string['disabled'] = '禁用';
 $string['doesnotcontain'] = '不包含';
 $string['endswith'] = '結尾是';
-$string['filterallwarning'] = '對標題和內容使用過濾器會大大增加您的服務器的負荷。請謹慎使用“應用到”設置。其主要用途是針對multilang過濾器�一';
+$string['filterallwarning'] = '對標題和內容使用過濾器會大大增加您的服務器的負荷。請謹慎使用“應用到”設置。其主要用途是針對multilang過濾器。';
 $string['filtersettings'] = '過濾器設置';
 $string['filtersettingsforin'] = '在{$a->context}中過濾器{$a->filter}的設置';
 $string['filtersettings_help'] = '本頁使您可以在本站指定部分打開或關閉過濾器。
 
-可能有些過濾器允許您做局部設置，在它們的名字後面會有一個設置鏈接�一';
+可能有些過濾器允許您做局部設置，在它們的名字後面會有一個設置鏈接。';
 $string['filtersettingsin'] = '{$a}中的過濾器設置';
 $string['firstaccess'] = '第一次登入';
 $string['globalrolelabel'] = '{$a->label} 是 {$a->value}';
-$string['includenever'] = '包括“從未�一';
-$string['isactive'] = '激活�一';
+$string['includenever'] = '包括“從未”';
+$string['isactive'] = '激活？';
 $string['isafter'] = '晚於';
 $string['isanyvalue'] = '任意值';
 $string['isbefore'] = '早於';
@@ -69,7 +69,7 @@ $string['isnotequalto'] = '不等於';
 $string['neveraccessed'] = '從未訪問';
 $string['nevermodified'] = '從未修改';
 $string['newfilter'] = '篩選';
-$string['nofiltersenabled'] = '本站沒有打開任何過濾器插件�一';
+$string['nofiltersenabled'] = '本站沒有打開任何過濾器插件。';
 $string['off'] = '關閉';
 $string['offbutavailable'] = '關閉，但是可以使用';
 $string['on'] = '打開';

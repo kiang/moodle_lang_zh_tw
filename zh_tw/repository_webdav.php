@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = 'WebDAV配置';
-$string['http'] = 'HT一';
-$string['https'] = 'HTT一';
+$string['http'] = 'HTTP';
+$string['https'] = 'HTTPS';
 $string['pluginname'] = 'WebDAV容器';
-$string['webdav'] = 'WebD一';
+$string['webdav'] = 'WebDAV';
 $string['webdavbasicauth'] = 'WebDAV基本身份認證';
 $string['webdavdigestauth'] = 'WebDAV摘要式身份認證';
 $string['webdav_password'] = 'WebDAV服務器密碼';

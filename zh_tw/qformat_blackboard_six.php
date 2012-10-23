@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['blackboard_six'] = 'Blackboard V一';
-$string['blackboard_six_help'] = 'Blackboard V6+ 格式支持導入Blackboard 導出的 zip 文件。它對Blackboard 版本 6 和 7 只提供有限的支持�一';
+$string['blackboard_six'] = 'Blackboard V6+';
+$string['blackboard_six_help'] = 'Blackboard V6+ 格式支持導入Blackboard 導出的 zip 文件。它對Blackboard 版本 6 和 7 只提供有限的支持。';

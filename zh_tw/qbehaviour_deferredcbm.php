@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['assumingcertainty'] = '您沒有選擇確定程度。假定選擇：{$a}�一';
-$string['certainty1'] = '不太確定（低於67%�一';
-$string['certainty2'] = '還算確定（超過67%�一';
-$string['certainty3'] = '非常確定（高於80%�一';
-$string['howcertainareyou'] = '您有多確定？{$一';
-$string['markadjustment'] = '基於您表現出的確定程度，您的得分從{$a->rawmark}調整為{$a->mark}�一';
-$string['pluginname'] = '延遲反饋（支持CBM�一';
+$string['assumingcertainty'] = '你沒有選擇一個確定程度。所以假定為：{$a}';
+$string['certainty1'] = '不太有信心(少於67%)';
+$string['certainty2'] = '普通(多於67%)';
+$string['certainty3'] = '非常有信心(大於80%)';
+$string['howcertainareyou'] = '你有多少信心說你的答案是對的？{$a}';
+$string['markadjustment'] = '基於你表達的信心程度，你的基本分數{$a->rawmark}已被停整成 {$a->mark}。';
+$string['pluginname'] = '信心加權法';

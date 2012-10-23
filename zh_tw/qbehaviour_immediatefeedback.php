@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notcomplete'] = '未完成';
-$string['pluginname'] = '立即反饋';
+$string['pluginname'] = '立即回饋';

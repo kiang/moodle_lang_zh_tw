@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['downloadas'] = '下載表數據為';
 $string['downloadcsv'] = '逗號分隔數據的文本文件';
 $string['downloadexcel'] = 'Microsoft Excel電子表格';
-$string['downloadods'] = 'OpenDocument電子表格(OD一';
+$string['downloadods'] = 'OpenDocument電子表格(ODS)';
 $string['downloadtsv'] = '制表符分隔數據的文本文件';
 $string['downloadxhtml'] = '不分頁的XHTML文檔';

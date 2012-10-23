@@ -78,5 +78,5 @@ $string['totalsize'] = '總大小';
 $string['type'] = '類型';
 $string['uncompleteindexingerror'] = '索引不成功！請重新啟動';
 $string['versiontoolow'] = '抱歉！全站搜尋的功能需要具備PHP 5.0.0或更高的版本。';
-$string['whichmodulestosearch'] = '搜索哪個模塊�一';
+$string['whichmodulestosearch'] = '搜索哪個模塊？';
 $string['wordsintitle'] = '標題的字數';

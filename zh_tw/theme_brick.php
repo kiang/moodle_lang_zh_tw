@@ -60,20 +60,20 @@ $string['choosereadme'] = '<div class="clearfix">
 	<p>Moodle 核心提供的所有主題，包括此主題的授權協議都是 <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。</p>
 
 </div>
-</di一';
+</div>';
 $string['configtitle'] = '磚塊設置';
 $string['headingcolor'] = '標題顏色';
-$string['headingcolordesc'] = '大標題（網站新聞、我的課程）和其它標題的顏色�一';
+$string['headingcolordesc'] = '大標題（網站新聞、我的課程）和其它標題的顏色。';
 $string['linkcolor'] = '鏈接';
-$string['linkcolordesc'] = '設置本主題中鏈接的顏色，使用html 16進制代碼�一';
+$string['linkcolordesc'] = '設置本主題中鏈接的顏色，使用html 16進制代碼。';
 $string['linkhover'] = '鏈接懸停';
-$string['linkhoverdesc'] = '設置本主題中鏈接（懸停時）的顏色，使用html 16進制代碼�一';
+$string['linkhoverdesc'] = '設置本主題中鏈接（懸停時）的顏色，使用html 16進制代碼。';
 $string['logo'] = '徽標';
-$string['logodesc'] = '輸入URL（比如，http://www.somesite/animage.png），改變本主題的徽標。缺省的徽標是265px寬，60px高。透明的PNG文件效果最好�一';
+$string['logodesc'] = '輸入URL（比如，http://www.somesite/animage.png），改變本主題的徽標。缺省的徽標是265px寬，60px高。透明的PNG文件效果最好。';
 $string['maincolor'] = '主色';
-$string['maincolordesc'] = '設置頭部、停靠欄和其它區域顏色的16進制代碼。深色或飽和色的效果最好�一';
+$string['maincolordesc'] = '設置頭部、停靠欄和其它區域顏色的16進制代碼。深色或飽和色的效果最好。';
 $string['maincolorlink'] = '主色鏈接';
-$string['maincolorlinkdesc'] = '菜單欄和版塊標題鏈接的顏色�一';
+$string['maincolorlinkdesc'] = '菜單欄和版塊標題鏈接的顏色。';
 $string['pluginname'] = '磚塊';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';

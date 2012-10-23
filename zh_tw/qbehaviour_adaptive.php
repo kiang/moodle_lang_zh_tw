@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['disregardedwithoutpenalty'] = '此提交無效，已被忽略，但不會罰分�一';
-$string['gradingdetails'] = '此次提交得分：{$a->raw}/{$a->max}�一';
-$string['gradingdetailsadjustment'] = '減去之前的罰分，此次得分<strong>{$a->cur}/{$a->max}</strong>�一';
-$string['gradingdetailspenalty'] = '此次提交罰分{$a}分�一';
-$string['notcomplete'] = '未完成';
-$string['pluginname'] = '自適應模式';
+$string['disregardedwithoutpenalty'] = '這次的提交無效，會被忽視且不扣分';
+$string['gradingdetails'] = '這次提交的分數：{$a->raw}/{$a->max}';
+$string['gradingdetailsadjustment'] = '考慮先前的嘗試，這一題給<strong>{$a->cur}/{$a->max}</strong>分';
+$string['gradingdetailspenalty'] = '這次提交導致被扣{$a} 分';
+$string['notcomplete'] = '沒有完成';
+$string['pluginname'] = '直到答對法';

@@ -33,4 +33,4 @@ $string['sortpublished'] = '發布日期';
 $string['sortrating'] = '評分';
 $string['sortrelevance'] = '相關性';
 $string['sortviewcount'] = '觀看次數';
-$string['youtube:view'] = '在文件選擇器中使用youtu一';
+$string['youtube:view'] = '在文件選擇器中使用youtube';

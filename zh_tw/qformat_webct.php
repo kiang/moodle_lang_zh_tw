@@ -34,5 +34,5 @@ $string['questionnametoolong'] = '試題概念名稱太長，在第{$a}行(最�
 $string['unknowntype'] = '不知的題型';
 $string['warningsdetected'] = '已經偵測到{$a}個警告';
 $string['webct'] = 'WebCT 格式';
-$string['webct_help'] = 'WebCT 格式支持導入用 WebCT 文本格式保存的選擇題和填空題�一';
+$string['webct_help'] = 'WebCT 格式支持導入用 WebCT 文本格式保存的選擇題和填空題。';
 $string['wronggrade'] = '錯誤的分數 (在第{$a}行之後)';

@@ -39,7 +39,7 @@ $string['actionaftercorrectanswer_help'] = '　　<p align="center"><b>正確答
 　　';
 $string['actions'] = '活動';
 $string['activitylink'] = '連結到活動';
-$string['activitylink_help'] = '想在教程結束時顯示一個到課程中其它活動的鏈接，請在下拉列表中選擇該活動�一';
+$string['activitylink_help'] = '想在教程結束時顯示一個到課程中其它活動的鏈接，請在下拉列表中選擇該活動。';
 $string['activitylinkname'] = '到：{$a}';
 $string['addabranchtable'] = '新增分支表';
 $string['addanendofbranch'] = '新增分支的結束頁';
@@ -147,17 +147,17 @@ $string['deletedpage'] = '刪除此頁';
 $string['deleting'] = '刪除中';
 $string['deletingpage'] = '刪除頁面： {$a}';
 $string['dependencyon'] = '依靠關聯';
-$string['dependencyon_help'] = '此設置基於學生在同一課程中其它教程的表現，限制他們對此教程的訪問權。可以使用花費時間、是否完成或“成績高於”的各種組合�一';
+$string['dependencyon_help'] = '此設置基於學生在同一課程中其它教程的表現，限制他們對此教程的訪問權。可以使用花費時間、是否完成或“成績高於”的各種組合。';
 $string['description'] = '描述';
 $string['detailedstats'] = '詳細統計';
 $string['didnotanswerquestion'] = '不回答此問題';
 $string['didnotreceivecredit'] = '未收到及格證明';
 $string['displaydefaultfeedback'] = '顯示預設回饋';
-$string['displaydefaultfeedback_help'] = '如果啟用，當某個特定的問題沒有設定反饋內容時，將顯示默認反饋：“此答案正確”和“此答案錯誤”�一';
+$string['displaydefaultfeedback_help'] = '如果啟用，當某個特定的問題沒有設定反饋內容時，將顯示默認反饋：“此答案正確”和“此答案錯誤”。 ';
 $string['displayhighscores'] = '顯示最高分';
 $string['displayinleftmenu'] = '顯示在左側選單？';
 $string['displayleftif'] = '並且只顯示如果{$a}成績高過：';
-$string['displayleftif_help'] = '此設置決定在看到左側菜單之前是否必須先獲得一定的分數。這將強制學生在第一次訪問時必須瀏覽完整個教程。在達到分數線後，他們就可以使用左側菜單進行復習了�一';
+$string['displayleftif_help'] = '此設置決定在看到左側菜單之前是否必須先獲得一定的分數。這將強制學生在第一次訪問時必須瀏覽完整個教程。在達到分數線後，他們就可以使用左側菜單進行復習了。';
 $string['displayleftmenu'] = '顯示左側選單';
 $string['displayleftmenu_help'] = '　　<p align="center"><b>在左側顯示目錄</b></p>
 　　
@@ -192,7 +192,7 @@ $string['eolstudentoutoftime'] = '注意:您已經用完此課程的時限。如
 $string['eolstudentoutoftimenoanswers'] = '您沒有回答任何試題。此課程您將得到0分。';
 $string['essay'] = '申論題';
 $string['essayemailmessage'] = '<p>申論提示:<blockquote>{$a->question}</blockquote></p><p>您的回答:<blockquote><em>{$a->response}</em></blockquote></p><p>{$a->teacher}的評論:<blockquote><em>{$a->comment}</em></blockquote></p><p>您已經收到{$a->outof} 個這個申論問題中的{$a->earned }.</p><p>您這課的分數已經被修改到{$a->newgrade}%.</p>';
-$string['essayemailmessage2'] = '<p>問答題：<blockquote>{$a->question}</blockquote></p><p>您的回答：<blockquote><em>{$a->response}</em></blockquote></p><p>評分人評論：<blockquote><em>{$a->comment}</em></blockquote></p><p>此問答題您得到了{$a->earned}分（滿分{$a->outof}）。</p><p>您此教程的成績已經變為{$a->newgrade}%。</一';
+$string['essayemailmessage2'] = '<p>問答題：<blockquote>{$a->question}</blockquote></p><p>您的回答：<blockquote><em>{$a->response}</em></blockquote></p><p>評分人評論：<blockquote><em>{$a->comment}</em></blockquote></p><p>此問答題您得到了{$a->earned}分（滿分{$a->outof}）。</p><p>您此教程的成績已經變為{$a->newgrade}%。</p>';
 $string['essayemailsubject'] = '問題{$a}的分數';
 $string['essays'] = '申論題';
 $string['essayscore'] = '申論題分數';
@@ -225,7 +225,7 @@ $string['highscores'] = '高分';
 $string['hightime'] = '最長時間';
 $string['importcount'] = '匯入{$a}個問題';
 $string['importppt'] = '匯入PowerPoint檔';
-$string['importppt_help'] = '將PowerPoint 2003制作的幻燈片另存為web頁面，並用zip打包後，用此功能可以將這些頁面導入到教程中�一';
+$string['importppt_help'] = '將PowerPoint 2003制作的幻燈片另存為web頁面，並用zip打包後，用此功能可以將這些頁面導入到教程中。';
 $string['importquestions'] = '匯入試題';
 $string['importquestions_help'] = '<p align="center"><b>匯入新試題</b></p>
 <p>這個功能於允許您通過表單上傳外部文字檔案，並導入其中的問題。</p>
@@ -319,7 +319,7 @@ $string['insertedpage'] = '插入頁面';
 $string['invalidfile'] = '無效文件';
 $string['invalidid'] = '沒有課程模塊ID或教程ID傳入';
 $string['invalidlessonid'] = '教程ID不正確';
-$string['invalidpageid'] = '無效頁面一';
+$string['invalidpageid'] = '無效頁面ID';
 $string['jump'] = '跳轉';
 $string['jumps'] = '跳轉';
 $string['jumps_help'] = '　　<p align="center"><b>“跳轉到”鏈結</b></p>
@@ -347,7 +347,7 @@ $string['lessonformating'] = '課程格式';
 $string['lesson:manage'] = '管理課程活動';
 $string['lessonmenu'] = '課程選單';
 $string['lessonnotready'] = '這個課程還沒開始，請與{$a}聯繫。';
-$string['lessonnotready2'] = '此教程還沒准備�一';
+$string['lessonnotready2'] = '此教程還沒准備。';
 $string['lessonopen'] = '此課程將會於{$a}開放';
 $string['lessonopens'] = '課程開放';
 $string['lessonpagelinkingbroken'] = '找不到第一頁，課程頁面連結應該是出問題了，請聯絡管理員。';
@@ -359,7 +359,7 @@ $string['lowtime'] = '最短時間';
 $string['manualgrading'] = '申論題評分';
 $string['matchesanswer'] = '比對答案';
 $string['matching'] = '匹配題';
-$string['matchingpair'] = '匹配對{$一';
+$string['matchingpair'] = '匹配對{$a}';
 $string['maxgrade'] = '最高分';
 $string['maxgrade_help'] = '　　<p align="center"><b>課的成績</b></p>
 　　
@@ -394,7 +394,7 @@ $string['maxtime'] = '限時(分鐘)';
 $string['maxtimewarning'] = '您有{$a}分鐘可以完成此單元。';
 $string['mediaclose'] = '顯示關閉按鈕：';
 $string['mediafile'] = '彈出檔案或網頁';
-$string['mediafile_help'] = '如果想在教程開始時彈出一個窗口，請選擇在窗口裡顯示的文件。每個教程頁面都會有一個重新打開此彈出窗口的鏈接，可以在需要的時候使用�一';
+$string['mediafile_help'] = '如果想在教程開始時彈出一個窗口，請選擇在窗口裡顯示的文件。每個教程頁面都會有一個重新打開此彈出窗口的鏈接，可以在需要的時候使用。';
 $string['mediafilepopup'] = '點選這裡來觀看這一單元的媒體檔';
 $string['mediaheight'] = '視窗高度：';
 $string['mediawidth'] = '視窗寬度：';
@@ -579,7 +579,7 @@ $string['pleasematchtheabovepairs'] = '請符合上面的配對數';
 $string['pluginadministration'] = '教程管理';
 $string['pluginname'] = '單元課程';
 $string['pointsearned'] = '得分';
-$string['postprocesserror'] = '後處理時發生錯誤�一';
+$string['postprocesserror'] = '後處理時發生錯誤！';
 $string['postsuccess'] = '張貼成功';
 $string['pptsuccessfullimport'] = '從上傳的PowerPoint幻燈片導入頁面成功';
 $string['practice'] = '當作練習不計分';
@@ -587,16 +587,16 @@ $string['practice_help'] = '　　<p align="center"><b>實踐課</b></p>
 　　
 　　<p>實踐課不會顯示在成績冊中。</p>
 　　';
-$string['preprocesserror'] = '預處理時發生錯誤�一';
+$string['preprocesserror'] = '預處理時發生錯誤！';
 $string['preview'] = '預覽';
 $string['previewlesson'] = '預覽{$a}';
 $string['previouspage'] = '上一頁';
-$string['processerror'] = '處理是發生錯誤�一';
+$string['processerror'] = '處理是發生錯誤！';
 $string['progressbar'] = '進度列';
-$string['progressbar_help'] = '如果啟用，在教程頁面底部會顯示一個進度條，以說明完成的百分比�一';
+$string['progressbar_help'] = '如果啟用，在教程頁面底部會顯示一個進度條，以說明完成的百分比。';
 $string['progressbarteacherwarning'] = '{$a}不顯示進度列';
 $string['progressbarteacherwarning2'] = '因為您可以編輯此教程，所以您看不到進度條';
-$string['progresscompleted'] = '您已完成此教程的 {$a一';
+$string['progresscompleted'] = '您已完成此教程的 {$a}%';
 $string['qtype'] = '頁面類型';
 $string['question'] = '試題';
 $string['questionoption'] = '試題選項';

@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['capabilitylabel'] = '權限�一';
+$string['capabilitylabel'] = '權限：';
 $string['capabilityreport'] = '權限報告';
 $string['changeoverrides'] = '修改此場景中的重載';
 $string['changeroles'] = '修改角色定義';
-$string['forroles'] = '對角色{$一';
+$string['forroles'] = '對角色{$a}';
 $string['getreport'] = '獲得報告';
-$string['intro'] = '此報告顯示指定的權限在每個角色（或選定的角色）中是如何定義的，以及在網站的哪裡對它進行了重載�一';
+$string['intro'] = '此報告顯示指定的權限在每個角色（或選定的角色）中是如何定義的，以及在網站的哪裡對它進行了重載。';
 $string['pluginname'] = '權限報告';
 $string['reportforcapability'] = '權限“{$a}”的報告';
 $string['reportsettings'] = '報告設置';
-$string['roleslabel'] = '角色�一';
+$string['roleslabel'] = '角色：';

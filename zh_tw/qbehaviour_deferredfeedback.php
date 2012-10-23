@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '延遲反饋';
+$string['pluginname'] = '延後回饋';

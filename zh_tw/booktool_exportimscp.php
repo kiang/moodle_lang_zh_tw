@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['exportimscp:export'] = '導出圖書為IMS內容包';
-$string['generateimscp'] = '生成 IMS 一';
-$string['nochapters'] = '未找到圖書章節，不能導出到 IMS CP�一';
-$string['pluginname'] = '圖書導出 IMS 一';
+$string['generateimscp'] = '生成 IMS CP';
+$string['nochapters'] = '未找到圖書章節，不能導出到 IMS CP。';
+$string['pluginname'] = '圖書導出 IMS CP';

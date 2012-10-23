@@ -40,12 +40,12 @@ $string['aggregatetype_help'] = '匯總類型定義了各個評分如何在成�
 * 最小值 - 最低的評分成為最終成績
 * 總和 - 所有評分被加到一起。注意，該成績不會超過活動設定的最高分。
 
-如果選擇“無評分”，那麼此活動不會出現在成績單中�一';
-$string['allowratings'] = '可以給項目評分嗎�一';
+如果選擇“無評分”，那麼此活動不會出現在成績單中。';
+$string['allowratings'] = '可以給項目評分嗎？';
 $string['allratingsforitem'] = '所以已提交的評分';
 $string['capabilitychecknotavailable'] = '在活動被保存之前，不能檢查權限';
 $string['couldnotdeleteratings'] = '抱歉，因為已經有人參與了評分，所以不能刪除';
-$string['norate'] = '項目評分功能沒有打開�一';
+$string['norate'] = '項目評分功能沒有打開！';
 $string['noratings'] = '沒有已提交的評分';
 $string['noviewanyrate'] = '您只能查看您創造的條目的結果';
 $string['noviewrate'] = '您沒有查看評分的權限';
@@ -54,6 +54,6 @@ $string['ratepermissiondenied'] = '您沒有對此項評分的權限';
 $string['rating'] = '評分';
 $string['ratinginvalid'] = '評分無效';
 $string['ratings'] = '評分';
-$string['ratingtime'] = '限制只能在此時間段內評分�一';
+$string['ratingtime'] = '限制只能在此時間段內評分：';
 $string['rolewarning'] = '有評分權的角色';
-$string['rolewarning_help'] = '要提交評分的用戶必須具有moodle/rating:rate權限和模塊定義的相關權限。分配到如下角色的用戶應該能評分。在版塊設置頁面裡的權限鏈接裡可以修改這個角色列表�一';
+$string['rolewarning_help'] = '要提交評分的用戶必須具有moodle/rating:rate權限和模塊定義的相關權限。分配到如下角色的用戶應該能評分。在版塊設置頁面裡的權限鏈接裡可以修改這個角色列表。';

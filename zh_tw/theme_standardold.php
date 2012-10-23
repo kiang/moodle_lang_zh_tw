@@ -33,7 +33,7 @@ Moodle 2.0的發行說明裡指出，Moodle不再支持IE6。然而，我們並�
 
 它和標准主題只在布局上有區別。它不是使用浮動的div布局顯示內容，而是像Moodle 1.9那樣使用表格排版。
 
-因為Moodle總部不支持IE6，所以不會花費大量時間讓其能100%工作。如果您在IE6上使用此主題時發現bug，那麼也請自己找到解決辦法。然後在tracker.moodle.org創建一個bug報告，舉例說清楚在哪發現的bug，怎麼重現和您是怎麼解決的。這樣我們才能繼續改進這個主題和對IE6的支持�一';
-$string['pluginname'] = '標准（舊的�一';
+因為Moodle總部不支持IE6，所以不會花費大量時間讓其能100%工作。如果您在IE6上使用此主題時發現bug，那麼也請自己找到解決辦法。然後在tracker.moodle.org創建一個bug報告，舉例說清楚在哪發現的bug，怎麼重現和您是怎麼解決的。這樣我們才能繼續改進這個主題和對IE6的支持。';
+$string['pluginname'] = '標准（舊的）';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';

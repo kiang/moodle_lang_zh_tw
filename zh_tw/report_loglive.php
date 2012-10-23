@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['livelogs'] = '最近一小時使用紀錄';
+$string['loglive:view'] = '檢視最新日誌';
 $string['pluginname'] = '最新日誌';

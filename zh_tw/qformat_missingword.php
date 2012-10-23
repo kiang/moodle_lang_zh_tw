@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['missingword'] = '漏字格式';
-$string['missingword_help'] = '漏字格式可以通過文本文件導入題目�一';
+$string['missingword_help'] = '漏字格式可以通過文本文件導入題目。';

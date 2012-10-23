@@ -58,18 +58,18 @@ $string['choosereadme'] = '<div class="clearfix">
 		<h2>授權</h2>
 		<p>Moodle 核心提供的所有主題，包括此主題的授權協議都是 <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。
 	</div>
-</di一';
+</div>';
 $string['configtitle'] = '詠歎設置';
-$string['customcss'] = '自定義C一';
-$string['customcssdesc'] = '您在此輸入的所有CSS都會被附加到每個頁面中，這樣您就可以方便地定制此主題�一';
+$string['customcss'] = '自定義CSS';
+$string['customcssdesc'] = '您在此輸入的所有CSS都會被附加到每個頁面中，這樣您就可以方便地定制此主題。';
 $string['linkcolor'] = '鏈接顏色';
-$string['linkcolordesc'] = '在此設置此主題的鏈接顏色�一';
+$string['linkcolordesc'] = '在此設置此主題的鏈接顏色。';
 $string['logo'] = '徽標';
-$string['logodesc'] = '輸入徽標圖片的URL。例如http://www.yoursite.com/path/to/logo.p一';
+$string['logodesc'] = '輸入徽標圖片的URL。例如http://www.yoursite.com/path/to/logo.png';
 $string['pluginname'] = '詠歎';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';
 $string['regionwidth'] = '列寬';
-$string['regionwidthdesc'] = '在此設置左右兩列版塊區域的寬度�一';
+$string['regionwidthdesc'] = '在此設置左右兩列版塊區域的寬度。';
 $string['tagline'] = '標語';
-$string['taglinedesc'] = '在首頁網站名下方顯示的一小段標語。<br /><em>（不會和徽標一起顯示。）</e一';
+$string['taglinedesc'] = '在首頁網站名下方顯示的一小段標語。<br /><em>（不會和徽標一起顯示。）</em>';

@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['access_key'] = 'Access k一';
+$string['access_key'] = 'Access key';
 $string['configplugin'] = 'Amazon S3設置';
-$string['needaccesskey'] = '必須提供access k一';
-$string['pluginname'] = 'Amazon 一';
+$string['needaccesskey'] = '必須提供access key';
+$string['pluginname'] = 'Amazon S3';
 $string['s3:view'] = '查看Amazon s3容器';
-$string['secret_key'] = 'Secret k一';
+$string['secret_key'] = 'Secret key';

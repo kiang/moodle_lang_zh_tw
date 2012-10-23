@@ -33,7 +33,7 @@ $string['mailstudents'] = '通過 Email 提醒學生';
 $string['mailteachers'] = '通過 Email 提醒教師';
 $string['mapping'] = '文本文件映射';
 $string['messageprovider:flatfile_enrolment'] = '文本文件選課消息';
-$string['pluginname'] = '文本文件（CSV�一';
+$string['pluginname'] = '文本文件（CSV）';
 $string['pluginname_desc'] = '該方法會反復在您指定的位置檢查和處理一個特殊格式的文本文件。此文件每行應有四個或六個用逗號分隔的字段：
 
 <pre class="informationbox">
@@ -54,4 +54,4 @@ $string['pluginname_desc'] = '該方法會反復在您指定的位置檢查和�
    del, student, 8, CF101
    del, student, 17, CF101
    add, student, 21, CF101, 1091115000, 1091215000
-</pr一';
+</pre>';

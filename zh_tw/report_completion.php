@@ -16,16 +16,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_base', language 'zh_tw', branch 'MOODLE_23_STABLE'
+ * Strings for component 'report_completion', language 'zh_tw', branch 'MOODLE_23_STABLE'
  *
- * @package   theme_base
+ * @package   report_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['choosereadme'] = '基礎是一個特別的、簡約的主題，只有基本的布局。它的設計意圖是做其它主題的基礎。非常不建議在正式網站中使用它。';
-$string['pluginname'] = '基礎';
-$string['region-side-post'] = '右';
-$string['region-side-pre'] = '左';
+$string['completiondate'] = '完成日期';
+$string['completion:view'] = '檢視課程完成報告';
+$string['page-report-completion-index'] = '課程完成報告';
+$string['page-report-completion-user'] = '用戶課程完成報告';
+$string['page-report-completion-x'] = '任何課程報告';
+$string['pluginname'] = '課程完成';

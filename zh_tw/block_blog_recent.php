@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['norecentblogentries'] = '最近沒有發表新博客';
 $string['numentriestodisplay'] = '顯示幾篇最近的博客文章';
 $string['pluginname'] = '最近博客更新';
-$string['recentinterval'] = '多長時間以內算“最近�一';
+$string['recentinterval'] = '多長時間以內算“最近”';

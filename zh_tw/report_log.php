@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['logsformat'] = '日誌檔格式';
 $string['log:view'] = '檢視課程日誌';
 $string['log:viewtoday'] = '檢視今天的日誌';
+$string['page-report-log-index'] = '課程日誌報告';
+$string['page-report-log-user'] = '用戶課程日誌報告';
+$string['page-report-log-x'] = '任何日誌報告';
+$string['pluginname'] = '日誌';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['availableplugins'] = '可用插件';
-$string['configenableplagiarism'] = '這將允許管理員配置抄襲插件（如果已安裝�一';
+$string['configenableplagiarism'] = '這將允許管理員配置抄襲插件（如果已安裝）';
 $string['configplagiarismplugins'] = '請選擇您要配置的抄襲插件';
 $string['enableplagiarism'] = '啟用抄襲插件';
 $string['manageplagiarism'] = '管理抄襲插件';

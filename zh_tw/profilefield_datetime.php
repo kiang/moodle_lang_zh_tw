@@ -33,4 +33,4 @@ $string['pluginname'] = '日期/時間';
 $string['specifydatedefault'] = '或指定一個日期';
 $string['startyear'] = '開始年份';
 $string['startyearafterend'] = '開始年份不能在結束年份之後';
-$string['wanttime'] = '包括時間�一';
+$string['wanttime'] = '包括時間？';

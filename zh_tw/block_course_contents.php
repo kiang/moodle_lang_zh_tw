@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['emptysummary'] = '單元{$一';
+$string['emptysummary'] = '單元{$a}';
 $string['jumptocurrenttopic'] = '轉到當前主題';
 $string['jumptocurrentweek'] = '轉到當前周';
 $string['pluginname'] = '課程內容';

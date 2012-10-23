@@ -54,16 +54,16 @@ $string['choosereadme'] = '<div class="clearfix">
 		<h2>授權</h2>
 		<p>Moodle核心提供的所有主題，包括此主題的授權協議都是<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。
 	</div>
-</di一';
+</div>';
 $string['configtitle'] = '融合設置';
-$string['customcss'] = '自定義C一';
-$string['customcssdesc'] = '您在此輸入的所有CSS都會被附加到每個頁面中，這樣您就可以方便地定制此主題�一';
+$string['customcss'] = '自定義CSS';
+$string['customcssdesc'] = '您在此輸入的所有CSS都會被附加到每個頁面中，這樣您就可以方便地定制此主題。';
 $string['footertext'] = '頁腳文本';
-$string['footertextdesc'] = '設置腳注或頁腳文本�一';
+$string['footertextdesc'] = '設置腳注或頁腳文本。';
 $string['linkcolor'] = '鏈接顏色';
-$string['linkcolordesc'] = '在此設置此主題的鏈接顏色�一';
+$string['linkcolordesc'] = '在此設置此主題的鏈接顏色。';
 $string['pluginname'] = '融合';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';
 $string['tagline'] = '標語';
-$string['taglinedesc'] = '在首頁網站名下方顯示的一小段標語。<br 一';
+$string['taglinedesc'] = '在首頁網站名下方顯示的一小段標語。<br />';

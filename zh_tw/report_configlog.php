@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configlog'] = '配置變化';
-$string['oldvalue'] = '原值';
+$string['configlog'] = '設定變更';
+$string['oldvalue'] = '原始值';
 $string['plugin'] = '插件';
-$string['setting'] = '設置';
+$string['setting'] = '設定';
 $string['timemodified'] = '日期';
 $string['value'] = '新值';

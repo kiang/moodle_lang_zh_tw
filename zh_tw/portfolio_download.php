@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['downloadfile'] = '下載您的公文包導出文件';
-$string['downloading'] = '正在下載.一';
+$string['downloading'] = '正在下載...';
 $string['pluginname'] = '文件下載';

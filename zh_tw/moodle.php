@@ -677,10 +677,10 @@ $string['findmorecourses'] = '搜尋更多課程...';
 $string['firstaccess'] = '首次瀏覽';
 $string['firstname'] = '名字';
 $string['firsttime'] = '第一次瀏覽嗎？';
-$string['flashlinkmessage'] = '請立刻升級您的Flash播放器�一';
+$string['flashlinkmessage'] = '請立刻升級您的Flash播放器：';
 $string['flashupgrademessage'] = '此內容需要Flash插件才能播放，但是您安裝的版本太舊了。
 
-在升級後，您可能需要注銷，然後再重新登錄�一';
+在升級後，您可能需要注銷，然後再重新登錄。';
 $string['folder'] = '資料夾';
 $string['folderclosed'] = '關閉的資料夾';
 $string['folderopened'] = '開啟的資料夾';
@@ -805,8 +805,8 @@ $string['guestsyes'] = '本課程完全不設限(所有人均可進入)';
 $string['guestuser'] = '訪客';
 $string['guestuserinfo'] = '本使用者在某些課程僅有閱覽權限，無法輸入資料。';
 $string['healthcenter'] = '健康中心';
-$string['healthnoproblemsfound'] = '未發現健康問題�一';
-$string['healthproblemsdetected'] = '監測到健康問題�一';
+$string['healthnoproblemsfound'] = '未發現健康問題！';
+$string['healthproblemsdetected'] = '監測到健康問題！';
 $string['healthproblemsolution'] = '健康問題解決方案';
 $string['healthreturntomain'] = '繼續';
 $string['healthsolution'] = '解決方案';
@@ -1388,7 +1388,7 @@ $string['restoreuserinfofailed'] = '還原過程已經停止，因為您沒有�
 $string['restoreusersprecheck'] = '檢查使用者的資料';
 $string['restoreusersprecheckerror'] = '檢查使用者資料時發現一些問題';
 $string['restricted'] = '限制';
-$string['restrictmodules'] = '限制活動模塊�一';
+$string['restrictmodules'] = '限制活動模塊？';
 $string['returningtosite'] = '返回這個網站嗎？';
 $string['returntooriginaluser'] = '返回到{$a}';
 $string['revert'] = '重設';

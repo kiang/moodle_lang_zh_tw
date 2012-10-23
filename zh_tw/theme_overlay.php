@@ -25,16 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot"><h2>覆蓋</h2><img src="overlay/pix/screenshot.png" /><h3>主題討論區：</h3><p><a href="http://moodle.org/mod/forum/view.php?id=46">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>主題致謝</h3><p><a href="http://docs.moodle.org/en/Theme_credits">http://docs.moodle.org/en/Theme_credits</a></p><h3>主題文檔：</h3><p><a href="http://docs.moodle.org/en/Themes">http://docs.moodle.org/en/Themes</a></p><h3>報告bug：</h3><p><a href="http://tracker.moodle.org">http://tracker.moodle.org</a></p></div><div class="theme_description"><h2>關於</h2><p>覆蓋是一個反傳統的，三列、可變寬Moodle主題。它的反傳統體現在全新的三列布局，將主要內容放在兩個版塊列的左邊。<h2>調整</h2><p>本主題基於Moodle核心的基本主題和畫布主題構建。如果您想修改它，我們建議您在修改之前先復制一份並換名。這樣將來Moodle升級時才不會覆蓋您定制的主題。而且一旦您搞亂了它，還有原始文件的備份。關於修改主題的更多信息請瀏覽<a href="http://docs.moodle.org/en/Theme">Moodle文檔</a>。</p><h2>致謝</h2>	<p>本主題由NewSchool Learning的John Stabinger編寫和維護。可以通過contact@newschoollearning.com聯系他。</p><h2>授權</h2><p>Moodle核心提供的所有主題，包括此主題的授權協議都是<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。</div></div一';
+$string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot"><h2>覆蓋</h2><img src="overlay/pix/screenshot.png" /><h3>主題討論區：</h3><p><a href="http://moodle.org/mod/forum/view.php?id=46">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>主題致謝</h3><p><a href="http://docs.moodle.org/en/Theme_credits">http://docs.moodle.org/en/Theme_credits</a></p><h3>主題文檔：</h3><p><a href="http://docs.moodle.org/en/Themes">http://docs.moodle.org/en/Themes</a></p><h3>報告bug：</h3><p><a href="http://tracker.moodle.org">http://tracker.moodle.org</a></p></div><div class="theme_description"><h2>關於</h2><p>覆蓋是一個反傳統的，三列、可變寬Moodle主題。它的反傳統體現在全新的三列布局，將主要內容放在兩個版塊列的左邊。<h2>調整</h2><p>本主題基於Moodle核心的基本主題和畫布主題構建。如果您想修改它，我們建議您在修改之前先復制一份並換名。這樣將來Moodle升級時才不會覆蓋您定制的主題。而且一旦您搞亂了它，還有原始文件的備份。關於修改主題的更多信息請瀏覽<a href="http://docs.moodle.org/en/Theme">Moodle文檔</a>。</p><h2>致謝</h2>	<p>本主題由NewSchool Learning的John Stabinger編寫和維護。可以通過contact@newschoollearning.com聯系他。</p><h2>授權</h2><p>Moodle核心提供的所有主題，包括此主題的授權協議都是<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。</div></div>
+';
 $string['configtitle'] = '覆蓋設置';
-$string['customcss'] = '自定義C一';
-$string['customcssdesc'] = '您在此輸入的所有CSS都會被附加到每個頁面中，這樣您就可以方便地定制此主題�一';
+$string['customcss'] = '自定義CSS';
+$string['customcssdesc'] = '您在此輸入的所有CSS都會被附加到每個頁面中，這樣您就可以方便地定制此主題。';
 $string['footertext'] = '頁腳文本';
-$string['footertextdesc'] = '設置腳注或頁腳文本�一';
+$string['footertextdesc'] = '設置腳注或頁腳文本。';
 $string['headercolor'] = '頭部顏色';
-$string['headercolordesc'] = '頭部背景色�一';
+$string['headercolordesc'] = '頭部背景色。';
 $string['linkcolor'] = '鏈接顏色';
-$string['linkcolordesc'] = '在此設置此主題的鏈接顏色�一';
+$string['linkcolordesc'] = '在此設置此主題的鏈接顏色。';
 $string['pluginname'] = '覆蓋';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';

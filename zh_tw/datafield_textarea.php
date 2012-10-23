@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['maxbytes'] = '最大可嵌入文件大小（字節�一';
+$string['maxbytes'] = '最大可嵌入文件大小（字節）';
 $string['maxbytes_desc'] = '如果設置為0則默認無限制';
 $string['pluginname'] = '文本域';

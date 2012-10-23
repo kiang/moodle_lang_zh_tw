@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['blackboard'] = 'Blackboa一';
-$string['blackboard_help'] = 'Blackboard 格式支持導入用 Blackboard 版本 5 “POOL”類型導出的題目�一';
+$string['blackboard'] = 'Blackboard';
+$string['blackboard_help'] = 'Blackboard 格式支持導入用 Blackboard 版本 5 “POOL”類型導出的題目。';

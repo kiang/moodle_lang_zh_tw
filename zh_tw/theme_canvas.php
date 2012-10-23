@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['choosereadme'] = '畫布，Patrick Malley為Moodle 2.0制作的父主題�一';
+$string['choosereadme'] = '畫布，Patrick Malley為Moodle 2.0制作的父主題。';
 $string['pluginname'] = '畫布';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';

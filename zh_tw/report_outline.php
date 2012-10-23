@@ -26,3 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['outline:view'] = '檢視課程活動報告';
+$string['page-report-outline-index'] = '課程離線報告';
+$string['page-report-outline-user'] = '用戶課程離線報告';
+$string['page-report-outline-x'] = '任何離線報告';
+$string['pluginname'] = '活動報告';

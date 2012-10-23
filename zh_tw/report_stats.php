@@ -25,4 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['page-report-stats-index'] = '課程統計報告';
+$string['page-report-stats-user'] = '用戶課程統計報告';
+$string['page-report-stats-x'] = '任何統計報告';
+$string['pluginname'] = '統計';
 $string['stats:view'] = '檢視課程統計報表';

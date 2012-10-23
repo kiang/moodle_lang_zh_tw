@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['backgroundcolor'] = '標題欄背景';
-$string['backgroundcolordesc'] = '改變標題欄的背景色�一';
+$string['backgroundcolordesc'] = '改變標題欄的背景色。';
 $string['choosereadme'] = '<div class="clearfix">
 	<div class="theme_screenshot">
 
@@ -56,15 +56,15 @@ $string['choosereadme'] = '<div class="clearfix">
 		<h2>授權</h2>
 		<p>Moodle核心提供的所有主題，包括此主題的授權協議都是<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>。
 	</div>
-</di一';
+</div>';
 $string['footerline'] = '頁腳';
-$string['footerlinedesc'] = '向頁腳添加一些文本（版權信息等）�一';
+$string['footerlinedesc'] = '向頁腳添加一些文本（版權信息等）。';
 $string['linkcolor'] = '鏈接顏色';
-$string['linkcolordesc'] = '設置本主題鏈接的顏色，使用html 16進制代碼�一';
+$string['linkcolordesc'] = '設置本主題鏈接的顏色，使用html 16進制代碼。';
 $string['linkhover'] = '菜單懸停顏色';
-$string['linkhoverdesc'] = '設置本主題中在菜單上懸停的顏色，使用html 16進制代碼�一';
+$string['linkhoverdesc'] = '設置本主題中在菜單上懸停的顏色，使用html 16進制代碼。';
 $string['pluginname'] = '靈動';
 $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';
 $string['tagline'] = '標語';
-$string['taglinedesc'] = '設置在首頁網站名下方顯示的標語�一';
+$string['taglinedesc'] = '設置在首頁網站名下方顯示的標語。';

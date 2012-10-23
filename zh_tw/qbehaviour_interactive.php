@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['notcomplete'] = '未完成';
-$string['pluginname'] = '交互式多次嘗試';
-$string['triesremaining'] = '還可嘗試：{$a}次';
-$string['tryagain'] = '再試試';
+$string['notcomplete'] = '沒有完成';
+$string['pluginname'] = '可以多次嘗試';
+$string['triesremaining'] = '還可再試幾次：{$a}';
+$string['tryagain'] = '再試一次';

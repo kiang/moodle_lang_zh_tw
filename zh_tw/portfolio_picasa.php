@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['noauthtoken'] = '沒有從 google 收到認證令牌。請確定您已允許 moodle 訪問您的 google 賬號�一';
-$string['pluginname'] = 'Pica一';
-$string['sendfailed'] = '文件 {$a} 未能成功傳送到 pica一';
+$string['noauthtoken'] = '沒有從 google 收到認證令牌。請確定您已允許 moodle 訪問您的 google 賬號。';
+$string['pluginname'] = 'Picasa';
+$string['sendfailed'] = '文件 {$a} 未能成功傳送到 picasa';

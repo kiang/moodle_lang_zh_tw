@@ -26,12 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredimensions'] = '再增加 {$a} 個空白斷言';
-$string['configgrade0'] = '對斷言進行負面評價的缺省文字�一';
-$string['configgrade1'] = '對斷言進行正面評價的缺省文字�一';
+$string['configgrade0'] = '對斷言進行負面評價的缺省文字。';
+$string['configgrade1'] = '對斷言進行正面評價的缺省文字。';
 $string['dimensioncomment'] = '評語';
 $string['dimensiondescription'] = '描述';
 $string['dimensiongrade'] = '分數';
-$string['dimensionnumber'] = '斷言 {$一';
+$string['dimensionnumber'] = '斷言 {$a}';
 $string['dimensionweight'] = '權重';
 $string['grade0'] = '“錯誤”表述為';
 $string['grade0default'] = '否';
@@ -40,5 +40,5 @@ $string['grade1default'] = '是';
 $string['grademapping'] = '成績映射表';
 $string['maperror'] = '加權的錯誤個數小於或相等';
 $string['mapgrade'] = '作業成績';
-$string['percents'] = '{$a一';
+$string['percents'] = '{$a}%';
 $string['pluginname'] = '錯誤數';

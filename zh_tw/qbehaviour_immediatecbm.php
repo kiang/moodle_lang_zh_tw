@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pleaseselectacertainty'] = '請選擇確定程度�一';
-$string['pluginname'] = '立即反饋（支持CBM�一';
+$string['pleaseselectacertainty'] = '請選擇一個確定程度';
+$string['pluginname'] = '立即回饋加上信心加權法';

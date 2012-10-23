@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['examview'] = 'Examvi一';
-$string['examview_help'] = 'Examview 格式支持導入 Examview 4 XML 文件。對更高的 Examview 版本，可以使用 Blackboard 格式�一';
+$string['examview'] = 'Examview';
+$string['examview_help'] = 'Examview 格式支持導入 Examview 4 XML 文件。對更高的 Examview 版本，可以使用 Blackboard 格式。';

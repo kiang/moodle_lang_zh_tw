@@ -46,13 +46,13 @@ $string['choiceoptions_help'] = '<p align="center"><b>選項</b></p>
 $string['choice:readresponses'] = '讀取回應';
 $string['choicesaved'] = '您的選擇已經儲存';
 $string['choicetext'] = '本文說明';
-$string['chooseaction'] = '選擇一個動作.一';
+$string['chooseaction'] = '選擇一個動作...';
 $string['completionsubmit'] = '用戶投票後顯示為完成';
 $string['displayhorizontal'] = '水平顯示';
 $string['displaymode'] = '顯示方式';
 $string['displayvertical'] = '垂直顯示　';
 $string['expired'] = '抱歉，此項活動已經在{$a}關閉，不再開放使用。';
-$string['fillinatleastoneoption'] = '您至少需要提供兩個可能的答案�一';
+$string['fillinatleastoneoption'] = '您至少需要提供兩個可能的答案。';
 $string['full'] = '(已滿)';
 $string['havetologin'] = '選擇前您必須先登入';
 $string['limit'] = '限制';
@@ -65,14 +65,14 @@ $string['limitanswers_help'] = '<p align="center"><b>人數限制</b></p>
 　　
 <p>如果限制功能被關閉，則不會限制選擇某一選項的人數。</p>';
 $string['modulename'] = '意見調查';
-$string['modulename_help'] = '在投票模塊中，教師可以提出一個問題，並給出多個應答選項�一';
+$string['modulename_help'] = '在投票模塊中，教師可以提出一個問題，並給出多個應答選項。';
 $string['modulenameplural'] = '意見調查';
-$string['moveselectedusersto'] = '移動所選的用戶到.一';
+$string['moveselectedusersto'] = '移動所選的用戶到...';
 $string['mustchooseone'] = '儲存前必須先選擇一個答案，儲存失敗。';
 $string['noguestchoose'] = '抱歉，訪客不能參與投票選擇。';
 $string['noresultsviewable'] = '結果目前無法檢視';
 $string['notanswered'] = '尚未回答';
-$string['notenrolledchoose'] = '抱歉，只有已選課的用戶可以投票�一';
+$string['notenrolledchoose'] = '抱歉，只有已選課的用戶可以投票。';
 $string['notopenyet'] = '抱歉,這個活動在{$a}前不開放';
 $string['numberofuser'] = '用戶數';
 $string['numberofuserinpercentage'] = '用戶數百分比';

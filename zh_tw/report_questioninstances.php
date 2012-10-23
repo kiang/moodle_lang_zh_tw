@@ -25,15 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['editquestionshere'] = '編輯此場景中的題目';
-$string['getreport'] = '獲取報表';
+$string['editquestionshere'] = '在此脈絡編輯試題';
+$string['getreport'] = '取得報告';
 $string['hiddenquestions'] = '隱藏';
-$string['intro'] = '此報表列出系統中所有使用了指定類型的題目的場景�一';
-$string['pluginname'] = '題目實例';
-$string['questioninstances:view'] = '查看題目實例報表';
-$string['reportforallqtypes'] = '所有題目類型的報表';
-$string['reportformissingqtypes'] = '未知類型題目的報表';
-$string['reportforqtype'] = '題目類型“{$a}”的報表';
-$string['reportsettings'] = '報表設置';
+$string['intro'] = '這一報告會列出在這系統中有特定題型的所有脈絡';
+$string['pluginname'] = '試題實例';
+$string['questioninstances:view'] = '檢視試題實例報告';
+$string['reportforallqtypes'] = '所有試題類型的報告';
+$string['reportformissingqtypes'] = '未知試題類型的報告';
+$string['reportforqtype'] = '試題類型"{$a}"的報告';
+$string['reportsettings'] = '報告設定';
 $string['totalquestions'] = '總數';
-$string['visiblequestions'] = '可見';
+$string['visiblequestions'] = '可見的';

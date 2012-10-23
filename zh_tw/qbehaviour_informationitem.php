@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '信息條目專用行為';
-$string['seen'] = '已閱';
+$string['pluginname'] = '訊息試題的動作';
+$string['seen'] = '可看見';
